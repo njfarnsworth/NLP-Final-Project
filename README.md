@@ -12,4 +12,13 @@ In this project we evalaute how large language models handle the formal and math
 
  - Symmetricity:
 
- 
+
+ ### Analysis Overview
+
+ - Independent Analysis: For each logical notion of interest, we will evaluate the 3 models (base, NLI finetune, our data finetune on base, our data finetune on NLI) on the test data using a text classification task on NLP Scholar. The analysis mode of NLPScholar will generate F1,recall, and precision metrics, and we will report accuracy using the results from evaluate (in part to compare to previous results with the MoNLI). The accuracy and F1 will be reported for each model.
+
+ - Generalization Analysis: In the same approach as the independent analysis, except now we will compare the generalization performance of 2 models (base finetuned, NLI Finetuned) on data set from one logical task, and evaluate performance on the test dataset from the other task. The accuracy and F1 will be reported for each model
+
+ (All data will be presented in tables, with a separate table for indepdnednt and generalization analysis)
+
+
