@@ -5,8 +5,7 @@ mode:
 
 models:
     hf_text_classification_model:
-      - bert_base_uncased
-      - bert_base_nli_finetuned
+      - bert_base_nli_finetune
 
 trainfpath: final/data/MoNLI_sample.tsv
 
