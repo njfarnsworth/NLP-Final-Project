@@ -1,0 +1,29 @@
+exp: TextClassification
+
+mode: 
+    - evaluate
+    - analyze
+
+models:
+    hf_text_classification_model:
+        - ./TC_mono
+
+
+predfpath: final/predictions/mono_on_sym.tsv
+datafpath: final/data/sym_sample_eval_data.tsv
+resultsfpath: final/results/mono_on_sym.tsv
+
+textlabel: text
+
+pairlabel: pair
+
+device: cuda
+
+conditions: condition
+
+save: by_cond, by_target
+
+id2label:
+    2: contradiction
+    1: entailment
+    0: neutral

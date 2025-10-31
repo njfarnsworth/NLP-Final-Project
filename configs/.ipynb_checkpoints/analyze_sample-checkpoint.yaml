@@ -1,0 +1,35 @@
+exp: TextClassification
+
+mode: 
+    - evaluate
+    - analyze
+
+models:
+    hf_text_classification_model:
+      - bert_untrained
+      - bert_nli_finetune
+      - bert_data_finetune
+      - bert_nli_data_finetune
+
+
+
+predfpath: final/predictions/sample.tsv
+
+datafpath: final/data/MoNLI_sample.tsv
+
+resultsfpath: final/results/sample.tsv
+
+textlabel: text
+
+pairlabel: pair
+
+device: cuda
+
+conditions: condition
+
+save: by_cond, by_target
+
+id2label:
+    2: contradiction
+    1: entailment
+    0: neutral

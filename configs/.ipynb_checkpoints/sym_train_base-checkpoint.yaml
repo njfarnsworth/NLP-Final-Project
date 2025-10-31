@@ -1,0 +1,15 @@
+exp: TextClassification
+
+mode: 
+    - train
+
+models:
+    hf_text_classification_model:
+      - google-bert/bert-base-uncased
+      
+trainfpath: final/data/sym_sample_data.tsv
+validfpath: final/data/sym_sample_data.tsv 
+
+numLabels: 3
+
+modelfpath: final/models/sym_base 
