@@ -7,8 +7,15 @@ models:
     hf_text_classification_model:
       - JIWON/bert-base-finetuned-nli
       
-trainfpath: final/data/sym_sample_data.tsv
-validfpath: final/data/sym_sample_data.tsv 
+trainfpath: ../data/symmetry_training_data.tsv
+validfpath: ../data/symmetry_training_data.tsv 
+
+device: cpu
 
 numLabels: 3
-modelfpath: final/models/sym_nli
+modelfpath: ../models/sym_nli
+
+id2label:
+    2: contradiction
+    1: entailment
+    0: neutral
