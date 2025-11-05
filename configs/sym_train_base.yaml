@@ -1,0 +1,20 @@
+exp: TextClassification
+
+mode: 
+    - train
+
+models:
+    hf_text_classification_model:
+      - google-bert/bert-base-uncased
+      
+trainfpath: ../data/symmetry_training_data.tsv
+validfpath: ../data/symmetry_training_data.tsv 
+
+numLabels: 3
+
+modelfpath: ../models/sym_base 
+
+id2label:
+    2: contradiction
+    1: entailment
+    0: neutral

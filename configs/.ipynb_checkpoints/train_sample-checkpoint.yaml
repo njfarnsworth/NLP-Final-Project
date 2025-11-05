@@ -1,0 +1,16 @@
+exp: TextClassification
+
+mode: 
+    - train
+
+models:
+    hf_text_classification_model:
+      - bert_base_nli_finetune
+
+trainfpath: final/data/MoNLI_sample.tsv
+
+validfpath: final/data/MoNLI_sample.tsv
+
+numLabels: 3
+
+modelfpath: final/models/TC_mono

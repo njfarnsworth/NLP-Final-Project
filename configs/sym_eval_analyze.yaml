@@ -1,0 +1,28 @@
+exp: TextClassification
+
+mode: 
+    - evaluate
+    - analyze
+
+models:
+    hf_text_classification_model:
+      - google-bert/bert-base-uncased
+      - ./sym_base
+      - JIWON/bert-base-finetuned-nli
+      - ./sym_nli
+
+
+predfpath: final/predictions/sym_sample.tsv
+datafpath: final/data/sym_eval_sample_data.tsv
+resultsfpath: final/results/sym_sample.tsv
+
+textlabel: text
+pairlabel: pair
+device: cuda
+conditions: condition
+save: by_cond, by_target
+
+id2label:
+    2: contradiction
+    1: entailment
+    0: neutral
