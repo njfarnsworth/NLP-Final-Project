@@ -98,33 +98,58 @@ def create_batch_request(prompt, request_id):
 
     os.remove("temp.jsonl")
 
-    return {"request_id": request_id, "batch_file_id": batch_info.id}
+    return {request_id: batch_info.id}
 
 
 def fetch_batch_results(batch_id:str):
+    """
+    Use with caution, assumes output form of query is a line separated list of dictionaries (jsonlike)
+    """
     batch = dict(client.batches.retrieve(batch_id))
+    dicts = None
     if batch['status'] == 'completed':
-        response = client.files.content(batch['output_file_id']).text
-        print(response)
+        response = json.loads(client.files.content(batch['output_file_id']).text)
+        string_response = response['response']['body']['output'][1]['content'][0]['text']
+        response = string_response.split("\n")
+        dicts = [json.loads(item) for item in response]
     else:
-        print("current status: ",batch['status'])
-        print(batch)
+        print("Not completed! currently: ",batch['status'])
+    
+    return dicts
+        
     
 
 def main():
 
+
     negative_sample_data = "{'sentence': 'There is a man not wearing a hat staring at people on a subway.', 'strong': 'hat', 'weak': ['sombrero', 'sunhat', 'fedora']} \n{'sentence': 'The three children are not holding plants.', 'strong': 'plants', 'weak':['daisies', 'flowers', 'Lillies', 'ferns', 'houseplants]}"
+    request_logs = None
+    """
+    monotonicity_request = generate_monotonicity_templates(sample_data=negative_sample_data,
+                                                   num_new_samples=500,
+                                                   request_id="big-test-500")
 
-    test_request = generate_monotonicity_templates(sample_data=negative_sample_data,num_new_samples=5,request_id="small-test-2")
-    with open("request_log.jsonl","a") as request_logs:
-        request_logs.write("\n")
-        json.dump(test_request,request_logs)
     
-    fetch_batch_results(test_request['batch_file_id'])
+  
+    with open("request_log.json","r") as file:
+        if not os.path.getsize("request_log.json") == 0:
+            request_logs = dict(json.load(file))
+        else:
+            request_logs = {}
 
+    request_logs.update(monotonicity_request)
+    with open("request_log.json","w") as file:
+        json.dump(request_logs,file)
+    
+    """
+    #needed to read from current request
+    with open("request_log.json","r") as file:
+        request_logs = dict(json.load(file))
+    
+    data = fetch_batch_results(request_logs['big-test-500'])
+    if data is not None:
+        with open("monotonicity_template_output.json") as output:
+            json.dump(data,output,indent=4)
 
-#main()
-
-## for right now: just check the request log file for your batch of interest
-#will be made more robust in the near future
-fetch_batch_results("batch_690bc14413c88190a8f96dd889ccda60")
+        
+main()
