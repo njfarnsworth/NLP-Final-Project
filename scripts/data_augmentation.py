@@ -36,10 +36,11 @@ load_dotenv()
 #I should have plenty of credit on my account so long as we use a mini model in batch mode, ping me for api key
 openai_api_key = os.getenv("OPENAI_API_KEY")
 client = OpenAI()
+request_log_fpath = "request_log.json"
 
 
 
-def generate_monotonicity_templates(sample_data:str, num_new_samples:int,request_id:str):
+def generate_monotonicity_prompt(sample_data:str, num_new_samples:int,request_id:str):
     """
     Generates a batch request with a fixed prompt determined by the specific scope of (1)
     
@@ -58,10 +59,9 @@ def generate_monotonicity_templates(sample_data:str, num_new_samples:int,request
     {sample_data}
     
 
-    generate {num_new_samples} diverse samples,  disjoint samples. Vary the sentences in length and topic matter
+    generate {num_new_samples} diverse, disjoint samples. Vary the sentences in length and topic matter
     """
-    query_response = create_batch_request(prompt,request_id) 
-    return query_response
+    create_batch_request(prompt,request_id) 
 
     
 def create_batch_request(prompt, request_id): 
@@ -98,7 +98,27 @@ def create_batch_request(prompt, request_id):
 
     os.remove("temp.jsonl")
 
-    return {request_id: batch_info.id}
+    # log the batch request
+    with open(request_log_fpath,"r") as file:
+        if not os.path.getsize(request_log_fpath) == 0:
+            request_logs = dict(json.load(file))
+        else:
+            request_logs = {}
+
+    request_logs.update({request_id: batch_info.id})
+    with open(request_log_fpath,"w") as file:
+        json.dump(request_logs,file)
+
+
+# ------------------------dataset generation after prompt has been sent to API -----------------------------------------
+
+def generate_dataset(request_id:str,output_fpath:str,column_labels:str):
+    with open("request_log.json","r") as file:
+        request_logs = dict(json.load(file))
+    
+    templates = fetch_batch_results(request_logs[request_id])
+    if templates is not None:
+        generate_tsv_file(templates=templates,output_fpath=output_fpath,column_labels=column_labels)
 
 
 def fetch_batch_results(batch_id:str):
@@ -108,48 +128,56 @@ def fetch_batch_results(batch_id:str):
     batch = dict(client.batches.retrieve(batch_id))
     dicts = None
     if batch['status'] == 'completed':
-        response = json.loads(client.files.content(batch['output_file_id']).text)
-        string_response = response['response']['body']['output'][1]['content'][0]['text']
-        response = string_response.split("\n")
-        dicts = [json.loads(item) for item in response]
+        if batch['output_file_id'] is not None: 
+            response = json.loads(client.files.content(batch['output_file_id']).text)
+            string_response = response['response']['body']['output'][1]['content'][0]['text']
+            response = string_response.split("\n")
+            dicts = [json.loads(item) for item in response]
+        else:
+            print("No output file generated")
     else:
         print("Not completed! currently: ",batch['status'])
     
     return dicts
         
+
+def generate_tsv_file(templates:list[dict],output_fpath:str,column_labels:str):
+    rows = []
+    for template in templates:
+        for weak in template['weak']:
+            strong_sentence = template['sentence'].lower()
+            weak_sentence = strong_sentence.replace(template['strong'],weak)
+            entailment = [strong_sentence,weak_sentence,'entailment']
+            non_entailment = [weak_sentence,strong_sentence,'non-entailment']
+            rows += [entailment,non_entailment]
     
+    df = pd.DataFrame(rows,columns=column_labels)
+    df.to_csv(output_fpath, sep="\t",index=False)
+                
 
 def main():
-
-
-    negative_sample_data = "{'sentence': 'There is a man not wearing a hat staring at people on a subway.', 'strong': 'hat', 'weak': ['sombrero', 'sunhat', 'fedora']} \n{'sentence': 'The three children are not holding plants.', 'strong': 'plants', 'weak':['daisies', 'flowers', 'Lillies', 'ferns', 'houseplants]}"
-    request_logs = None
+    negative_sample_data = """
+    {'sentence': 'There is a man not wearing a hat staring at people on a subway.', 'strong': 'hat', 'weak': ['sombrero', 'sunhat', 'fedora']} 
+    {'sentence': 'The three children are not holding plants.', 'strong': 'plants', 'weak':['daisies', 'flowers', 'Lillies', 'ferns', 'houseplants]}
     """
-    monotonicity_request = generate_monotonicity_templates(sample_data=negative_sample_data,
-                                                   num_new_samples=500,
-                                                   request_id="big-test-500")
 
-    
-  
-    with open("request_log.json","r") as file:
-        if not os.path.getsize("request_log.json") == 0:
-            request_logs = dict(json.load(file))
-        else:
-            request_logs = {}
-
-    request_logs.update(monotonicity_request)
-    with open("request_log.json","w") as file:
-        json.dump(request_logs,file)
-    
+    positive_sample_data = """
+    {'sentence': 'A man is talking to someone in a car.', 'strong': 'car', 'weak': ['taxi', 'convertible', 'SUV']} 
+    {'sentence': 'Two dogs play with a green ball on a wooden deck', 'strong': 'car', 'weak': ['taxi', 'convertible', 'SUV']} 
     """
-    #needed to read from current request
-    with open("request_log.json","r") as file:
-        request_logs = dict(json.load(file))
     
-    data = fetch_batch_results(request_logs['big-test-500'])
-    if data is not None:
-        with open("monotonicity_template_output.json") as output:
-            json.dump(data,output,indent=4)
+    generate_monotonicity_prompt(sample_data=positive_sample_data, num_new_samples=5, request_id="small-pos-test-5")
+
+
+    monotonicity_col_labels = ['sentence1','sentence2','gold_label']
+    generate_dataset("small-pos-test-5","test_output.tsv",column_labels=monotonicity_col_labels)
+    
+    
+        
+
+    ### Next Step:
+        # load templates into NLI pairs
+        # validate data programmatically w/ random sampling + parsing 
 
         
 main()

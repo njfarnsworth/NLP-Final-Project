@@ -1,0 +1,41 @@
+sentence1	sentence2	gold_label
+during the picnic, several guests are not eating fruit.	during the picnic, several guests are not eating apples.	entailment
+during the picnic, several guests are not eating apples.	during the picnic, several guests are not eating fruit.	non-entailment
+during the picnic, several guests are not eating fruit.	during the picnic, several guests are not eating bananas.	entailment
+during the picnic, several guests are not eating bananas.	during the picnic, several guests are not eating fruit.	non-entailment
+during the picnic, several guests are not eating fruit.	during the picnic, several guests are not eating pears.	entailment
+during the picnic, several guests are not eating pears.	during the picnic, several guests are not eating fruit.	non-entailment
+during the picnic, several guests are not eating fruit.	during the picnic, several guests are not eating grapes.	entailment
+during the picnic, several guests are not eating grapes.	during the picnic, several guests are not eating fruit.	non-entailment
+at the airport security checkpoint, the traveler was not carrying a weapon.	at the airport security checkpoint, the traveler was not carrying a knife.	entailment
+at the airport security checkpoint, the traveler was not carrying a knife.	at the airport security checkpoint, the traveler was not carrying a weapon.	non-entailment
+at the airport security checkpoint, the traveler was not carrying a weapon.	at the airport security checkpoint, the traveler was not carrying a pistol.	entailment
+at the airport security checkpoint, the traveler was not carrying a pistol.	at the airport security checkpoint, the traveler was not carrying a weapon.	non-entailment
+at the airport security checkpoint, the traveler was not carrying a weapon.	at the airport security checkpoint, the traveler was not carrying a rifle.	entailment
+at the airport security checkpoint, the traveler was not carrying a rifle.	at the airport security checkpoint, the traveler was not carrying a weapon.	non-entailment
+at the airport security checkpoint, the traveler was not carrying a weapon.	at the airport security checkpoint, the traveler was not carrying a bow.	entailment
+at the airport security checkpoint, the traveler was not carrying a bow.	at the airport security checkpoint, the traveler was not carrying a weapon.	non-entailment
+the graduate student is not using a vehicle to commute to the university.	the graduate student is not using a car to commute to the university.	entailment
+the graduate student is not using a car to commute to the university.	the graduate student is not using a vehicle to commute to the university.	non-entailment
+the graduate student is not using a vehicle to commute to the university.	the graduate student is not using a motorcycle to commute to the university.	entailment
+the graduate student is not using a motorcycle to commute to the university.	the graduate student is not using a vehicle to commute to the university.	non-entailment
+the graduate student is not using a vehicle to commute to the university.	the graduate student is not using a bicycle to commute to the university.	entailment
+the graduate student is not using a bicycle to commute to the university.	the graduate student is not using a vehicle to commute to the university.	non-entailment
+the graduate student is not using a vehicle to commute to the university.	the graduate student is not using a bus to commute to the university.	entailment
+the graduate student is not using a bus to commute to the university.	the graduate student is not using a vehicle to commute to the university.	non-entailment
+the wetland survey reported that this season the marsh did not contain any birds.	the wetland survey reported that this season the marsh did not contain any ducks.	entailment
+the wetland survey reported that this season the marsh did not contain any ducks.	the wetland survey reported that this season the marsh did not contain any birds.	non-entailment
+the wetland survey reported that this season the marsh did not contain any birds.	the wetland survey reported that this season the marsh did not contain any herons.	entailment
+the wetland survey reported that this season the marsh did not contain any herons.	the wetland survey reported that this season the marsh did not contain any birds.	non-entailment
+the wetland survey reported that this season the marsh did not contain any birds.	the wetland survey reported that this season the marsh did not contain any geese.	entailment
+the wetland survey reported that this season the marsh did not contain any geese.	the wetland survey reported that this season the marsh did not contain any birds.	non-entailment
+the wetland survey reported that this season the marsh did not contain any birds.	the wetland survey reported that this season the marsh did not contain any sparrows.	entailment
+the wetland survey reported that this season the marsh did not contain any sparrows.	the wetland survey reported that this season the marsh did not contain any birds.	non-entailment
+there are no electronic devices in the lab that can record audio.	there are no smartphones in the lab that can record audio.	entailment
+there are no smartphones in the lab that can record audio.	there are no electronic devices in the lab that can record audio.	non-entailment
+there are no electronic devices in the lab that can record audio.	there are no voice recorders in the lab that can record audio.	entailment
+there are no voice recorders in the lab that can record audio.	there are no electronic devices in the lab that can record audio.	non-entailment
+there are no electronic devices in the lab that can record audio.	there are no dictaphones in the lab that can record audio.	entailment
+there are no dictaphones in the lab that can record audio.	there are no electronic devices in the lab that can record audio.	non-entailment
+there are no electronic devices in the lab that can record audio.	there are no microphones in the lab that can record audio.	entailment
+there are no microphones in the lab that can record audio.	there are no electronic devices in the lab that can record audio.	non-entailment
