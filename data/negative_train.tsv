@@ -1,0 +1,915 @@
+textid	text	pair	weak	strong	label
+1	There is a man not wearing a hat staring at people on a subway.	There is a man not wearing a sunhat staring at people on a subway.	sunhat	hat	entailment
+2	There is a man not wearing a sunhat staring at people on a subway.	There is a man not wearing a hat staring at people on a subway.	sunhat	hat	neutral
+3	There is a man not wearing a hat staring at people on a subway.	There is a man not wearing a sombrero staring at people on a subway.	sombrero	hat	entailment
+4	There is a man not wearing a sombrero staring at people on a subway.	There is a man not wearing a hat staring at people on a subway.	sombrero	hat	neutral
+5	There is a man not wearing a hat staring at people on a subway.	There is a man not wearing a fedora staring at people on a subway.	fedora	hat	entailment
+6	There is a man not wearing a fedora staring at people on a subway.	There is a man not wearing a hat staring at people on a subway.	fedora	hat	neutral
+7	Some dishes do not have rice.	Some dishes do not have food.	rice	food	neutral
+8	Some dishes do not have food.	Some dishes do not have rice.	rice	food	entailment
+9	A man, not wearing a shirt, is sitting on a rock	A man, not wearing a work-shirt, is sitting on a rock	work-shirt	shirt	entailment
+10	A man, not wearing a work-shirt, is sitting on a rock	A man, not wearing a shirt, is sitting on a rock	work-shirt	shirt	neutral
+11	A man, not wearing a shirt, is sitting on a rock	A man, not wearing a T-shirt, is sitting on a rock	t-shirt	shirt	entailment
+12	A man, not wearing a T-shirt, is sitting on a rock	A man, not wearing a shirt, is sitting on a rock	t-shirt	shirt	neutral
+13	A boy not wearing a shirt is walking holding a tree branch near the park.	A boy not wearing a work-shirt is walking holding a tree branch near the park.	work-shirt	shirt	entailment
+14	A boy not wearing a work-shirt is walking holding a tree branch near the park.	A boy not wearing a shirt is walking holding a tree branch near the park.	work-shirt	shirt	neutral
+15	A boy not wearing a shirt is walking holding a tree branch near the park.	A boy not wearing a T-shirt is walking holding a tree branch near the park.	t-shirt	shirt	entailment
+16	A boy not wearing a T-shirt is walking holding a tree branch near the park.	A boy not wearing a shirt is walking holding a tree branch near the park.	t-shirt	shirt	neutral
+17	The three children are not holding plants.	The three children are not holding daisies.	daisies	plants	entailment
+18	The three children are not holding daisies.	The three children are not holding plants.	daisies	plants	neutral
+19	The three children are not holding plants.	The three children are not holding herbs.	herbs	plants	entailment
+20	The three children are not holding herbs.	The three children are not holding plants.	herbs	plants	neutral
+21	The three children are not holding plants.	The three children are not holding lilies.	lilies	plants	entailment
+22	The three children are not holding lilies.	The three children are not holding plants.	lilies	plants	neutral
+23	The three children are not holding plants.	The three children are not holding flowers.	flowers	plants	entailment
+24	The three children are not holding flowers.	The three children are not holding plants.	flowers	plants	neutral
+25	The three children are not holding plants.	The three children are not holding poppies.	poppies	plants	entailment
+26	The three children are not holding poppies.	The three children are not holding plants.	poppies	plants	neutral
+27	The three children are not holding plants.	The three children are not holding saplings.	saplings	plants	entailment
+28	The three children are not holding saplings.	The three children are not holding plants.	saplings	plants	neutral
+29	The three children are not holding plants.	The three children are not holding clovers.	clovers	plants	entailment
+30	The three children are not holding clovers.	The three children are not holding plants.	clovers	plants	neutral
+31	The three children are not holding plants.	The three children are not holding shrubs.	shrubs	plants	entailment
+32	The three children are not holding shrubs.	The three children are not holding plants.	shrubs	plants	neutral
+33	The three children are not holding plants.	The three children are not holding weeds.	weeds	plants	entailment
+34	The three children are not holding weeds.	The three children are not holding plants.	weeds	plants	neutral
+35	The three children are not holding plants.	The three children are not holding lilacs.	lilacs	plants	entailment
+36	The three children are not holding lilacs.	The three children are not holding plants.	lilacs	plants	neutral
+37	The three children are not holding plants.	The three children are not holding sunflowers.	sunflowers	plants	entailment
+38	The three children are not holding sunflowers.	The three children are not holding plants.	sunflowers	plants	neutral
+39	The three children are not holding plants.	The three children are not holding vines.	vines	plants	entailment
+40	The three children are not holding vines.	The three children are not holding plants.	vines	plants	neutral
+41	The three children are not holding plants.	The three children are not holding reeds.	reeds	plants	entailment
+42	The three children are not holding reeds.	The three children are not holding plants.	reeds	plants	neutral
+43	The three children are not holding plants.	The three children are not holding tulips.	tulips	plants	entailment
+44	The three children are not holding tulips.	The three children are not holding plants.	tulips	plants	neutral
+45	The three children are not holding plants.	The three children are not holding roses.	roses	plants	entailment
+46	The three children are not holding roses.	The three children are not holding plants.	roses	plants	neutral
+47	The three children are not holding plants.	The three children are not holding houseplants.	houseplants	plants	entailment
+48	The three children are not holding houseplants.	The three children are not holding plants.	houseplants	plants	neutral
+49	The three children are not holding plants.	The three children are not holding ferns.	ferns	plants	entailment
+50	The three children are not holding ferns.	The three children are not holding plants.	ferns	plants	neutral
+51	The girl does not wear a hat.	The girl does not wear a sunhat.	sunhat	hat	entailment
+52	The girl does not wear a sunhat.	The girl does not wear a hat.	sunhat	hat	neutral
+53	The girl does not wear a hat.	The girl does not wear a fedora.	fedora	hat	entailment
+54	The girl does not wear a fedora.	The girl does not wear a hat.	fedora	hat	neutral
+55	The girl does not wear a hat.	The girl does not wear a sombrero.	sombrero	hat	entailment
+56	The girl does not wear a sombrero.	The girl does not wear a hat.	sombrero	hat	neutral
+57	a man walks confidently not dropping produce	a man walks confidently not dropping food	produce	food	neutral
+58	a man walks confidently not dropping food	a man walks confidently not dropping produce	produce	food	entailment
+59	a man walks confidently not dropping produce	a man walks confidently not dropping bananas	bananas	produce	entailment
+60	a man walks confidently not dropping bananas	a man walks confidently not dropping produce	bananas	produce	neutral
+61	a man walks confidently not dropping produce	a man walks confidently not dropping eggplants	eggplants	produce	entailment
+62	a man walks confidently not dropping eggplants	a man walks confidently not dropping produce	eggplants	produce	neutral
+63	a man walks confidently not dropping produce	a man walks confidently not dropping papayas	papayas	produce	entailment
+64	a man walks confidently not dropping papayas	a man walks confidently not dropping produce	papayas	produce	neutral
+65	a man walks confidently not dropping produce	a man walks confidently not dropping cauliflower	cauliflower	produce	entailment
+66	a man walks confidently not dropping cauliflowers	a man walks confidently not dropping produce	cauliflowers	produce	neutral
+67	a man walks confidently not dropping produce	a man walks confidently not dropping watermelons	watermelons	produce	entailment
+68	a man walks confidently not dropping watermelons	a man walks confidently not dropping produce	watermelons	produce	neutral
+69	a man walks confidently not dropping produce	a man walks confidently not dropping mangos	mangos	produce	entailment
+70	a man walks confidently not dropping mangos	a man walks confidently not dropping produce	mangos	produce	neutral
+71	a man walks confidently not dropping produce	a man walks confidently not dropping pears	pears	produce	entailment
+72	a man walks confidently not dropping pears	a man walks confidently not dropping produce	pears	produce	neutral
+73	a man walks confidently not dropping produce	a man walks confidently not dropping carrots	carrots	produce	entailment
+74	a man walks confidently not dropping carrots	a man walks confidently not dropping produce	carrots	produce	neutral
+75	a man walks confidently not dropping produce	a man walks confidently not dropping celery	celery	produce	entailment
+76	a man walks confidently not dropping celery	a man walks confidently not dropping produce	celery	produce	neutral
+77	a man walks confidently not dropping produce	a man walks confidently not dropping onions	onions	produce	entailment
+78	a man walks confidently not dropping onions	a man walks confidently not dropping produce	onions	produce	neutral
+79	a man walks confidently not dropping produce	a man walks confidently not dropping spinach	spinach	produce	entailment
+80	a man walks confidently not dropping spinach	a man walks confidently not dropping produce	spinach	produce	neutral
+81	a man walks confidently not dropping produce	a man walks confidently not dropping kale	kale	produce	entailment
+82	a man walks confidently not dropping kale	a man walks confidently not dropping produce	kale	produce	neutral
+83	a man walks confidently not dropping produce	a man walks confidently not dropping apples	apples	produce	entailment
+84	a man walks confidently not dropping apples	a man walks confidently not dropping produce	apples	produce	neutral
+85	a man walks confidently not dropping produce	a man walks confidently not dropping lettuce	lettuce	produce	entailment
+86	a man walks confidently not dropping lettuce	a man walks confidently not dropping produce	lettuce	produce	neutral
+87	a man walks confidently not dropping produce	a man walks confidently not dropping lemons	lemons	produce	entailment
+88	a man walks confidently not dropping lemons	a man walks confidently not dropping produce	lemons	produce	neutral
+89	a man walks confidently not dropping produce	a man walks confidently not dropping plums	plums	produce	entailment
+90	a man walks confidently not dropping plums	a man walks confidently not dropping produce	plums	produce	neutral
+91	a man walks confidently not dropping produce	a man walks confidently not dropping tomatoes	tomatoes	produce	entailment
+92	a man walks confidently not dropping tomatoes	a man walks confidently not dropping produce	tomatoes	produce	neutral
+93	a man walks confidently not dropping produce	a man walks confidently not dropping cucumbers	cucumbers	produce	entailment
+94	a man walks confidently not dropping cucumbers	a man walks confidently not dropping produce	cucumbers	produce	neutral
+95	a man walks confidently not dropping produce	a man walks confidently not dropping grapes	grapes	produce	entailment
+96	a man walks confidently not dropping grapes	a man walks confidently not dropping produce	grapes	produce	neutral
+97	a man walks confidently not dropping produce	a man walks confidently not dropping cabbage	cabbage	produce	entailment
+98	a man walks confidently not dropping cabbage	a man walks confidently not dropping produce	cabbage	produce	neutral
+99	The restaurant does not let oriental people in	The restaurant does not let oriental women in	women	people	entailment
+100	The restaurant does not let oriental women in	The restaurant does not let oriental people in	women	people	neutral
+101	The restaurant does not let oriental people in	The restaurant does not let oriental youths in	youths	people	entailment
+102	The restaurant does not let oriental youths in	The restaurant does not let oriental people in	youths	people	neutral
+103	A woman did not like food.	A woman did not like guacamole.	guacamole	food	entailment
+104	A woman did not like guacamole.	A woman did not like food.	guacamole	food	neutral
+105	A woman did not like food.	A woman did not like omelet.	omelet	food	entailment
+106	A woman did not like omelet.	A woman did not like food.	omelet	food	neutral
+107	A woman did not like food.	A woman did not like breakfast.	breakfast	food	entailment
+108	A woman did not like breakfast.	A woman did not like food.	breakfast	food	neutral
+109	A woman did not like food.	A woman did not like soup.	soup	food	entailment
+110	A woman did not like soup.	A woman did not like food.	soup	food	neutral
+111	A woman did not like food.	A woman did not like meatball.	meatball	food	entailment
+112	A woman did not like meatball.	A woman did not like food.	meatball	food	neutral
+113	A woman did not like food.	A woman did not like cake.	cake	food	entailment
+114	A woman did not like cake.	A woman did not like food.	cake	food	neutral
+115	A woman did not like food.	A woman did not like ratatouille.	ratatouille	food	entailment
+116	A woman did not like ratatouille.	A woman did not like food.	ratatouille	food	neutral
+117	A woman did not like food.	A woman did not like hummus.	hummus	food	entailment
+118	A woman did not like hummus.	A woman did not like food.	hummus	food	neutral
+119	A woman did not like food.	A woman did not like fondue.	fondue	food	entailment
+120	A woman did not like fondue.	A woman did not like food.	fondue	food	neutral
+121	A woman did not like food.	A woman did not like rice.	rice	food	entailment
+122	A woman did not like rice.	A woman did not like food.	rice	food	neutral
+123	A woman did not like food.	A woman did not like pasta.	pasta	food	entailment
+124	A woman did not like pasta.	A woman did not like food.	pasta	food	neutral
+125	A woman did not like food.	A woman did not like spaghetti.	spaghetti	food	entailment
+126	A woman did not like spaghetti.	A woman did not like food.	spaghetti	food	neutral
+127	A woman did not like food.	A woman did not like lasagna.	lasagna	food	entailment
+128	A woman did not like lasagna.	A woman did not like food.	lasagna	food	neutral
+129	A woman did not like food.	A woman did not like eggs.	eggs	food	entailment
+130	A woman did not like eggs.	A woman did not like food.	eggs	food	neutral
+131	A woman did not like food.	A woman did not like risotto.	risotto	food	entailment
+132	A woman did not like risotto.	A woman did not like food.	risotto	food	neutral
+133	A woman did not like food.	A woman did not like fries.	fries	food	entailment
+134	A woman did not like fries.	A woman did not like food.	fries	food	neutral
+135	A woman did not like food.	A woman did not like naan.	naan	food	entailment
+136	A woman did not like naan.	A woman did not like food.	naan	food	neutral
+137	A woman did not like food.	A woman did not like cereal.	cereal	food	entailment
+138	A woman did not like cereal.	A woman did not like food.	cereal	food	neutral
+139	A woman did not like food.	A woman did not like kebab.	kebab	food	entailment
+140	A woman did not like kebab.	A woman did not like food.	kebab	food	neutral
+141	A woman did not like food.	A woman did not like pastry.	pastry	food	entailment
+142	A woman did not like pastry.	A woman did not like food.	pastry	food	neutral
+143	A woman did not like food.	A woman did not like pretzel.	pretzel	food	entailment
+144	A woman did not like pretzel.	A woman did not like food.	pretzel	food	neutral
+145	A woman did not like food.	A woman did not like corn.	corn	food	entailment
+146	A woman did not like corn.	A woman did not like food.	corn	food	neutral
+147	A woman did not like food.	A woman did not like oatmeal.	oatmeal	food	entailment
+148	A woman did not like oatmeal.	A woman did not like food.	oatmeal	food	neutral
+149	A woman did not like food.	A woman did not like stew.	stew	food	entailment
+150	A woman did not like stew.	A woman did not like food.	stew	food	neutral
+151	A woman did not like food.	A woman did not like muffin.	muffin	food	entailment
+152	A woman did not like muffin.	A woman did not like food.	muffin	food	neutral
+153	A woman did not like food.	A woman did not like tofu.	tofu	food	entailment
+154	A woman did not like tofu.	A woman did not like food.	tofu	food	neutral
+155	A woman did not like food.	A woman did not like cheese.	cheese	food	entailment
+156	A woman did not like cheese.	A woman did not like food.	cheese	food	neutral
+157	A woman did not like food.	A woman did not like gyro.	gyro	food	entailment
+158	A woman did not like gyro.	A woman did not like food.	gyro	food	neutral
+159	A woman did not like food.	A woman did not like meatloaf.	meatloaf	food	entailment
+160	A woman did not like meatloaf.	A woman did not like food.	meatloaf	food	neutral
+161	A woman did not like food.	A woman did not like sandwich.	sandwich	food	entailment
+162	A woman did not like sandwich.	A woman did not like food.	sandwich	food	neutral
+163	A woman did not like food.	A woman did not like bread.	bread	food	entailment
+164	A woman did not like bread.	A woman did not like food.	bread	food	neutral
+165	A woman did not like food.	A woman did not like bagel.	bagel	food	entailment
+166	A woman did not like bagel.	A woman did not like food.	bagel	food	neutral
+167	A woman did not like food.	A woman did not like hotdog.	hotdog	food	entailment
+168	A woman did not like hotdog.	A woman did not like food.	hotdog	food	neutral
+169	A woman did not like food.	A woman did not like burrito.	burrito	food	entailment
+170	A woman did not like burrito.	A woman did not like food.	burrito	food	neutral
+171	A woman did not like food.	A woman did not like sushi.	sushi	food	entailment
+172	A woman did not like sushi.	A woman did not like food.	sushi	food	neutral
+173	A woman did not like food.	A woman did not like popcorn.	popcorn	food	entailment
+174	A woman did not like popcorn.	A woman did not like food.	popcorn	food	neutral
+175	A woman did not like food.	A woman did not like cheeseburger.	cheeseburger	food	entailment
+176	A woman did not like cheeseburger.	A woman did not like food.	cheeseburger	food	neutral
+177	A woman did not like food.	A woman did not like pizza.	pizza	food	entailment
+178	A woman did not like pizza.	A woman did not like food.	pizza	food	neutral
+179	A woman did not like food.	A woman did not like curry.	curry	food	entailment
+180	A woman did not like curry.	A woman did not like food.	curry	food	neutral
+181	A woman did not like food.	A woman did not like meatloaf.	meatloaf	food	entailment
+182	A woman did not like meatloaf.	A woman did not like food.	meatloaf	food	neutral
+183	A woman did not like food.	A woman did not like yogurt.	yogurt	food	entailment
+184	A woman did not like yogurt.	A woman did not like food.	yogurt	food	neutral
+185	A woman did not like food.	A woman did not like pudding.	pudding	food	entailment
+186	A woman did not like pudding.	A woman did not like food.	pudding	food	neutral
+187	A woman did not like food.	A woman did not like falafel.	falafel	food	entailment
+188	A woman did not like falafel.	A woman did not like food.	falafel	food	neutral
+189	A woman did not like food.	A woman did not like pita.	pita	food	entailment
+190	A woman did not like pita.	A woman did not like food.	pita	food	neutral
+191	A woman did not like food.	A woman did not like hamburger.	hamburger	food	entailment
+192	A woman did not like hamburger.	A woman did not like food.	hamburger	food	neutral
+201	The little boy is not wearing any clothes.	The little boy is not wearing any jeans.	jeans	clothes	entailment
+202	The little boy is not wearing any jeans.	The little boy is not wearing any clothes.	jeans	clothes	neutral
+203	The woman is not wearing shoes.	The woman is not wearing sneakers.	sneakers	shoes	entailment
+204	The woman is not wearing sneakers.	The woman is not wearing shoes.	sneakers	shoes	neutral
+205	The woman is not wearing shoes.	The woman is not wearing pumps.	pumps	shoes	entailment
+206	The woman is not wearing pumps.	The woman is not wearing shoes.	pumps	shoes	neutral
+207	The woman is not wearing shoes.	The woman is not wearing sandals.	sandals	shoes	entailment
+208	The woman is not wearing sandals.	The woman is not wearing shoes.	sandals	shoes	neutral
+209	The woman is not cutting a cake.	The woman is not cutting a cheesecake.	cheesecake	cake	entailment
+210	The woman is not cutting a cheesecake.	The woman is not cutting a cake.	cheesecake	cake	neutral
+211	The woman is not cutting a cake.	The woman is not cutting a fruitcake.	fruitcake	cake	entailment
+212	The woman is not cutting a fruitcake.	The woman is not cutting a cake.	fruitcake	cake	neutral
+213	The people are not playing instruments.	The people are not playing tubas.	tubas	instruments	entailment
+214	The people are not playing tubas.	The people are not playing instruments.	tubas	instruments	neutral
+215	The people are not playing instruments.	The people are not playing drums.	drums	instruments	entailment
+216	The people are not playing drums.	The people are not playing instruments.	drums	instruments	neutral
+217	The people are not playing instruments.	The people are not playing organs.	organs	instruments	entailment
+218	The people are not playing organs.	The people are not playing instruments.	organs	instruments	neutral
+219	The people are not playing instruments.	The people are not playing violins.	violins	instruments	entailment
+220	The people are not playing violins.	The people are not playing instruments.	violins	instruments	neutral
+221	The people are not playing instruments.	The people are not playing flutes.	flutes	instruments	entailment
+222	The people are not playing flutes.	The people are not playing instruments.	flutes	instruments	neutral
+223	The people are not playing instruments.	The people are not playing snares.	snares	instruments	entailment
+224	The people are not playing snares.	The people are not playing instruments.	snares	instruments	neutral
+225	The people are not playing instruments.	The people are not playing xylophones.	xylophones	instruments	entailment
+226	The people are not playing xylophones.	The people are not playing instruments.	xylophones	instruments	neutral
+227	The people are not playing instruments.	The people are not playing trombones.	trombones	instruments	entailment
+228	The people are not playing trombones.	The people are not playing instruments.	trombones	instruments	neutral
+229	The people are not playing instruments.	The people are not playing oboes.	oboes	instruments	entailment
+230	The people are not playing oboes.	The people are not playing instruments.	oboes	instruments	neutral
+231	The people are not playing instruments.	The people are not playing sitars.	sitars	instruments	entailment
+232	The people are not playing sitars.	The people are not playing instruments.	sitars	instruments	neutral
+233	The people are not playing instruments.	The people are not playing clarinets.	clarinets	instruments	entailment
+234	The people are not playing clarinets.	The people are not playing instruments.	clarinets	instruments	neutral
+235	The people are not playing instruments.	The people are not playing tambourines.	tambourines	instruments	entailment
+236	The people are not playing tambourines.	The people are not playing instruments.	tambourines	instruments	neutral
+237	The people are not playing instruments.	The people are not playing accordions.	accordions	instruments	entailment
+238	The people are not playing accordions.	The people are not playing instruments.	accordions	instruments	neutral
+239	The people are not playing instruments.	The people are not playing bagpipes.	bagpipes	instruments	entailment
+240	The people are not playing bagpipes.	The people are not playing instruments.	bagpipes	instruments	neutral
+241	The people are not playing instruments.	The people are not playing trumpets.	trumpets	instruments	entailment
+242	The people are not playing trumpets.	The people are not playing instruments.	trumpets	instruments	neutral
+243	The people are not playing instruments.	The people are not playing horns.	horns	instruments	entailment
+244	The people are not playing horns.	The people are not playing instruments.	horns	instruments	neutral
+245	The people are not playing instruments.	The people are not playing guitars.	guitars	instruments	entailment
+246	The people are not playing guitars.	The people are not playing instruments.	guitars	instruments	neutral
+247	The man is not listening to music.	The man is not listening to jazz.	jazz	music	entailment
+248	The man is not listening to jazz.	The man is not listening to music.	jazz	music	neutral
+249	The man is not listening to music.	The man is not listening to blues.	blues	music	entailment
+250	The man is not listening to blues.	The man is not listening to music.	blues	music	neutral
+251	The man is not listening to music.	The man is not listening to Mozart.	mozart	music	entailment
+252	The man is not listening to Mozart.	The man is not listening to music.	mozart	music	neutral
+253	The man is not listening to music.	The man is not listening to disco.	disco	music	entailment
+254	The man is not listening to disco.	The man is not listening to music.	disco	music	neutral
+255	The man is not listening to music.	The man is not listening to rap.	rap	music	entailment
+256	The man is not listening to rap.	The man is not listening to music.	rap	music	neutral
+257	The man is not listening to music.	The man is not listening to boogie.	boogie	music	entailment
+258	The man is not listening to boogie.	The man is not listening to music.	boogie	music	neutral
+259	The man is not listening to music.	The man is not listening to reggae.	reggae	music	entailment
+260	The man is not listening to reggae.	The man is not listening to music.	reggae	music	neutral
+261	The man is not listening to music.	The man is not listening to Bach.	bach	music	entailment
+262	The man is not listening to Bach.	The man is not listening to music.	bach	music	neutral
+263	The man is not listening to music.	The man is not listening to gospel.	gospel	music	entailment
+264	The man is not listening to gospel.	The man is not listening to music.	gospel	music	neutral
+265	The man is not listening to music.	The man is not listening to punk.	punk	music	entailment
+266	The man is not listening to punk.	The man is not listening to music.	punk	music	neutral
+267	The man is not listening to music.	The man is not listening to classical.	classical	music	entailment
+268	The man is not listening to classical.	The man is not listening to music.	classical	music	neutral
+269	The man is not listening to music.	The man is not listening to polka.	polka	music	entailment
+270	The man is not listening to polka.	The man is not listening to music.	polka	music	neutral
+271	The man is not listening to music.	The man is not listening to bluegrass.	bluegrass	music	entailment
+272	The man is not listening to bluegrass.	The man is not listening to music.	bluegrass	music	neutral
+273	The man is not listening to music.	The man is not listening to hip-hop.	hip-hop	music	entailment
+274	The man is not listening to hip-hop.	The man is not listening to music.	hip-hop	music	neutral
+275	The man is not listening to music.	The man is not listening to folk.	folk	music	entailment
+276	The man is not listening to folk.	The man is not listening to music.	folk	music	neutral
+277	The man is not listening to music.	The man is not listening to samba.	samba	music	entailment
+278	The man is not listening to samba.	The man is not listening to music.	samba	music	neutral
+279	The man is not listening to music.	The man is not listening to ragtime.	ragtime	music	entailment
+280	The man is not listening to ragtime.	The man is not listening to music.	ragtime	music	neutral
+281	The man is not listening to music.	The man is not listening to opera.	opera	music	entailment
+282	The man is not listening to opera.	The man is not listening to music.	opera	music	neutral
+283	The man is not listening to music.	The man is not listening to Chopin.	chopin	music	entailment
+284	The man is not listening to Chopin.	The man is not listening to music.	chopin	music	neutral
+285	The man is not listening to music.	The man is not listening to techno.	techno	music	entailment
+286	The man is not listening to techno.	The man is not listening to music.	techno	music	neutral
+287	The man is not listening to music.	The man is not listening to Wagner.	wagner	music	entailment
+288	The man is not listening to Wagner.	The man is not listening to music.	wagner	music	neutral
+289	The man is not listening to music.	The man is not listening to rockabilly.	rockabilly	music	entailment
+290	The man is not listening to rockabilly.	The man is not listening to music.	rockabilly	music	neutral
+291	The man is not listening to music.	The man is not listening to Beethoven.	beethoven	music	entailment
+292	The man is not listening to Beethoven.	The man is not listening to music.	beethoven	music	neutral
+293	The man is not listening to music.	The man is not listening to rock.	rock	music	entailment
+294	The man is not listening to rock.	The man is not listening to music.	rock	music	neutral
+295	The man is not listening to music.	The man is not listening to soul.	soul	music	entailment
+296	The man is not listening to soul.	The man is not listening to music.	soul	music	neutral
+297	The man is not listening to music.	The man is not listening to swing.	swing	music	entailment
+298	The man is not listening to swing.	The man is not listening to music.	swing	music	neutral
+299	A man is not wearing a hat.	A man is not wearing a sombrero.	sombrero	hat	entailment
+300	A man is not wearing a sombrero.	A man is not wearing a hat.	sombrero	hat	neutral
+301	A man is not wearing a hat.	A man is not wearing a bowler.	bowler	hat	entailment
+302	A man is not wearing a bowler.	A man is not wearing a hat.	bowler	hat	neutral
+303	A man is not wearing a hat.	A man is not wearing a fedora.	fedora	hat	entailment
+304	A man is not wearing a fedora.	A man is not wearing a hat.	fedora	hat	neutral
+305	A man is not wearing a hat.	A man is not wearing a sunhat.	sunhat	hat	entailment
+306	A man is not wearing a sunhat.	A man is not wearing a hat.	sunhat	hat	neutral
+307	There is not a single person walking in the city.	There is not a single sculptor walking in the city.	sculptor	person	entailment
+308	There is not a single sculptor walking in the city.	There is not a single person walking in the city.	sculptor	person	neutral
+309	There is not a single person walking in the city.	There is not a single mover walking in the city.	mover	person	entailment
+310	There is not a single mover walking in the city.	There is not a single person walking in the city.	mover	person	neutral
+311	There is not a single person walking in the city.	There is not a single matriarch walking in the city.	matriarch	person	entailment
+312	There is not a single matriarch walking in the city.	There is not a single person walking in the city.	matriarch	person	neutral
+313	There is not a single person walking in the city.	There is not a single landscaper walking in the city.	landscaper	person	entailment
+314	There is not a single landscaper walking in the city.	There is not a single person walking in the city.	landscaper	person	neutral
+315	There is not a single person walking in the city.	There is not a single nanny walking in the city.	nanny	person	entailment
+316	There is not a single nanny walking in the city.	There is not a single person walking in the city.	nanny	person	neutral
+317	There is not a single person walking in the city.	There is not a single ambassador walking in the city.	ambassador	person	entailment
+318	There is not a single ambassador walking in the city.	There is not a single person walking in the city.	ambassador	person	neutral
+319	There is not a single person walking in the city.	There is not a single rescuer walking in the city.	rescuer	person	entailment
+320	There is not a single rescuer walking in the city.	There is not a single person walking in the city.	rescuer	person	neutral
+321	There is not a single person walking in the city.	There is not a single Persian walking in the city.	persian	person	entailment
+322	There is not a single Persian walking in the city.	There is not a single person walking in the city.	persian	person	neutral
+323	There is not a single person walking in the city.	There is not a single volunteer walking in the city.	volunteer	person	entailment
+324	There is not a single volunteer walking in the city.	There is not a single person walking in the city.	volunteer	person	neutral
+325	There is not a single person walking in the city.	There is not a single Greek walking in the city.	greek	person	entailment
+326	There is not a single Greek walking in the city.	There is not a single person walking in the city.	greek	person	neutral
+327	There is not a single person walking in the city.	There is not a single gambler walking in the city.	gambler	person	entailment
+328	There is not a single gambler walking in the city.	There is not a single person walking in the city.	gambler	person	neutral
+329	There is not a single person walking in the city.	There is not a single debutante walking in the city.	debutante	person	entailment
+330	There is not a single debutante walking in the city.	There is not a single person walking in the city.	debutante	person	neutral
+331	There is not a single person walking in the city.	There is not a single girl walking in the city.	girl	person	entailment
+332	There is not a single girl walking in the city.	There is not a single person walking in the city.	girl	person	neutral
+333	There is not a single person walking in the city.	There is not a single painter walking in the city.	painter	person	entailment
+334	There is not a single painter walking in the city.	There is not a single person walking in the city.	painter	person	neutral
+335	There is not a single person walking in the city.	There is not a single politician walking in the city.	politician	person	entailment
+336	There is not a single politician walking in the city.	There is not a single person walking in the city.	politician	person	neutral
+337	There is not a single person walking in the city.	There is not a single woman walking in the city.	woman	person	entailment
+338	There is not a single woman walking in the city.	There is not a single person walking in the city.	woman	person	neutral
+339	There is not a single person walking in the city.	There is not a single prince walking in the city.	prince	person	entailment
+340	There is not a single prince walking in the city.	There is not a single person walking in the city.	prince	person	neutral
+341	There is not a single person walking in the city.	There is not a single butcher walking in the city.	butcher	person	entailment
+342	There is not a single butcher walking in the city.	There is not a single person walking in the city.	butcher	person	neutral
+343	There is not a single person walking in the city.	There is not a single juvenile walking in the city.	juvenile	person	entailment
+344	There is not a single juvenile walking in the city.	There is not a single person walking in the city.	juvenile	person	neutral
+345	There is not a single person walking in the city.	There is not a single pagan walking in the city.	pagan	person	entailment
+346	There is not a single pagan walking in the city.	There is not a single person walking in the city.	pagan	person	neutral
+347	There is not a single person walking in the city.	There is not a single craftsman walking in the city.	craftsman	person	entailment
+348	There is not a single craftsman walking in the city.	There is not a single person walking in the city.	craftsman	person	neutral
+349	There is not a single person walking in the city.	There is not a single nerd walking in the city.	nerd	person	entailment
+350	There is not a single nerd walking in the city.	There is not a single person walking in the city.	nerd	person	neutral
+351	There is not a single person walking in the city.	There is not a single psychic walking in the city.	psychic	person	entailment
+352	There is not a single psychic walking in the city.	There is not a single person walking in the city.	psychic	person	neutral
+353	There is not a single person walking in the city.	There is not a single Indonesian walking in the city.	indonesian	person	entailment
+354	There is not a single Indonesian walking in the city.	There is not a single person walking in the city.	indonesian	person	neutral
+355	There is not a single person walking in the city.	There is not a single smith walking in the city.	smith	person	entailment
+356	There is not a single smith walking in the city.	There is not a single person walking in the city.	smith	person	neutral
+357	There is not a single person walking in the city.	There is not a single skier walking in the city.	skier	person	entailment
+358	There is not a single skier walking in the city.	There is not a single person walking in the city.	skier	person	neutral
+359	There is not a single person walking in the city.	There is not a single conservative walking in the city.	conservative	person	entailment
+360	There is not a single conservative walking in the city.	There is not a single person walking in the city.	conservative	person	neutral
+361	There is not a single person walking in the city.	There is not a single addict walking in the city.	addict	person	entailment
+362	There is not a single addict walking in the city.	There is not a single person walking in the city.	addict	person	neutral
+363	There is not a single person walking in the city.	There is not a single gymnast walking in the city.	gymnast	person	entailment
+364	There is not a single gymnast walking in the city.	There is not a single person walking in the city.	gymnast	person	neutral
+365	There is not a single person walking in the city.	There is not a single convict walking in the city.	convict	person	entailment
+366	There is not a single convict walking in the city.	There is not a single person walking in the city.	convict	person	neutral
+367	There is not a single person walking in the city.	There is not a single serviceman walking in the city.	serviceman	person	entailment
+368	There is not a single serviceman walking in the city.	There is not a single person walking in the city.	serviceman	person	neutral
+369	There is not a single person walking in the city.	There is not a single African walking in the city.	african	person	entailment
+370	There is not a single African walking in the city.	There is not a single person walking in the city.	african	person	neutral
+371	There is not a single person walking in the city.	There is not a single adventurer walking in the city.	adventurer	person	entailment
+372	There is not a single adventurer walking in the city.	There is not a single person walking in the city.	adventurer	person	neutral
+373	There is not a single person walking in the city.	There is not a single groupie walking in the city.	groupie	person	entailment
+374	There is not a single groupie walking in the city.	There is not a single person walking in the city.	groupie	person	neutral
+375	There is not a single person walking in the city.	There is not a single survivalist walking in the city.	survivalist	person	entailment
+376	There is not a single survivalist walking in the city.	There is not a single person walking in the city.	survivalist	person	neutral
+377	There is not a single person walking in the city.	There is not a single merchant walking in the city.	merchant	person	entailment
+378	There is not a single merchant walking in the city.	There is not a single person walking in the city.	merchant	person	neutral
+379	There is not a single person walking in the city.	There is not a single hacker walking in the city.	hacker	person	entailment
+380	There is not a single hacker walking in the city.	There is not a single person walking in the city.	hacker	person	neutral
+381	There is not a single person walking in the city.	There is not a single philosopher walking in the city.	philosopher	person	entailment
+382	There is not a single philosopher walking in the city.	There is not a single person walking in the city.	philosopher	person	neutral
+383	There is not a single person walking in the city.	There is not a single aviator walking in the city.	aviator	person	entailment
+384	There is not a single aviator walking in the city.	There is not a single person walking in the city.	aviator	person	neutral
+385	There is not a single person walking in the city.	There is not a single immigrant walking in the city.	immigrant	person	entailment
+386	There is not a single immigrant walking in the city.	There is not a single person walking in the city.	immigrant	person	neutral
+387	There is not a single person walking in the city.	There is not a single king walking in the city.	king	person	entailment
+388	There is not a single king walking in the city.	There is not a single person walking in the city.	king	person	neutral
+389	There is not a single person walking in the city.	There is not a single worshiper walking in the city.	worshiper	person	entailment
+390	There is not a single worshiper walking in the city.	There is not a single person walking in the city.	worshiper	person	neutral
+391	There is not a single person walking in the city.	There is not a single skydiver walking in the city.	skydiver	person	entailment
+392	There is not a single skydiver walking in the city.	There is not a single person walking in the city.	skydiver	person	neutral
+393	There is not a single person walking in the city.	There is not a single official walking in the city.	official	person	entailment
+394	There is not a single official walking in the city.	There is not a single person walking in the city.	official	person	neutral
+395	There is not a single person walking in the city.	There is not a single Romanian walking in the city.	romanian	person	entailment
+396	There is not a single Romanian walking in the city.	There is not a single person walking in the city.	romanian	person	neutral
+397	There is not a single person walking in the city.	There is not a single photographer walking in the city.	photographer	person	entailment
+398	There is not a single photographer walking in the city.	There is not a single person walking in the city.	photographer	person	neutral
+399	There is not a single person walking in the city.	There is not a single Belgian walking in the city.	belgian	person	entailment
+400	There is not a single Belgian walking in the city.	There is not a single person walking in the city.	belgian	person	neutral
+401	There is not a single person walking in the city.	There is not a single athlete walking in the city.	athlete	person	entailment
+402	There is not a single athlete walking in the city.	There is not a single person walking in the city.	athlete	person	neutral
+403	There is not a single person walking in the city.	There is not a single Democrat walking in the city.	democrat	person	entailment
+404	There is not a single Democrat walking in the city.	There is not a single person walking in the city.	democrat	person	neutral
+405	There is not a single person walking in the city.	There is not a single Jew walking in the city.	jew	person	entailment
+406	There is not a single Jew walking in the city.	There is not a single person walking in the city.	jew	person	neutral
+407	There is not a single person walking in the city.	There is not a single adult walking in the city.	adult	person	entailment
+408	There is not a single adult walking in the city.	There is not a single person walking in the city.	adult	person	neutral
+409	There is not a single person walking in the city.	There is not a single ninja walking in the city.	ninja	person	entailment
+410	There is not a single ninja walking in the city.	There is not a single person walking in the city.	ninja	person	neutral
+411	There is not a single person walking in the city.	There is not a single billionaire walking in the city.	billionaire	person	entailment
+412	There is not a single billionaire walking in the city.	There is not a single person walking in the city.	billionaire	person	neutral
+413	There is not a single person walking in the city.	There is not a single child walking in the city.	child	person	entailment
+414	There is not a single child walking in the city.	There is not a single person walking in the city.	child	person	neutral
+415	There is not a single person walking in the city.	There is not a single amputee walking in the city.	amputee	person	entailment
+416	There is not a single amputee walking in the city.	There is not a single person walking in the city.	amputee	person	neutral
+417	There is not a single person walking in the city.	There is not a single geologist walking in the city.	geologist	person	entailment
+418	There is not a single geologist walking in the city.	There is not a single person walking in the city.	geologist	person	neutral
+419	There is not a single person walking in the city.	There is not a single comedian walking in the city.	comedian	person	entailment
+420	There is not a single comedian walking in the city.	There is not a single person walking in the city.	comedian	person	neutral
+421	There is not a single person walking in the city.	There is not a single stagehand walking in the city.	stagehand	person	entailment
+422	There is not a single stagehand walking in the city.	There is not a single person walking in the city.	stagehand	person	neutral
+423	There is not a single person walking in the city.	There is not a single cashier walking in the city.	cashier	person	entailment
+424	There is not a single cashier walking in the city.	There is not a single person walking in the city.	cashier	person	neutral
+425	There is not a single person walking in the city.	There is not a single firefighter walking in the city.	firefighter	person	entailment
+426	There is not a single firefighter walking in the city.	There is not a single person walking in the city.	firefighter	person	neutral
+427	There is not a single person walking in the city.	There is not a single hunchback walking in the city.	hunchback	person	entailment
+428	There is not a single hunchback walking in the city.	There is not a single person walking in the city.	hunchback	person	neutral
+429	There is not a single person walking in the city.	There is not a single programmer walking in the city.	programmer	person	entailment
+430	There is not a single programmer walking in the city.	There is not a single person walking in the city.	programmer	person	neutral
+431	There is not a single person walking in the city.	There is not a single waiter walking in the city.	waiter	person	entailment
+432	There is not a single waiter walking in the city.	There is not a single person walking in the city.	waiter	person	neutral
+433	There is not a single person walking in the city.	There is not a single bachelor walking in the city.	bachelor	person	entailment
+434	There is not a single bachelor walking in the city.	There is not a single person walking in the city.	bachelor	person	neutral
+435	There is not a single person walking in the city.	There is not a single hippie walking in the city.	hippie	person	entailment
+436	There is not a single hippie walking in the city.	There is not a single person walking in the city.	hippie	person	neutral
+437	There is not a single person walking in the city.	There is not a single detective walking in the city.	detective	person	entailment
+438	There is not a single detective walking in the city.	There is not a single person walking in the city.	detective	person	neutral
+439	There is not a single person walking in the city.	There is not a single cheerleader walking in the city.	cheerleader	person	entailment
+440	There is not a single cheerleader walking in the city.	There is not a single person walking in the city.	cheerleader	person	neutral
+441	There is not a single person walking in the city.	There is not a single uncle walking in the city.	uncle	person	entailment
+442	There is not a single uncle walking in the city.	There is not a single person walking in the city.	uncle	person	neutral
+443	There is not a single person walking in the city.	There is not a single homeowner walking in the city.	homeowner	person	entailment
+444	There is not a single homeowner walking in the city.	There is not a single person walking in the city.	homeowner	person	neutral
+445	There is not a single person walking in the city.	There is not a single stylist walking in the city.	stylist	person	entailment
+446	There is not a single stylist walking in the city.	There is not a single person walking in the city.	stylist	person	neutral
+447	There is not a single person walking in the city.	There is not a single rabbi walking in the city.	rabbi	person	entailment
+448	There is not a single rabbi walking in the city.	There is not a single person walking in the city.	rabbi	person	neutral
+449	There is not a single person walking in the city.	There is not a single musher walking in the city.	musher	person	entailment
+450	There is not a single musher walking in the city.	There is not a single person walking in the city.	musher	person	neutral
+451	There is not a single person walking in the city.	There is not a single veteran walking in the city.	veteran	person	entailment
+452	There is not a single veteran walking in the city.	There is not a single person walking in the city.	veteran	person	neutral
+453	There is not a single person walking in the city.	There is not a single queen walking in the city.	queen	person	entailment
+454	There is not a single queen walking in the city.	There is not a single person walking in the city.	queen	person	neutral
+455	There is not a single person walking in the city.	There is not a single missionary walking in the city.	missionary	person	entailment
+456	There is not a single missionary walking in the city.	There is not a single person walking in the city.	missionary	person	neutral
+457	There is not a single person walking in the city.	There is not a single historian walking in the city.	historian	person	entailment
+458	There is not a single historian walking in the city.	There is not a single person walking in the city.	historian	person	neutral
+459	There is not a single person walking in the city.	There is not a single parachuter walking in the city.	parachuter	person	entailment
+460	There is not a single parachuter walking in the city.	There is not a single person walking in the city.	parachuter	person	neutral
+461	There is not a single person walking in the city.	There is not a single prostitute walking in the city.	prostitute	person	entailment
+462	There is not a single prostitute walking in the city.	There is not a single person walking in the city.	prostitute	person	neutral
+463	There is not a single person walking in the city.	There is not a single cannibal walking in the city.	cannibal	person	entailment
+464	There is not a single cannibal walking in the city.	There is not a single person walking in the city.	cannibal	person	neutral
+465	There is not a single person walking in the city.	There is not a single swimmer walking in the city.	swimmer	person	entailment
+466	There is not a single swimmer walking in the city.	There is not a single person walking in the city.	swimmer	person	neutral
+467	There is not a single person walking in the city.	There is not a single hunter walking in the city.	hunter	person	entailment
+468	There is not a single hunter walking in the city.	There is not a single person walking in the city.	hunter	person	neutral
+469	There is not a single person walking in the city.	There is not a single monk walking in the city.	monk	person	entailment
+470	There is not a single monk walking in the city.	There is not a single person walking in the city.	monk	person	neutral
+471	There is not a single person walking in the city.	There is not a single banker walking in the city.	banker	person	entailment
+472	There is not a single banker walking in the city.	There is not a single person walking in the city.	banker	person	neutral
+473	There is not a single person walking in the city.	There is not a single courier walking in the city.	courier	person	entailment
+474	There is not a single courier walking in the city.	There is not a single person walking in the city.	courier	person	neutral
+475	There is not a single person walking in the city.	There is not a single Scotsman walking in the city.	scotsman	person	entailment
+476	There is not a single Scotsman walking in the city.	There is not a single person walking in the city.	scotsman	person	neutral
+477	There is not a single person walking in the city.	There is not a single slaver walking in the city.	slaver	person	entailment
+478	There is not a single slaver walking in the city.	There is not a single person walking in the city.	slaver	person	neutral
+479	There is not a single person walking in the city.	There is not a single Frenchman walking in the city.	frenchman	person	entailment
+480	There is not a single Frenchman walking in the city.	There is not a single person walking in the city.	frenchman	person	neutral
+481	There is not a single person walking in the city.	There is not a single Republican walking in the city.	republican	person	entailment
+482	There is not a single Republican walking in the city.	There is not a single person walking in the city.	republican	person	neutral
+483	There is not a single person walking in the city.	There is not a single millionaire walking in the city.	millionaire	person	entailment
+484	There is not a single millionaire walking in the city.	There is not a single person walking in the city.	millionaire	person	neutral
+485	There is not a single person walking in the city.	There is not a single atheist walking in the city.	atheist	person	entailment
+486	There is not a single atheist walking in the city.	There is not a single person walking in the city.	atheist	person	neutral
+487	There is not a single person walking in the city.	There is not a single barkeep walking in the city.	barkeep	person	entailment
+488	There is not a single barkeep walking in the city.	There is not a single person walking in the city.	barkeep	person	neutral
+489	There is not a single person walking in the city.	There is not a single celebrity walking in the city.	celebrity	person	entailment
+490	There is not a single celebrity walking in the city.	There is not a single person walking in the city.	celebrity	person	neutral
+491	There is not a single person walking in the city.	There is not a single agnostic walking in the city.	agnostic	person	entailment
+492	There is not a single agnostic walking in the city.	There is not a single person walking in the city.	agnostic	person	neutral
+493	There is not a single person walking in the city.	There is not a single lesbian walking in the city.	lesbian	person	entailment
+494	There is not a single lesbian walking in the city.	There is not a single person walking in the city.	lesbian	person	neutral
+495	There is not a single person walking in the city.	There is not a single pilgrim walking in the city.	pilgrim	person	entailment
+496	There is not a single pilgrim walking in the city.	There is not a single person walking in the city.	pilgrim	person	neutral
+497	There is not a single person walking in the city.	There is not a single liberal walking in the city.	liberal	person	entailment
+498	There is not a single liberal walking in the city.	There is not a single person walking in the city.	liberal	person	neutral
+499	The person did not like fruit.	The person did not like citrus.	citrus	fruit	entailment
+500	The person did not like citrus.	The person did not like fruit.	citrus	fruit	neutral
+501	The person did not like fruit.	The person did not like raspberries.	raspberries	fruit	entailment
+502	The person did not like raspberries.	The person did not like fruit.	raspberries	fruit	neutral
+503	The person did not like fruit.	The person did not like limes.	limes	fruit	entailment
+504	The person did not like limes.	The person did not like fruit.	limes	fruit	neutral
+505	The person did not like fruit.	The person did not like mangos.	mangos	fruit	entailment
+506	The person did not like mangos.	The person did not like fruit.	mangos	fruit	neutral
+507	The person did not like fruit.	The person did not like melons.	melons	fruit	entailment
+508	The person did not like melons.	The person did not like fruit.	melons	fruit	neutral
+509	The person did not like fruit.	The person did not like pears.	pears	fruit	entailment
+510	The person did not like pears.	The person did not like fruit.	pears	fruit	neutral
+511	The person did not like fruit.	The person did not like peaches.	peaches	fruit	entailment
+512	The person did not like peaches.	The person did not like fruit.	peaches	fruit	neutral
+513	The person did not like fruit.	The person did not like grapes.	grapes	fruit	entailment
+514	The person did not like grapes.	The person did not like fruit.	grapes	fruit	neutral
+515	The person did not like fruit.	The person did not like plums.	plums	fruit	entailment
+516	The person did not like plums.	The person did not like fruit.	plums	fruit	neutral
+517	The person did not like fruit.	The person did not like cherries.	cherries	fruit	entailment
+518	The person did not like cherries.	The person did not like fruit.	cherries	fruit	neutral
+519	The person did not like fruit.	The person did not like oranges.	oranges	fruit	entailment
+520	The person did not like oranges.	The person did not like fruit.	oranges	fruit	neutral
+521	The person did not like fruit.	The person did not like bananas.	bananas	fruit	entailment
+522	The person did not like bananas.	The person did not like fruit.	bananas	fruit	neutral
+523	The person did not like fruit.	The person did not like strawberries.	strawberries	fruit	entailment
+524	The person did not like strawberries.	The person did not like fruit.	strawberries	fruit	neutral
+525	The person did not like fruit.	The person did not like huckleberries.	huckleberries	fruit	entailment
+526	The person did not like huckleberries.	The person did not like fruit.	huckleberries	fruit	neutral
+527	The person did not like fruit.	The person did not like blueberries.	blueberries	fruit	entailment
+528	The person did not like blueberries.	The person did not like fruit.	blueberries	fruit	neutral
+529	The person did not like fruit.	The person did not like pineapples.	pineapples	fruit	entailment
+530	The person did not like pineapples.	The person did not like fruit.	pineapples	fruit	neutral
+531	The person did not like fruit.	The person did not like cantaloupes.	cantaloupes	fruit	entailment
+532	The person did not like cantaloupes.	The person did not like fruit.	cantaloupes	fruit	neutral
+533	The person did not like fruit.	The person did not like cranberries.	cranberries	fruit	entailment
+534	The person did not like cranberries.	The person did not like fruit.	cranberries	fruit	neutral
+535	The person did not like fruit.	The person did not like watermelons.	watermelons	fruit	entailment
+536	The person did not like watermelons.	The person did not like fruit.	watermelons	fruit	neutral
+537	The person did not like fruit.	The person did not like apples.	apples	fruit	entailment
+538	The person did not like apples.	The person did not like fruit.	apples	fruit	neutral
+539	The person did not like fruit.	The person did not like lemons.	lemons	fruit	entailment
+540	The person did not like lemons.	The person did not like fruit.	lemons	fruit	neutral
+569	A male is not tossing anything	A male is not tossing socks	socks	anything	entailment
+570	A male is not tossing socks	A male is not tossing anything	socks	anything	neutral
+571	A male is not tossing anything	A male is not tossing packets	packets	anything	entailment
+572	A male is not tossing packets	A male is not tossing anything	packets	anything	neutral
+573	A male is not tossing anything	A male is not tossing pictures	pictures	anything	entailment
+574	A male is not tossing pictures	A male is not tossing anything	pictures	anything	neutral
+575	A male is not tossing anything	A male is not tossing blocks	blocks	anything	entailment
+576	A male is not tossing blocks	A male is not tossing anything	blocks	anything	neutral
+577	A male is not tossing anything	A male is not tossing bulbs	bulbs	anything	entailment
+578	A male is not tossing bulbs	A male is not tossing anything	bulbs	anything	neutral
+579	A man is not holding anything in his hands.	A man is not holding tongues in his hands.	tongues	anything	entailment
+580	A man is not holding tongues in his hands.	A man is not holding anything in his hands.	tongues	anything	neutral
+581	A man is not holding anything in his hands.	A man is not holding goods in his hands.	goods	anything	entailment
+582	A man is not holding goods in his hands.	A man is not holding anything in his hands.	goods	anything	neutral
+583	A man is not holding anything in his hands.	A man is not holding beverages in his hands.	beverages	anything	entailment
+584	A man is not holding beverages in his hands.	A man is not holding anything in his hands.	beverages	anything	neutral
+585	A man is not holding anything in his hands.	A man is not holding rats in his hands.	rats	anything	entailment
+586	A man is not holding rats in his hands.	A man is not holding anything in his hands.	rats	anything	neutral
+587	A man is not holding anything in his hands.	A man is not holding machines in his hands.	machines	anything	entailment
+588	A man is not holding machines in his hands.	A man is not holding anything in his hands.	machines	anything	neutral
+589	A man is not holding anything in his hands.	A man is not holding files in his hands.	files	anything	entailment
+590	A man is not holding files in his hands.	A man is not holding anything in his hands.	files	anything	neutral
+591	A man is not holding anything in his hands.	A man is not holding records in his hands.	records	anything	entailment
+592	A man is not holding records in his hands.	A man is not holding anything in his hands.	records	anything	neutral
+593	A man is not holding anything in his hands.	A man is not holding stamps in his hands.	stamps	anything	entailment
+594	A man is not holding stamps in his hands.	A man is not holding anything in his hands.	stamps	anything	neutral
+595	A man is not holding anything in his hands.	A man is not holding glasses in his hands.	glasses	anything	entailment
+596	A man is not holding glasses in his hands.	A man is not holding anything in his hands.	glasses	anything	neutral
+597	A man is not holding anything in his hands.	A man is not holding snakes in his hands.	snakes	anything	entailment
+598	A man is not holding snakes in his hands.	A man is not holding anything in his hands.	snakes	anything	neutral
+599	A man is not holding anything in his hands.	A man is not holding trophies in his hands.	trophies	anything	entailment
+600	A man is not holding trophies in his hands.	A man is not holding anything in his hands.	trophies	anything	neutral
+601	A man is not holding anything in his hands.	A man is not holding reports in his hands.	reports	anything	entailment
+602	A man is not holding reports in his hands.	A man is not holding anything in his hands.	reports	anything	neutral
+603	The skier did not notice a large tree dragging behind him.	The skier did not notice a large plant dragging behind him.	tree	plant	neutral
+604	The skier did not notice a large plant dragging behind him.	The skier did not notice a large tree dragging behind him.	tree	plant	entailment
+605	The skier did not notice a large tree dragging behind him.	The skier did not notice a large fir dragging behind him.	fir	tree	entailment
+606	The skier did not notice a large fir dragging behind him.	The skier did not notice a large tree dragging behind him.	fir	tree	neutral
+607	The skier did not notice a large tree dragging behind him.	The skier did not notice a large dogwood dragging behind him.	dogwood	tree	entailment
+608	The skier did not notice a large dogwood dragging behind him.	The skier did not notice a large tree dragging behind him.	dogwood	tree	neutral
+609	The skier did not notice a large tree dragging behind him.	The skier did not notice a large cedar dragging behind him.	cedar	tree	entailment
+610	The skier did not notice a large cedar dragging behind him.	The skier did not notice a large tree dragging behind him.	cedar	tree	neutral
+611	The skier did not notice a large tree dragging behind him.	The skier did not notice a large magnolia dragging behind him.	magnolia	tree	entailment
+612	The skier did not notice a large magnolia dragging behind him.	The skier did not notice a large tree dragging behind him.	magnolia	tree	neutral
+613	The skier did not notice a large tree dragging behind him.	The skier did not notice a large sycamore dragging behind him.	sycamore	tree	entailment
+614	The skier did not notice a large sycamore dragging behind him.	The skier did not notice a large tree dragging behind him.	sycamore	tree	neutral
+615	The skier did not notice a large tree dragging behind him.	The skier did not notice a large willow dragging behind him.	willow	tree	entailment
+616	The skier did not notice a large willow dragging behind him.	The skier did not notice a large tree dragging behind him.	willow	tree	neutral
+617	The skier did not notice a large tree dragging behind him.	The skier did not notice a large ash dragging behind him.	ash	tree	entailment
+618	The skier did not notice a large ash dragging behind him.	The skier did not notice a large tree dragging behind him.	ash	tree	neutral
+619	The skier did not notice a large tree dragging behind him.	The skier did not notice a large birch dragging behind him.	birch	tree	entailment
+620	The skier did not notice a large birch dragging behind him.	The skier did not notice a large tree dragging behind him.	birch	tree	neutral
+621	The skier did not notice a large tree dragging behind him.	The skier did not notice a large pine dragging behind him.	pine	tree	entailment
+622	The skier did not notice a large pine dragging behind him.	The skier did not notice a large tree dragging behind him.	pine	tree	neutral
+623	The skier did not notice a large tree dragging behind him.	The skier did not notice a large palm dragging behind him.	palm	tree	entailment
+624	The skier did not notice a large palm dragging behind him.	The skier did not notice a large tree dragging behind him.	palm	tree	neutral
+625	The skier did not notice a large tree dragging behind him.	The skier did not notice a large oak dragging behind him.	oak	tree	entailment
+626	The skier did not notice a large oak dragging behind him.	The skier did not notice a large tree dragging behind him.	oak	tree	neutral
+627	The skier did not notice a large tree dragging behind him.	The skier did not notice a large maple dragging behind him.	maple	tree	entailment
+628	The skier did not notice a large maple dragging behind him.	The skier did not notice a large tree dragging behind him.	maple	tree	neutral
+629	The skier did not notice a large tree dragging behind him.	The skier did not notice a large cypress dragging behind him.	cypress	tree	entailment
+630	The skier did not notice a large cypress dragging behind him.	The skier did not notice a large tree dragging behind him.	cypress	tree	neutral
+631	The skier did not notice a large tree dragging behind him.	The skier did not notice a large elm dragging behind him.	elm	tree	entailment
+632	The skier did not notice a large elm dragging behind him.	The skier did not notice a large tree dragging behind him.	elm	tree	neutral
+633	There is not a man cutting hair in the background.	There is not an adult cutting hair in the background.	man	adult	neutral
+634	There is not an adult cutting hair in the background.	There is not a man cutting hair in the background.	man	adult	entailment
+635	There is not a man cutting hair in the background.	There is not a person cutting hair in the background.	man	person	neutral
+636	There is not a person cutting hair in the background.	There is not a man cutting hair in the background.	man	person	entailment
+639	the man is not cutting the fish	the man is not cutting the tuna	tuna	fish	entailment
+640	the man is not cutting the tuna	the man is not cutting the fish	tuna	fish	neutral
+641	the man is not cutting the fish	the man is not cutting the trout	trout	fish	entailment
+642	the man is not cutting the trout	the man is not cutting the fish	trout	fish	neutral
+643	the man is not cutting the fish	the man is not cutting the catfish	catfish	fish	entailment
+644	the man is not cutting the catfish	the man is not cutting the fish	catfish	fish	neutral
+645	the man is not cutting the fish	the man is not cutting the salmon	salmon	fish	entailment
+646	the man is not cutting the salmon	the man is not cutting the fish	salmon	fish	neutral
+647	the man is not cutting the fish	the man is not cutting the goldfish	goldfish	fish	entailment
+648	the man is not cutting the goldfish	the man is not cutting the fish	goldfish	fish	neutral
+649	the man is not cutting the fish	the man is not cutting the bass	bass	fish	entailment
+650	the man is not cutting the bass	the man is not cutting the fish	bass	fish	neutral
+651	the man is not cutting the fish	the man is not cutting the herring	herring	fish	entailment
+652	the man is not cutting the herring	the man is not cutting the fish	herring	fish	neutral
+653	the man is not cutting the fish	the man is not cutting the marlin	marlin	fish	entailment
+654	the man is not cutting the marlin	the man is not cutting the fish	marlin	fish	neutral
+655	the man is not cutting the fish	the man is not cutting the swordfish	swordfish	fish	entailment
+656	the man is not cutting the swordfish	the man is not cutting the fish	swordfish	fish	neutral
+657	The girls are cutting the cake and not letting any man cut it.	The girls are cutting the cake and not letting any adult cut it.	man	adult	neutral
+658	The girls are cutting the cake and not letting any adult cut it.	The girls are cutting the cake and not letting any man cut it.	man	adult	entailment
+667	The men were outside trying to keep their voices down so as not to waken any woman indoors	The men were outside trying to keep their voices down so as not to waken any adult indoors	woman	adult	neutral
+668	The men were outside trying to keep their voices down so as not to waken any adult indoors	The men were outside trying to keep their voices down so as not to waken any woman indoors	woman	adult	entailment
+669	The men were outside trying to keep their voices down so as not to waken any woman indoors	The men were outside trying to keep their voices down so as not to waken any widow indoors	widow	woman	entailment
+670	The men were outside trying to keep their voices down so as not to waken any widow indoors	The men were outside trying to keep their voices down so as not to waken any woman indoors	widow	woman	neutral
+671	The men were outside trying to keep their voices down so as not to waken any woman indoors	The men were outside trying to keep their voices down so as not to waken any bridesmaid indoors	bridesmaid	woman	entailment
+672	The men were outside trying to keep their voices down so as not to waken any bridesmaid indoors	The men were outside trying to keep their voices down so as not to waken any woman indoors	bridesmaid	woman	neutral
+673	The men were outside trying to keep their voices down so as not to waken any woman indoors	The men were outside trying to keep their voices down so as not to waken any mistress indoors	mistress	woman	entailment
+674	The men were outside trying to keep their voices down so as not to waken any mistress indoors	The men were outside trying to keep their voices down so as not to waken any woman indoors	mistress	woman	neutral
+675	The men were outside trying to keep their voices down so as not to waken any woman indoors	The men were outside trying to keep their voices down so as not to waken any maid indoors	maid	woman	entailment
+676	The men were outside trying to keep their voices down so as not to waken any maid indoors	The men were outside trying to keep their voices down so as not to waken any woman indoors	maid	woman	neutral
+677	The men were outside trying to keep their voices down so as not to waken any woman indoors	The men were outside trying to keep their voices down so as not to waken any bachelorette indoors	bachelorette	woman	entailment
+678	The men were outside trying to keep their voices down so as not to waken any bachelorette indoors	The men were outside trying to keep their voices down so as not to waken any woman indoors	bachelorette	woman	neutral
+679	The men were outside trying to keep their voices down so as not to waken any woman indoors	The men were outside trying to keep their voices down so as not to waken any ex-wife indoors	ex-wife	woman	entailment
+680	The men were outside trying to keep their voices down so as not to waken any ex-wife indoors	The men were outside trying to keep their voices down so as not to waken any woman indoors	ex-wife	woman	neutral
+681	The men were outside trying to keep their voices down so as not to waken any woman indoors	The men were outside trying to keep their voices down so as not to waken any housewife indoors	housewife	woman	entailment
+682	The men were outside trying to keep their voices down so as not to waken any housewife indoors	The men were outside trying to keep their voices down so as not to waken any woman indoors	housewife	woman	neutral
+683	The men were outside trying to keep their voices down so as not to waken any woman indoors	The men were outside trying to keep their voices down so as not to waken any matriarch indoors	matriarch	woman	entailment
+684	The men were outside trying to keep their voices down so as not to waken any matriarch indoors	The men were outside trying to keep their voices down so as not to waken any woman indoors	matriarch	woman	neutral
+685	The men were outside trying to keep their voices down so as not to waken any woman indoors	The men were outside trying to keep their voices down so as not to waken any girlfriend indoors	girlfriend	woman	entailment
+686	The men were outside trying to keep their voices down so as not to waken any girlfriend indoors	The men were outside trying to keep their voices down so as not to waken any woman indoors	girlfriend	woman	neutral
+687	The men were outside trying to keep their voices down so as not to waken any woman indoors	The men were outside trying to keep their voices down so as not to waken any dame indoors	dame	woman	entailment
+688	The men were outside trying to keep their voices down so as not to waken any dame indoors	The men were outside trying to keep their voices down so as not to waken any woman indoors	dame	woman	neutral
+689	The men were outside trying to keep their voices down so as not to waken any woman indoors	The men were outside trying to keep their voices down so as not to waken any lass indoors	lass	woman	entailment
+690	The men were outside trying to keep their voices down so as not to waken any lass indoors	The men were outside trying to keep their voices down so as not to waken any woman indoors	lass	woman	neutral
+691	The men were outside trying to keep their voices down so as not to waken any woman indoors	The men were outside trying to keep their voices down so as not to waken any wife indoors	wife	woman	entailment
+692	The men were outside trying to keep their voices down so as not to waken any wife indoors	The men were outside trying to keep their voices down so as not to waken any woman indoors	wife	woman	neutral
+693	The men were outside trying to keep their voices down so as not to waken any woman indoors	The men were outside trying to keep their voices down so as not to waken any sister indoors	sister	woman	entailment
+694	The men were outside trying to keep their voices down so as not to waken any sister indoors	The men were outside trying to keep their voices down so as not to waken any woman indoors	sister	woman	neutral
+695	The men were outside trying to keep their voices down so as not to waken any woman indoors	The men were outside trying to keep their voices down so as not to waken any granny indoors	granny	woman	entailment
+696	The men were outside trying to keep their voices down so as not to waken any granny indoors	The men were outside trying to keep their voices down so as not to waken any woman indoors	granny	woman	neutral
+697	The men were outside trying to keep their voices down so as not to waken any woman indoors	The men were outside trying to keep their voices down so as not to waken any mother indoors	mother	woman	entailment
+698	The men were outside trying to keep their voices down so as not to waken any mother indoors	The men were outside trying to keep their voices down so as not to waken any woman indoors	mother	woman	neutral
+699	The men were outside trying to keep their voices down so as not to waken any woman indoors	The men were outside trying to keep their voices down so as not to waken any lady indoors	lady	woman	entailment
+700	The men were outside trying to keep their voices down so as not to waken any lady indoors	The men were outside trying to keep their voices down so as not to waken any woman indoors	lady	woman	neutral
+701	Two people are not fishing from a boat	Two people are not fishing from a lifeboat	lifeboat	boat	entailment
+702	Two people are not fishing from a lifeboat	Two people are not fishing from a boat	lifeboat	boat	neutral
+703	Two people are not fishing from a boat	Two people are not fishing from a skiff	skiff	boat	entailment
+704	Two people are not fishing from a skiff	Two people are not fishing from a boat	skiff	boat	neutral
+705	Two people are not fishing from a boat	Two people are not fishing from a tugboat	tugboat	boat	entailment
+706	Two people are not fishing from a tugboat	Two people are not fishing from a boat	tugboat	boat	neutral
+707	Two people are not fishing from a boat	Two people are not fishing from a speedboat	speedboat	boat	entailment
+708	Two people are not fishing from a speedboat	Two people are not fishing from a boat	speedboat	boat	neutral
+709	Two people are not fishing from a boat	Two people are not fishing from a gondola	gondola	boat	entailment
+710	Two people are not fishing from a gondola	Two people are not fishing from a boat	gondola	boat	neutral
+711	Two people are not fishing from a boat	Two people are not fishing from a barge	barge	boat	entailment
+712	Two people are not fishing from a barge	Two people are not fishing from a boat	barge	boat	neutral
+713	Two people are not fishing from a boat	Two people are not fishing from a ferry	ferry	boat	entailment
+714	Two people are not fishing from a ferry	Two people are not fishing from a boat	ferry	boat	neutral
+715	Two people are not fishing from a boat	Two people are not fishing from a canoe	canoe	boat	entailment
+716	Two people are not fishing from a canoe	Two people are not fishing from a boat	canoe	boat	neutral
+717	Two people are not fishing from a boat	Two people are not fishing from a motorboat	motorboat	boat	entailment
+718	Two people are not fishing from a motorboat	Two people are not fishing from a boat	motorboat	boat	neutral
+719	Two people are not fishing from a boat	Two people are not fishing from a rowboat	rowboat	boat	entailment
+720	Two people are not fishing from a rowboat	Two people are not fishing from a boat	rowboat	boat	neutral
+721	Two people are not fishing from a boat	Two people are not fishing from a houseboat	houseboat	boat	entailment
+722	Two people are not fishing from a houseboat	Two people are not fishing from a boat	houseboat	boat	neutral
+723	Two people are not fishing from a boat	Two people are not fishing from a kayak	kayak	boat	entailment
+724	Two people are not fishing from a kayak	Two people are not fishing from a boat	kayak	boat	neutral
+725	The boy is not holding a gun	The boy is not holding a weapon	gun	weapon	neutral
+726	The boy is not holding a weapon	The boy is not holding a gun	gun	weapon	entailment
+727	The boy is not holding a gun	The boy is not holding a twenty-two	twenty-two	gun	entailment
+728	The boy is not holding a twenty-two	The boy is not holding a gun	twenty-two	gun	neutral
+729	The boy is not holding a gun	The boy is not holding a handgun	handgun	gun	entailment
+730	The boy is not holding a handgun	The boy is not holding a gun	handgun	gun	neutral
+731	The boy is not holding a gun	The boy is not holding a rifle	rifle	gun	entailment
+732	The boy is not holding a rifle	The boy is not holding a gun	rifle	gun	neutral
+733	The boy is not holding a gun	The boy is not holding a revolver	revolver	gun	entailment
+734	The boy is not holding a revolver	The boy is not holding a gun	revolver	gun	neutral
+735	The boy is not holding a gun	The boy is not holding a shotgun	shotgun	gun	entailment
+736	The boy is not holding a shotgun	The boy is not holding a gun	shotgun	gun	neutral
+737	The boy is not holding a gun	The boy is not holding a pistol	pistol	gun	entailment
+738	The boy is not holding a pistol	The boy is not holding a gun	pistol	gun	neutral
+739	The cowboy did not fall off a horse at the competition.	The cowboy did not fall off a racehorse at the competition.	racehorse	horse	entailment
+740	The cowboy did not fall off a racehorse at the competition.	The cowboy did not fall off a horse at the competition.	racehorse	horse	neutral
+741	The cowboy did not fall off a horse at the competition.	The cowboy did not fall off a mare at the competition.	mare	horse	entailment
+742	The cowboy did not fall off a mare at the competition.	The cowboy did not fall off a horse at the competition.	mare	horse	neutral
+743	The cowboy did not fall off a horse at the competition.	The cowboy did not fall off a bronco at the competition.	bronco	horse	entailment
+744	The cowboy did not fall off a bronco at the competition.	The cowboy did not fall off a horse at the competition.	bronco	horse	neutral
+745	The cowboy did not fall off a horse at the competition.	The cowboy did not fall off a stallion at the competition.	stallion	horse	entailment
+746	The cowboy did not fall off a stallion at the competition.	The cowboy did not fall off a horse at the competition.	stallion	horse	neutral
+747	The cowboy did not fall off a horse at the competition.	The cowboy did not fall off a mustang at the competition.	mustang	horse	entailment
+748	The cowboy did not fall off a mustang at the competition.	The cowboy did not fall off a horse at the competition.	mustang	horse	neutral
+749	The cowboy did not fall off a horse at the competition.	The cowboy did not fall off a palomino at the competition.	palomino	horse	entailment
+750	The cowboy did not fall off a palomino at the competition.	The cowboy did not fall off a horse at the competition.	palomino	horse	neutral
+751	The cowboy did not fall off a horse at the competition.	The cowboy did not fall off a pinto at the competition.	pinto	horse	entailment
+752	The cowboy did not fall off a pinto at the competition.	The cowboy did not fall off a horse at the competition.	pinto	horse	neutral
+753	The cowboy did not fall off a horse at the competition.	The cowboy did not fall off a Clydesdale at the competition.	clydesdale	horse	entailment
+754	The cowboy did not fall off a Clydesdale at the competition.	The cowboy did not fall off a horse at the competition.	clydesdale	horse	neutral
+755	a cashier is not at a store	a cashier is not at a bookstore	bookstore	store	entailment
+756	a cashier is not at a bookstore	a cashier is not at a store	bookstore	store	neutral
+757	a cashier is not at a store	a cashier is not at a drugstore	drugstore	store	entailment
+758	a cashier is not at a drugstore	a cashier is not at a store	drugstore	store	neutral
+759	a cashier is not at a store	a cashier is not at a boutique	boutique	store	entailment
+760	a cashier is not at a boutique	a cashier is not at a store	boutique	store	neutral
+789	the boy does not play an instrument	the boy does not play a snare	snare	instrument	entailment
+790	the boy does not play a snare	the boy does not play an instrument	snare	instrument	neutral
+791	the boy does not play an instrument	the boy does not play a cymbal	cymbal	instrument	entailment
+792	the boy does not play a cymbal	the boy does not play an instrument	cymbal	instrument	neutral
+793	the boy does not play an instrument	the boy does not play a sitar	sitar	instrument	entailment
+794	the boy does not play a sitar	the boy does not play an instrument	sitar	instrument	neutral
+795	the boy does not play an instrument	the boy does not play a harp	harp	instrument	entailment
+796	the boy does not play a harp	the boy does not play an instrument	harp	instrument	neutral
+797	the boy does not play an instrument	the boy does not play a harpsichord	harpsichord	instrument	entailment
+798	the boy does not play a harpsichord	the boy does not play an instrument	harpsichord	instrument	neutral
+799	the boy does not play an instrument	the boy does not play a bongo	bongo	instrument	entailment
+800	the boy does not play a bongo	the boy does not play an instrument	bongo	instrument	neutral
+801	the boy does not play an instrument	the boy does not play a piano	piano	instrument	entailment
+802	the boy does not play a piano	the boy does not play an instrument	piano	instrument	neutral
+803	the boy does not play an instrument	the boy does not play an oboe	oboe	instrument	entailment
+804	the boy does not play an oboe	the boy does not play an instrument	oboe	instrument	neutral
+805	the boy does not play an instrument	the boy does not play a xylophone	xylophone	instrument	entailment
+806	the boy does not play a xylophone	the boy does not play an instrument	xylophone	instrument	neutral
+807	the boy does not play an instrument	the boy does not play a cello	cello	instrument	entailment
+808	the boy does not play a cello	the boy does not play an instrument	cello	instrument	neutral
+809	the boy does not play an instrument	the boy does not play a baritone	baritone	instrument	entailment
+810	the boy does not play a baritone	the boy does not play an instrument	baritone	instrument	neutral
+811	the boy does not play an instrument	the boy does not play a bass	bass	instrument	entailment
+812	the boy does not play a bass	the boy does not play an instrument	bass	instrument	neutral
+813	the boy does not play an instrument	the boy does not play a bassoon	bassoon	instrument	entailment
+814	the boy does not play a bassoon	the boy does not play an instrument	bassoon	instrument	neutral
+815	the boy does not play an instrument	the boy does not play an organ	organ	instrument	entailment
+816	the boy does not play an organ	the boy does not play an instrument	organ	instrument	neutral
+817	the boy does not play an instrument	the boy does not play a trombone	trombone	instrument	entailment
+818	the boy does not play a trombone	the boy does not play an instrument	trombone	instrument	neutral
+819	the boy does not play an instrument	the boy does not play a viola	viola	instrument	entailment
+820	the boy does not play a viola	the boy does not play an instrument	viola	instrument	neutral
+821	the boy does not play an instrument	the boy does not play a sousaphone	sousaphone	instrument	entailment
+822	the boy does not play a sousaphone	the boy does not play an instrument	sousaphone	instrument	neutral
+823	the boy does not play an instrument	the boy does not play a drum	drum	instrument	entailment
+824	the boy does not play a drum	the boy does not play an instrument	drum	instrument	neutral
+825	the boy does not play an instrument	the boy does not play a mandolin	mandolin	instrument	entailment
+826	the boy does not play a mandolin	the boy does not play an instrument	mandolin	instrument	neutral
+827	the boy does not play an instrument	the boy does not play a saxophone	saxophone	instrument	entailment
+828	the boy does not play a saxophone	the boy does not play an instrument	saxophone	instrument	neutral
+829	the boy does not play an instrument	the boy does not play an accordion	accordion	instrument	entailment
+830	the boy does not play an accordion	the boy does not play an instrument	accordion	instrument	neutral
+831	the boy does not play an instrument	the boy does not play a triangle	triangle	instrument	entailment
+832	the boy does not play a triangle	the boy does not play an instrument	triangle	instrument	neutral
+833	the boy does not play an instrument	the boy does not play a horn	horn	instrument	entailment
+834	the boy does not play a horn	the boy does not play an instrument	horn	instrument	neutral
+835	the boy does not play an instrument	the boy does not play a sousaphone	sousaphone	instrument	entailment
+836	the boy does not play a sousaphone	the boy does not play an instrument	sousaphone	instrument	neutral
+837	the boy does not play an instrument	the boy does not play a tambourine	tambourine	instrument	entailment
+838	the boy does not play a tambourine	the boy does not play an instrument	tambourine	instrument	neutral
+839	the boy does not play an instrument	the boy does not play a fiddle	fiddle	instrument	entailment
+840	the boy does not play a fiddle	the boy does not play an instrument	fiddle	instrument	neutral
+841	the boy does not play an instrument	the boy does not play a clarinet	clarinet	instrument	entailment
+842	the boy does not play a clarinet	the boy does not play an instrument	clarinet	instrument	neutral
+843	the boy does not play an instrument	the boy does not play a flute	flute	instrument	entailment
+844	the boy does not play a flute	the boy does not play an instrument	flute	instrument	neutral
+845	the boy does not play an instrument	the boy does not play an ukulele	ukulele	instrument	entailment
+846	the boy does not play an ukulele	the boy does not play an instrument	ukulele	instrument	neutral
+847	the boy does not play an instrument	the boy does not play a cornet	cornet	instrument	entailment
+848	the boy does not play a cornet	the boy does not play an instrument	cornet	instrument	neutral
+849	the boy does not play an instrument	the boy does not play a piccolo	piccolo	instrument	entailment
+850	the boy does not play a piccolo	the boy does not play an instrument	piccolo	instrument	neutral
+851	the boy does not play an instrument	the boy does not play a banjo	banjo	instrument	entailment
+852	the boy does not play a banjo	the boy does not play an instrument	banjo	instrument	neutral
+853	the boy does not play an instrument	the boy does not play a guitar	guitar	instrument	entailment
+854	the boy does not play a guitar	the boy does not play an instrument	guitar	instrument	neutral
+855	A man on top of a ladder not next to a tree	A man on top of a ladder not next to a plant	tree	plant	neutral
+856	A man on top of a ladder not next to a plant	A man on top of a ladder not next to a tree	tree	plant	entailment
+857	A man on top of a ladder not next to a tree	A man on top of a ladder not next to a sycamore	sycamore	tree	entailment
+858	A man on top of a ladder not next to a sycamore	A man on top of a ladder not next to a tree	sycamore	tree	neutral
+859	A man on top of a ladder not next to a tree	A man on top of a ladder not next to an ash	ash	tree	entailment
+860	A man on top of a ladder not next to an ash	A man on top of a ladder not next to a tree	ash	tree	neutral
+861	A man on top of a ladder not next to a tree	A man on top of a ladder not next to a magnolia	magnolia	tree	entailment
+862	A man on top of a ladder not next to a magnolia	A man on top of a ladder not next to a tree	magnolia	tree	neutral
+863	A man on top of a ladder not next to a tree	A man on top of a ladder not next to a willow	willow	tree	entailment
+864	A man on top of a ladder not next to a willow	A man on top of a ladder not next to a tree	willow	tree	neutral
+865	A man on top of a ladder not next to a tree	A man on top of a ladder not next to a pine	pine	tree	entailment
+866	A man on top of a ladder not next to a pine	A man on top of a ladder not next to a tree	pine	tree	neutral
+867	A man on top of a ladder not next to a tree	A man on top of a ladder not next to a cedar	cedar	tree	entailment
+868	A man on top of a ladder not next to a cedar	A man on top of a ladder not next to a tree	cedar	tree	neutral
+869	A man on top of a ladder not next to a tree	A man on top of a ladder not next to an oak	oak	tree	entailment
+870	A man on top of a ladder not next to an oak	A man on top of a ladder not next to a tree	oak	tree	neutral
+871	A man on top of a ladder not next to a tree	A man on top of a ladder not next to an elm	elm	tree	entailment
+872	A man on top of a ladder not next to an elm	A man on top of a ladder not next to a tree	elm	tree	neutral
+873	A man on top of a ladder not next to a tree	A man on top of a ladder not next to a dogwood	dogwood	tree	entailment
+874	A man on top of a ladder not next to a dogwood	A man on top of a ladder not next to a tree	dogwood	tree	neutral
+875	A man on top of a ladder not next to a tree	A man on top of a ladder not next to a fir	fir	tree	entailment
+876	A man on top of a ladder not next to a fir	A man on top of a ladder not next to a tree	fir	tree	neutral
+877	A man on top of a ladder not next to a tree	A man on top of a ladder not next to a palm	palm	tree	entailment
+878	A man on top of a ladder not next to a palm	A man on top of a ladder not next to a tree	palm	tree	neutral
+879	A man on top of a ladder not next to a tree	A man on top of a ladder not next to a birch	birch	tree	entailment
+880	A man on top of a ladder not next to a birch	A man on top of a ladder not next to a tree	birch	tree	neutral
+881	There is not a man cutting hair in the background.	There is not an adult cutting hair in the background.	man	adult	neutral
+882	There is not an adult cutting hair in the background.	There is not a man cutting hair in the background.	man	adult	entailment
+895	A man can not find a woman	A man can not find an adult	woman	adult	neutral
+896	A man can not find an adult	A man can not find a woman	woman	adult	entailment
+899	A man can not find a woman	A man can not find an ex-wife	ex-wife	woman	entailment
+900	A man can not find an ex-wife	A man can not find a woman	ex-wife	woman	neutral
+901	A man can not find a woman	A man can not find a lady	lady	woman	entailment
+902	A man can not find a lady	A man can not find a woman	lady	woman	neutral
+903	A man can not find a woman	A man can not find a sister	sister	woman	entailment
+904	A man can not find a sister	A man can not find a woman	sister	woman	neutral
+905	A man can not find a woman	A man can not find a widow	widow	woman	entailment
+906	A man can not find a widow	A man can not find a woman	widow	woman	neutral
+907	A man can not find a woman	A man can not find a mother	mother	woman	entailment
+908	A man can not find a mother	A man can not find a woman	mother	woman	neutral
+909	A man can not find a woman	A man can not find a matriarch	matriarch	woman	entailment
+910	A man can not find a matriarch	A man can not find a woman	matriarch	woman	neutral
+911	A man can not find a woman	A man can not find a bridesmaid	bridesmaid	woman	entailment
+912	A man can not find a bridesmaid	A man can not find a woman	bridesmaid	woman	neutral
+913	A man can not find a woman	A man can not find a housewife	housewife	woman	entailment
+914	A man can not find a housewife	A man can not find a woman	housewife	woman	neutral
+915	A man can not find a woman	A man can not find a wife	wife	woman	entailment
+916	A man can not find a wife	A man can not find a woman	wife	woman	neutral
+917	A man can not find a woman	A man can not find a granny	granny	woman	entailment
+918	A man can not find a granny	A man can not find a woman	granny	woman	neutral
+919	A man can not find a woman	A man can not find a bachelorette	bachelorette	woman	entailment
+920	A man can not find a bachelorette	A man can not find a woman	bachelorette	woman	neutral
+921	A man can not find a woman	A man can not find a mistress	mistress	woman	entailment
+922	A man can not find a mistress	A man can not find a woman	mistress	woman	neutral
+923	A man can not find a woman	A man can not find a geisha	geisha	woman	entailment
+924	A man can not find a geisha	A man can not find a woman	geisha	woman	neutral
+925	There is not a boat nearby.	There is not a dinghy nearby.	dinghy	boat	entailment
+926	There is not a dinghy nearby.	There is not a boat nearby.	dinghy	boat	neutral
+927	There is not a boat nearby.	There is not a motorboat nearby.	motorboat	boat	entailment
+928	There is not a motorboat nearby.	There is not a boat nearby.	motorboat	boat	neutral
+929	There is not a boat nearby.	There is not a ferry nearby.	ferry	boat	entailment
+930	There is not a ferry nearby.	There is not a boat nearby.	ferry	boat	neutral
+931	There is not a boat nearby.	There is not a gondola nearby.	gondola	boat	entailment
+932	There is not a gondola nearby.	There is not a boat nearby.	gondola	boat	neutral
+933	There is not a boat nearby.	There is not a kayak nearby.	kayak	boat	entailment
+934	There is not a kayak nearby.	There is not a boat nearby.	kayak	boat	neutral
+935	There is not a boat nearby.	There is not a barge nearby.	barge	boat	entailment
+936	There is not a barge nearby.	There is not a boat nearby.	barge	boat	neutral
+937	There is not a boat nearby.	There is not a speedboat nearby.	speedboat	boat	entailment
+938	There is not a speedboat nearby.	There is not a boat nearby.	speedboat	boat	neutral
+939	There is not a boat nearby.	There is not a tugboat nearby.	tugboat	boat	entailment
+940	There is not a tugboat nearby.	There is not a boat nearby.	tugboat	boat	neutral
+941	There is not a boat nearby.	There is not a lifeboat nearby.	lifeboat	boat	entailment
+942	There is not a lifeboat nearby.	There is not a boat nearby.	lifeboat	boat	neutral
+943	There is not a boat nearby.	There is not a houseboat nearby.	houseboat	boat	entailment
+944	There is not a houseboat nearby.	There is not a boat nearby.	houseboat	boat	neutral
+945	There is not a boat nearby.	There is not a canoe nearby.	canoe	boat	entailment
+946	There is not a canoe nearby.	There is not a boat nearby.	canoe	boat	neutral
+947	a boy is not concentrating on a machine	a boy is not concentrating on a trimmer	trimmer	machine	entailment
+948	a boy is not concentrating on a trimmer	a boy is not concentrating on a machine	trimmer	machine	neutral
+949	a boy is not concentrating on a machine	a boy is not concentrating on a calculator	calculator	machine	entailment
+950	a boy is not concentrating on a calculator	a boy is not concentrating on a machine	calculator	machine	neutral
+951	a boy is not concentrating on a machine	a boy is not concentrating on an ATM	atm	machine	entailment
+952	a boy is not concentrating on an ATM	a boy is not concentrating on a machine	atm	machine	neutral
+953	a boy is not concentrating on a machine	a boy is not concentrating on a computer	computer	machine	entailment
+954	a boy is not concentrating on a computer	a boy is not concentrating on a machine	computer	machine	neutral
+955	a boy is not concentrating on a machine	a boy is not concentrating on a jukebox	jukebox	machine	entailment
+956	a boy is not concentrating on a jukebox	a boy is not concentrating on a machine	jukebox	machine	neutral
+957	a boy is not concentrating on a machine	a boy is not concentrating on a typewriter	typewriter	machine	entailment
+958	a boy is not concentrating on a typewriter	a boy is not concentrating on a machine	typewriter	machine	neutral
+959	a boy is not concentrating on a machine	a boy is not concentrating on a turbine	turbine	machine	entailment
+960	a boy is not concentrating on a turbine	a boy is not concentrating on a machine	turbine	machine	neutral
+961	a boy is not concentrating on a machine	a boy is not concentrating on a printer	printer	machine	entailment
+962	a boy is not concentrating on a printer	a boy is not concentrating on a machine	printer	machine	neutral
+963	a boy is not concentrating on a machine	a boy is not concentrating on a combine	combine	machine	entailment
+964	a boy is not concentrating on a combine	a boy is not concentrating on a machine	combine	machine	neutral
+965	a boy is not concentrating on a machine	a boy is not concentrating on a generator	generator	machine	entailment
+966	a boy is not concentrating on a generator	a boy is not concentrating on a machine	generator	machine	neutral
+967	a boy is not concentrating on a machine	a boy is not concentrating on a laptop	laptop	machine	entailment
+968	a boy is not concentrating on a laptop	a boy is not concentrating on a machine	laptop	machine	neutral
+969	a boy is not concentrating on a machine	a boy is not concentrating on an engine	engine	machine	entailment
+970	a boy is not concentrating on an engine	a boy is not concentrating on a machine	engine	machine	neutral
+971	a boy is not concentrating on a machine	a boy is not concentrating on an excavator	excavator	machine	entailment
+972	a boy is not concentrating on an excavator	a boy is not concentrating on a machine	excavator	machine	neutral
+973	a boy is not concentrating on a machine	a boy is not concentrating on a motor	motor	machine	entailment
+974	a boy is not concentrating on a motor	a boy is not concentrating on a machine	motor	machine	neutral
+975	a boy is not concentrating on a machine	a boy is not concentrating on a treadmill	treadmill	machine	entailment
+976	a boy is not concentrating on a treadmill	a boy is not concentrating on a machine	treadmill	machine	neutral
+977	a boy is not concentrating on a machine	a boy is not concentrating on a PC	pc	machine	entailment
+978	a boy is not concentrating on a PC	a boy is not concentrating on a machine	pc	machine	neutral
+979	The diver has not seen any fish on his dive.	The diver has not seen any creatures on his dive.	fish	creatures	neutral
+980	The diver has not seen any creatures on his dive.	The diver has not seen any fish on his dive.	fish	creatures	entailment
+981	The diver has not seen any fish on his dive.	The diver has not seen any goldfish on his dive.	goldfish	fish	entailment
+982	The diver has not seen any goldfish on his dive.	The diver has not seen any fish on his dive.	goldfish	fish	neutral
+983	The diver has not seen any fish on his dive.	The diver has not seen any catfish on his dive.	catfish	fish	entailment
+984	The diver has not seen any catfish on his dive.	The diver has not seen any fish on his dive.	catfish	fish	neutral
+985	The diver has not seen any fish on his dive.	The diver has not seen any trout on his dive.	trout	fish	entailment
+986	The diver has not seen any trout on his dive.	The diver has not seen any fish on his dive.	trout	fish	neutral
+987	The diver has not seen any fish on his dive.	The diver has not seen any salmon on his dive.	salmon	fish	entailment
+988	The diver has not seen any salmon on his dive.	The diver has not seen any fish on his dive.	salmon	fish	neutral
+989	The diver has not seen any fish on his dive.	The diver has not seen any tuna on his dive.	tuna	fish	entailment
+990	The diver has not seen any tuna on his dive.	The diver has not seen any fish on his dive.	tuna	fish	neutral
+991	The diver has not seen any fish on his dive.	The diver has not seen any swordfish on his dive.	swordfish	fish	entailment
+992	The diver has not seen any swordfish on his dive.	The diver has not seen any fish on his dive.	swordfish	fish	neutral
+993	The diver has not seen any fish on his dive.	The diver has not seen any marlins on his dive.	marlins	fish	entailment
+994	The diver has not seen any marlins on his dive.	The diver has not seen any fish on his dive.	marlins	fish	neutral
+995	The diver has not seen any fish on his dive.	The diver has not seen any herrings on his dive.	herrings	fish	entailment
+996	The diver has not seen any herrings on his dive.	The diver has not seen any fish on his dive.	herrings	fish	neutral
+997	The diver has not seen any fish on his dive.	The diver has not seen any minnows on his dive.	minnows	fish	entailment
+998	The diver has not seen any minnows on his dive.	The diver has not seen any fish on his dive.	minnows	fish	neutral
+999	The diver has not seen any fish on his dive.	The diver has not seen any bass on his dive.	bass	fish	entailment
+1000	The diver has not seen any bass on his dive.	The diver has not seen any fish on his dive.	bass	fish	neutral
+1001	The diver has not seen any fish on his dive.	The diver has not seen any pike on his dive.	pike	fish	entailment
+1002	The diver has not seen any pike on his dive.	The diver has not seen any fish on his dive.	pike	fish	neutral

@@ -1,3 +1,0 @@
-textid	text	pair	condition	target
-1	There is a man not wearing a hat staring at people on a subway.	There is a man not wearing a sunhat staring at people on a subway.	negative	entailment
-2	A couple of hikers cross a bridge.	A couple of hikers cross a structure.	positive	neutral

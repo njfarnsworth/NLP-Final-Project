@@ -1,0 +1,89 @@
+textid	text	pair	weak	strong	label
+193	The man is not wearing jewelry.	The man is not wearing bracelets.	bracelets	jewelry	entailment
+194	The man is not wearing bracelets.	The man is not wearing jewelry.	bracelets	jewelry	neutral
+195	The man is not wearing jewelry.	The man is not wearing rings.	rings	jewelry	entailment
+196	The man is not wearing rings.	The man is not wearing jewelry.	rings	jewelry	neutral
+197	The man is not wearing jewelry.	The man is not wearing necklaces.	necklaces	jewelry	entailment
+198	The man is not wearing necklaces.	The man is not wearing jewelry.	necklaces	jewelry	neutral
+199	The man is not wearing jewelry.	The man is not wearing earrings.	earrings	jewelry	entailment
+200	The man is not wearing earrings.	The man is not wearing jewelry.	earrings	jewelry	neutral
+541	People do not have any machines	People do not have any computers	computers	machines	entailment
+542	People do not have any computers	People do not have any machines	computers	machines	neutral
+543	People do not have any machines	People do not have any PCs	pcs	machines	entailment
+544	People do not have any PCs	People do not have any machines	pcs	machines	neutral
+545	People do not have any machines	People do not have any ATMs	atms	machines	entailment
+546	People do not have any ATMs	People do not have any machines	atms	machines	neutral
+547	People do not have any machines	People do not have any laptops	laptops	machines	entailment
+548	People do not have any laptops	People do not have any machines	laptops	machines	neutral
+549	People do not have any machines	People do not have any calculators	calculators	machines	entailment
+550	People do not have any calculators	People do not have any machines	calculators	machines	neutral
+551	People do not have any machines	People do not have any turbines	turbines	machines	entailment
+552	People do not have any turbines	People do not have any machines	turbines	machines	neutral
+553	People do not have any machines	People do not have any jackhammers	jackhammers	machines	entailment
+554	People do not have any jackhammers	People do not have any machines	jackhammers	machines	neutral
+555	People do not have any machines	People do not have any jukeboxes	jukeboxes	machines	entailment
+556	People do not have any jukeboxes	People do not have any machines	jukeboxes	machines	neutral
+557	People do not have any machines	People do not have any generators	generators	machines	entailment
+558	People do not have any generators	People do not have any machines	generators	machines	neutral
+559	People do not have any machines	People do not have any motors	motors	machines	entailment
+560	People do not have any motors	People do not have any machines	motors	machines	neutral
+561	People do not have any machines	People do not have any printers	printers	machines	entailment
+562	People do not have any printers	People do not have any machines	printers	machines	neutral
+563	People do not have any machines	People do not have any treadmills	treadmills	machines	entailment
+564	People do not have any treadmills	People do not have any machines	treadmills	machines	neutral
+565	People do not have any machines	People do not have any engines	engines	machines	entailment
+566	People do not have any engines	People do not have any machines	engines	machines	neutral
+567	People do not have any machines	People do not have any typewriters	typewriters	machines	entailment
+568	People do not have any typewriters	People do not have any machines	typewriters	machines	neutral
+637	There is not a man cutting hair in the background.	There is not a boyfriend cutting hair in the background.	boyfriend	man	entailment
+638	There is not a boyfriend cutting hair in the background.	There is not a man cutting hair in the background.	boyfriend	man	neutral
+659	The girls are cutting the cake and not letting any man cut it.	The girls are cutting the cake and not letting any bachelor cut it.	bachelor	man	entailment
+660	The girls are cutting the cake and not letting any bachelor cut it.	The girls are cutting the cake and not letting any man cut it.	bachelor	man	neutral
+661	The girls are cutting the cake and not letting any man cut it.	The girls are cutting the cake and not letting any boyfriend cut it.	boyfriend	man	entailment
+662	The girls are cutting the cake and not letting any boyfriend cut it.	The girls are cutting the cake and not letting any man cut it.	boyfriend	man	neutral
+663	The girls are cutting the cake and not letting any man cut it.	The girls are cutting the cake and not letting any gent cut it.	gent	man	entailment
+664	The girls are cutting the cake and not letting any gent cut it.	The girls are cutting the cake and not letting any man cut it.	gent	man	neutral
+665	The girls are cutting the cake and not letting any man cut it.	The girls are cutting the cake and not letting any gentleman cut it.	gentleman	man	entailment
+666	The girls are cutting the cake and not letting any gentleman cut it.	The girls are cutting the cake and not letting any man cut it.	gentleman	man	neutral
+761	The woman is not wearing jewelry	The woman is not wearing chains	chains	jewelry	entailment
+762	The woman is not wearing chains	The woman is not wearing jewelry	chains	jewelry	neutral
+763	The woman is not wearing jewelry	The woman is not wearing rings	rings	jewelry	entailment
+764	The woman is not wearing rings	The woman is not wearing jewelry	rings	jewelry	neutral
+765	The woman is not wearing jewelry	The woman is not wearing earrings	earrings	jewelry	entailment
+766	The woman is not wearing earrings	The woman is not wearing jewelry	earrings	jewelry	neutral
+767	The woman is not wearing jewelry	The woman is not wearing necklaces	necklaces	jewelry	entailment
+768	The woman is not wearing necklaces	The woman is not wearing jewelry	necklaces	jewelry	neutral
+769	The woman is not wearing jewelry	The woman is not wearing ringlets	ringlets	jewelry	entailment
+770	The woman is not wearing ringlets	The woman is not wearing jewelry	ringlets	jewelry	neutral
+771	The woman is not wearing jewelry	The woman is not wearing bracelets	bracelets	jewelry	entailment
+772	The woman is not wearing bracelets	The woman is not wearing jewelry	bracelets	jewelry	neutral
+773	The woman is not wearing jewelry	The woman is not wearing bangles	bangles	jewelry	entailment
+774	The woman is not wearing bangles	The woman is not wearing jewelry	bangles	jewelry	neutral
+775	The girl here is not wearing any jewelry at all.	The girl here is not wearing any chains at all.	chains	jewelry	entailment
+776	The girl here is not wearing any chains at all.	The girl here is not wearing any jewelry at all.	chains	jewelry	neutral
+777	The girl here is not wearing any jewelry at all.	The girl here is not wearing any bracelets at all.	bracelets	jewelry	entailment
+778	The girl here is not wearing any bracelets at all.	The girl here is not wearing any jewelry at all.	bracelets	jewelry	neutral
+779	The girl here is not wearing any jewelry at all.	The girl here is not wearing any bangles at all.	bangles	jewelry	entailment
+780	The girl here is not wearing any bangles at all.	The girl here is not wearing any jewelry at all.	bangles	jewelry	neutral
+781	The girl here is not wearing any jewelry at all.	The girl here is not wearing any ringlets at all.	ringlets	jewelry	entailment
+782	The girl here is not wearing any ringlets at all.	The girl here is not wearing any jewelry at all.	ringlets	jewelry	neutral
+783	The girl here is not wearing any jewelry at all.	The girl here is not wearing any necklaces at all.	necklaces	jewelry	entailment
+784	The girl here is not wearing any necklaces at all.	The girl here is not wearing any jewelry at all.	necklaces	jewelry	neutral
+785	The girl here is not wearing any jewelry at all.	The girl here is not wearing any earrings at all.	earrings	jewelry	entailment
+786	The girl here is not wearing any earrings at all.	The girl here is not wearing any jewelry at all.	earrings	jewelry	neutral
+787	The girl here is not wearing any jewelry at all.	The girl here is not wearing any rings at all.	rings	jewelry	entailment
+788	The girl here is not wearing any rings at all.	The girl here is not wearing any jewelry at all.	rings	jewelry	neutral
+883	There is not a man cutting hair in the background.	There is not an individual cutting hair in the background.	man	individual	neutral
+884	There is not an individual cutting hair in the background.	There is not a man cutting hair in the background.	man	individual	entailment
+885	There is not a man cutting hair in the background.	There is not a bachelor cutting hair in the background.	bachelor	man	entailment
+886	There is not a bachelor cutting hair in the background.	There is not a man cutting hair in the background.	bachelor	man	neutral
+887	There is not a man cutting hair in the background.	There is not a widower cutting hair in the background.	widower	man	entailment
+888	There is not a widower cutting hair in the background.	There is not a man cutting hair in the background.	widower	man	neutral
+889	There is not a man cutting hair in the background.	There is not a gentleman cutting hair in the background.	gentleman	man	entailment
+890	There is not a gentleman cutting hair in the background.	There is not a man cutting hair in the background.	gentleman	man	neutral
+891	There is not a man cutting hair in the background.	There is not a gent cutting hair in the background.	gent	man	entailment
+892	There is not a gent cutting hair in the background.	There is not a man cutting hair in the background.	gent	man	neutral
+893	There is not a man cutting hair in the background.	There is not a boyfriend cutting hair in the background.	boyfriend	man	entailment
+894	There is not a boyfriend cutting hair in the background.	There is not a man cutting hair in the background.	boyfriend	man	neutral
+897	A man can not find a woman	A man can not find an individual	woman	individual	neutral
+898	A man can not find an individual	A man can not find a woman	woman	individual	entailment

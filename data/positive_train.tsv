@@ -1,0 +1,1037 @@
+textid	text	pair	weak	strong	label
+1	A man is talking to someone in a car.	A man is talking to someone in a taxi.	car	taxi	neutral
+2	A man is talking to someone in a taxi.	A man is talking to someone in a car.	car	taxi	entailment
+5	A man is talking to someone in a car.	A man is talking to someone in a jeep.	car	jeep	neutral
+6	A man is talking to someone in a jeep.	A man is talking to someone in a car.	car	jeep	entailment
+7	A man is talking to someone in a car.	A man is talking to someone in a SUV.	car	suv	neutral
+8	A man is talking to someone in a SUV.	A man is talking to someone in a car.	car	suv	entailment
+11	A couple of hikers cross a bridge.	A couple of hikers cross a structure.	structure	bridge	entailment
+12	A couple of hikers cross a structure.	A couple of hikers cross a bridge.	structure	bridge	neutral
+13	A couple of hikers cross a bridge.	A couple of hikers cross a footbridge.	bridge	footbridge	neutral
+14	A couple of hikers cross a footbridge.	A couple of hikers cross a bridge.	bridge	footbridge	entailment
+15	Small child with black hair standing in car track near sunflowers.	Small child with black hair standing in car track near flowers.	flowers	sunflowers	entailment
+16	Small child with black hair standing in car track near flowers.	Small child with black hair standing in car track near sunflowers.	flowers	sunflowers	neutral
+17	Small child with black hair standing in car track near sunflowers.	Small child with black hair standing in car track near plants.	plants	sunflowers	entailment
+18	Small child with black hair standing in car track near plants.	Small child with black hair standing in car track near sunflowers.	plants	sunflowers	neutral
+19	Two dogs play with a green ball on a wooden deck.	Two dogs play with a green baseball on a wooden deck.	ball	baseball	neutral
+20	Two dogs play with a green baseball on a wooden deck.	Two dogs play with a green ball on a wooden deck.	ball	baseball	entailment
+21	Two dogs play with a green ball on a wooden deck.	Two dogs play with a green basketball on a wooden deck.	ball	basketball	neutral
+22	Two dogs play with a green basketball on a wooden deck.	Two dogs play with a green ball on a wooden deck.	ball	basketball	entailment
+23	Two dogs play with a green ball on a wooden deck.	Two dogs play with a green volleyball on a wooden deck.	ball	volleyball	neutral
+24	Two dogs play with a green volleyball on a wooden deck.	Two dogs play with a green ball on a wooden deck.	ball	volleyball	entailment
+25	An Asian woman cutting the stems of a green leafy vegetable at a market.	An Asian woman cutting the stems of a green leafy cabbage at a market.	vegetable	cabbage	neutral
+26	An Asian woman cutting the stems of a green leafy cabbage at a market.	An Asian woman cutting the stems of a green leafy vegetable at a market.	vegetable	cabbage	entailment
+33	An Asian woman cutting the stems of a green leafy vegetable at a market.	An Asian woman cutting the stems of a green leafy lettuce at a market.	vegetable	lettuce	neutral
+34	An Asian woman cutting the stems of a green leafy lettuce at a market.	An Asian woman cutting the stems of a green leafy vegetable at a market.	vegetable	lettuce	entailment
+35	A young man is hanging on a rope above beautiful blue water.	A young adult is hanging on a rope above beautiful blue water.	adult	man	entailment
+36	A young adult is hanging on a rope above beautiful blue water.	A young man is hanging on a rope above beautiful blue water.	adult	man	neutral
+37	A young man is hanging on a rope above beautiful blue water.	A young person is hanging on a rope above beautiful blue water.	person	man	entailment
+38	A young person is hanging on a rope above beautiful blue water.	A young man is hanging on a rope above beautiful blue water.	person	man	neutral
+39	Children play fight with swords.	Children play fight with weapons.	weapons	swords	entailment
+40	Children play fight with weapons.	Children play fight with swords.	weapons	swords	neutral
+41	A surfer rides the crashing waves while another follows behind.	A person rides the crashing waves while another follows behind.	person	surfer	entailment
+42	A person rides the crashing waves while another follows behind.	A surfer rides the crashing waves while another follows behind.	person	surfer	neutral
+43	A white woman wearing a white shirt sitting and looking at her plate of food.	A white woman wearing a white shirt sitting and looking at her plate of eggs.	food	eggs	neutral
+44	A white woman wearing a white shirt sitting and looking at her plate of eggs.	A white woman wearing a white shirt sitting and looking at her plate of food.	food	eggs	entailment
+49	A white woman wearing a white shirt sitting and looking at her plate of food.	A white woman wearing a white shirt sitting and looking at her plate of rice.	food	rice	neutral
+50	A white woman wearing a white shirt sitting and looking at her plate of rice.	A white woman wearing a white shirt sitting and looking at her plate of food.	food	rice	entailment
+51	A white woman wearing a white shirt sitting and looking at her plate of food.	A white woman wearing a white shirt sitting and looking at her plate of bread.	food	bread	neutral
+52	A white woman wearing a white shirt sitting and looking at her plate of bread.	A white woman wearing a white shirt sitting and looking at her plate of food.	food	bread	entailment
+53	A woman in a polka-dot shirt and black boots is walking down the street and being approached by a man in a black jacket and jeans.	An adult in a polka-dot shirt and black boots is walking down the street and being approached by a man in a black jacket and jeans.	adult	woman	entailment
+54	An adult in a polka-dot shirt and black boots is walking down the street and being approached by a man in a black jacket and jeans.	A woman in a polka-dot shirt and black boots is walking down the street and being approached by a man in a black jacket and jeans.	adult	woman	neutral
+55	A woman in a polka-dot shirt and black boots is walking down the street and being approached by a man in a black jacket and jeans.	An individual in a polka-dot shirt and black boots is walking down the street and being approached by a man in a black jacket and jeans.	individual	woman	entailment
+56	An individual in a polka-dot shirt and black boots is walking down the street and being approached by a man in a black jacket and jeans.	A woman in a polka-dot shirt and black boots is walking down the street and being approached by a man in a black jacket and jeans.	individual	woman	neutral
+57	A woman in a polka-dot shirt and black boots is walking down the street and being approached by a man in a black jacket and jeans.	A housewife in a polka-dot shirt and black boots is walking down the street and being approached by a man in a black jacket and jeans.	woman	housewife	neutral
+58	A housewife in a polka-dot shirt and black boots is walking down the street and being approached by a man in a black jacket and jeans.	A woman in a polka-dot shirt and black boots is walking down the street and being approached by a man in a black jacket and jeans.	woman	housewife	entailment
+59	A woman in a polka-dot shirt and black boots is walking down the street and being approached by a man in a black jacket and jeans.	A mother in a polka-dot shirt and black boots is walking down the street and being approached by a man in a black jacket and jeans.	woman	mother	neutral
+60	A mother in a polka-dot shirt and black boots is walking down the street and being approached by a man in a black jacket and jeans.	A woman in a polka-dot shirt and black boots is walking down the street and being approached by a man in a black jacket and jeans.	woman	mother	entailment
+65	Two young children are walking down a tree lined path.	Two young orphans are walking down a tree lined path.	children	orphans	neutral
+66	Two young orphans are walking down a tree lined path.	Two young children are walking down a tree lined path.	children	orphans	entailment
+67	Men work on the paint of a side of an old building.	Men work on the paint of a side of an old hotel.	building	hotel	neutral
+68	Men work on the paint of a side of an old hotel.	Men work on the paint of a side of an old building.	building	hotel	entailment
+69	Men work on the paint of a side of an old building.	Men work on the paint of a side of an old cinema.	building	cinema	neutral
+70	Men work on the paint of a side of an old cinema.	Men work on the paint of a side of an old building.	building	cinema	entailment
+73	Men work on the paint of a side of an old building.	Men work on the paint of a side of an old hospital.	building	hospital	neutral
+74	Men work on the paint of a side of an old hospital.	Men work on the paint of a side of an old building.	building	hospital	entailment
+79	Men work on the paint of a side of an old building.	Men work on the paint of a side of an old dormitory.	building	dormitory	neutral
+80	Men work on the paint of a side of an old dormitory.	Men work on the paint of a side of an old building.	building	dormitory	entailment
+81	Men work on the paint of a side of an old building.	Men work on the paint of a side of an old courthouse.	building	courthouse	neutral
+82	Men work on the paint of a side of an old courthouse.	Men work on the paint of a side of an old building.	building	courthouse	entailment
+83	Men work on the paint of a side of an old building.	Men work on the paint of a side of an old theater.	building	theater	neutral
+84	Men work on the paint of a side of an old theater.	Men work on the paint of a side of an old building.	building	theater	entailment
+85	Men work on the paint of a side of an old building.	Men work on the paint of a side of an old church.	building	church	neutral
+86	Men work on the paint of a side of an old church.	Men work on the paint of a side of an old building.	building	church	entailment
+89	A group of men and women are singing a song.	A group of men and women are singing a hymn.	song	hymn	neutral
+90	A group of men and women are singing a hymn.	A group of men and women are singing a song.	song	hymn	entailment
+91	A group of men and women are singing a song.	A group of men and women are singing an anthem.	song	anthem	neutral
+92	A group of men and women are singing an anthem.	A group of men and women are singing a song.	song	anthem	entailment
+97	Two dogs are running together down a with path covered in dead leaves.	Two mammals are running together down a with path covered in dead leaves.	mammals	dogs	entailment
+98	Two mammals are running together down a with path covered in dead leaves.	Two dogs are running together down a with path covered in dead leaves.	mammals	dogs	neutral
+99	Two dogs are running together down a with path covered in dead leaves.	Two spaniels are running together down a with path covered in dead leaves.	dogs	spaniels	neutral
+100	Two spaniels are running together down a with path covered in dead leaves.	Two dogs are running together down a with path covered in dead leaves.	dogs	spaniels	entailment
+103	Two dogs are running together down a with path covered in dead leaves.	Two corgis are running together down a with path covered in dead leaves.	dogs	corgis	neutral
+104	Two corgis are running together down a with path covered in dead leaves.	Two dogs are running together down a with path covered in dead leaves.	dogs	corgis	entailment
+105	Two dogs are running together down a with path covered in dead leaves.	Two terriers are running together down a with path covered in dead leaves.	dogs	terriers	neutral
+106	Two terriers are running together down a with path covered in dead leaves.	Two dogs are running together down a with path covered in dead leaves.	dogs	terriers	entailment
+107	Two dogs are running together down a with path covered in dead leaves.	Two beagles are running together down a with path covered in dead leaves.	dogs	beagles	neutral
+108	Two beagles are running together down a with path covered in dead leaves.	Two dogs are running together down a with path covered in dead leaves.	dogs	beagles	entailment
+113	Two dogs are running together down a with path covered in dead leaves.	Two huskies are running together down a with path covered in dead leaves.	dogs	huskies	neutral
+114	Two huskies are running together down a with path covered in dead leaves.	Two dogs are running together down a with path covered in dead leaves.	dogs	huskies	entailment
+115	A young man playing with a large yo-yo.	A young man playing with a large toy.	toy	yo-yo	entailment
+116	A young man playing with a large toy.	A young man playing with a large yo-yo.	toy	yo-yo	neutral
+117	A woman who is fixing her computer while showing her daughter what it is doing.	A woman who is fixing her machine while showing her daughter what it is doing.	machine	computer	entailment
+118	A woman who is fixing her machine while showing her daughter what it is doing.	A woman who is fixing her computer while showing her daughter what it is doing.	machine	computer	neutral
+119	A woman who is fixing her computer while showing her daughter what it is doing.	A woman who is fixing her device while showing her daughter what it is doing.	device	computer	entailment
+120	A woman who is fixing her device while showing her daughter what it is doing.	A woman who is fixing her computer while showing her daughter what it is doing.	device	computer	neutral
+121	Child sliding down slide into pool of water.	Child sliding down slide into pool of saltwater.	water	saltwater	neutral
+122	Child sliding down slide into pool of saltwater.	Child sliding down slide into pool of water.	water	saltwater	entailment
+123	Child sliding down slide into pool of water.	Child sliding down slide into pool of rainwater.	water	rainwater	neutral
+124	Child sliding down slide into pool of rainwater.	Child sliding down slide into pool of water.	water	rainwater	entailment
+127	A black dog chases birds on the shoreline	A black dog chases eagles on the shoreline	birds	eagles	neutral
+128	A black dog chases eagles on the shoreline	A black dog chases birds on the shoreline	birds	eagles	entailment
+129	A black dog chases birds on the shoreline	A black dog chases swans on the shoreline	birds	swans	neutral
+130	A black dog chases swans on the shoreline	A black dog chases birds on the shoreline	birds	swans	entailment
+135	A black dog chases birds on the shoreline	A black dog chases owls on the shoreline	birds	owls	neutral
+136	A black dog chases owls on the shoreline	A black dog chases birds on the shoreline	birds	owls	entailment
+141	A black dog chases birds on the shoreline	A black dog chases ducks on the shoreline	birds	ducks	neutral
+142	A black dog chases ducks on the shoreline	A black dog chases birds on the shoreline	birds	ducks	entailment
+143	A black dog chases birds on the shoreline	A black dog chases parrots on the shoreline	birds	parrots	neutral
+144	A black dog chases parrots on the shoreline	A black dog chases birds on the shoreline	birds	parrots	entailment
+145	A black dog chases birds on the shoreline	A black dog chases turkeys on the shoreline	birds	turkeys	neutral
+146	A black dog chases turkeys on the shoreline	A black dog chases birds on the shoreline	birds	turkeys	entailment
+147	A black dog chases birds on the shoreline	A black dog chases doves on the shoreline	birds	doves	neutral
+148	A black dog chases doves on the shoreline	A black dog chases birds on the shoreline	birds	doves	entailment
+149	A black dog chases birds on the shoreline	A black dog chases geese on the shoreline	birds	geese	neutral
+150	A black dog chases geese on the shoreline	A black dog chases birds on the shoreline	birds	geese	entailment
+153	A black dog chases birds on the shoreline	A black dog chases crows on the shoreline	birds	crows	neutral
+154	A black dog chases crows on the shoreline	A black dog chases birds on the shoreline	birds	crows	entailment
+155	A black dog chases birds on the shoreline	A black dog chases chickens on the shoreline	birds	chickens	neutral
+156	A black dog chases chickens on the shoreline	A black dog chases birds on the shoreline	birds	chickens	entailment
+157	A black dog chases birds on the shoreline	A black dog chases sparrows on the shoreline	birds	sparrows	neutral
+158	A black dog chases sparrows on the shoreline	A black dog chases birds on the shoreline	birds	sparrows	entailment
+159	A black dog chases birds on the shoreline	A black dog chases penguins on the shoreline	birds	penguins	neutral
+160	A black dog chases penguins on the shoreline	A black dog chases birds on the shoreline	birds	penguins	entailment
+161	A woman wearing a red helmet with a white star on it, rollerblading.	A woman wearing a red helmet with a white shape on it, rollerblading.	shape	star	entailment
+162	A woman wearing a red helmet with a white shape on it, rollerblading.	A woman wearing a red helmet with a white star on it, rollerblading.	shape	star	neutral
+163	The worker is standing on a ladder on a city sidewalk repairing the building with a large drill.	The worker is standing on a ladder on a city sidewalk repairing the building with a large tool.	tool	drill	entailment
+164	The worker is standing on a ladder on a city sidewalk repairing the building with a large tool.	The worker is standing on a ladder on a city sidewalk repairing the building with a large drill.	tool	drill	neutral
+165	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by vegetables.	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by foods.	foods	vegetables	entailment
+166	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by foods.	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by vegetables.	foods	vegetables	neutral
+167	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by vegetables.	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by yams.	vegetables	yams	neutral
+168	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by yams.	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by vegetables.	vegetables	yams	entailment
+171	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by vegetables.	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by carrots.	vegetables	carrots	neutral
+172	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by carrots.	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by vegetables.	vegetables	carrots	entailment
+173	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by vegetables.	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by tomatoes.	vegetables	tomatoes	neutral
+174	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by tomatoes.	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by vegetables.	vegetables	tomatoes	entailment
+175	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by vegetables.	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by peppers.	vegetables	peppers	neutral
+176	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by peppers.	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by vegetables.	vegetables	peppers	entailment
+177	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by vegetables.	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by cabbages.	vegetables	cabbages	neutral
+178	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by cabbages.	A blond man, who is wearing a black t-shirt is playing a game of scrabble and is surrounded by vegetables.	vegetables	cabbages	entailment
+181	Baseball player makes a catch in front of an umpire.	Baseball player makes a catch in front of a person.	person	umpire	entailment
+182	Baseball player makes a catch in front of a person.	Baseball player makes a catch in front of an umpire.	person	umpire	neutral
+187	Two women laughing at a cat walking on the furniture.	Two women laughing at a tabby walking on the furniture.	cat	tabby	neutral
+188	Two women laughing at a tabby walking on the furniture.	Two women laughing at a cat walking on the furniture.	cat	tabby	entailment
+189	A man in a red shirt is walking on the street.	A man in a red garment is walking on the street.	garment	shirt	entailment
+190	A man in a red garment is walking on the street.	A man in a red shirt is walking on the street.	garment	shirt	neutral
+191	Two young males working in a garden.	Two young males working in a location.	location	garden	entailment
+192	Two young males working in a location.	Two young males working in a garden.	location	garden	neutral
+195	People on ATVs and dirt bikes are traveling along a worn path in a field surrounded by trees.	People on ATVs and dirt bikes are traveling along a worn path in a field surrounded by plants.	plants	trees	entailment
+196	People on ATVs and dirt bikes are traveling along a worn path in a field surrounded by plants.	People on ATVs and dirt bikes are traveling along a worn path in a field surrounded by trees.	plants	trees	neutral
+199	People on ATVs and dirt bikes are traveling along a worn path in a field surrounded by trees.	People on ATVs and dirt bikes are traveling along a worn path in a field surrounded by firs.	trees	firs	neutral
+200	People on ATVs and dirt bikes are traveling along a worn path in a field surrounded by firs.	People on ATVs and dirt bikes are traveling along a worn path in a field surrounded by trees.	trees	firs	entailment
+201	A girl sits a piano with a microphone.	A girl sits an instrument with a microphone.	instrument	piano	entailment
+202	A girl sits an instrument with a microphone.	A girl sits a piano with a microphone.	instrument	piano	neutral
+205	Boy with toy gun pointed at the camera.	Boy with toy revolver pointed at the camera.	gun	revolver	neutral
+206	Boy with toy revolver pointed at the camera.	Boy with toy gun pointed at the camera.	gun	revolver	entailment
+207	Boy with toy gun pointed at the camera.	Boy with toy shotgun pointed at the camera.	gun	shotgun	neutral
+208	Boy with toy shotgun pointed at the camera.	Boy with toy gun pointed at the camera.	gun	shotgun	entailment
+215	Two men stand beneath a tree as they watch the sunset over the ocean.	Two men stand beneath a plant as they watch the sunset over the ocean.	plant	tree	entailment
+216	Two men stand beneath a plant as they watch the sunset over the ocean.	Two men stand beneath a tree as they watch the sunset over the ocean.	plant	tree	neutral
+217	Two men stand beneath a tree as they watch the sunset over the ocean.	Two men stand beneath a willow as they watch the sunset over the ocean.	tree	willow	neutral
+218	Two men stand beneath a willow as they watch the sunset over the ocean.	Two men stand beneath a tree as they watch the sunset over the ocean.	tree	willow	entailment
+221	Two men stand beneath a tree as they watch the sunset over the ocean.	Two men stand beneath a magnolia as they watch the sunset over the ocean.	tree	magnolia	neutral
+222	Two men stand beneath a magnolia as they watch the sunset over the ocean.	Two men stand beneath a tree as they watch the sunset over the ocean.	tree	magnolia	entailment
+223	Two men stand beneath a tree as they watch the sunset over the ocean.	Two men stand beneath a fir as they watch the sunset over the ocean.	tree	fir	neutral
+224	Two men stand beneath a fir as they watch the sunset over the ocean.	Two men stand beneath a tree as they watch the sunset over the ocean.	tree	fir	entailment
+227	An elderly man is sitting on a bench with his foot propped up on a tree.	An elderly man is sitting on a bench with his foot propped up on a plant.	plant	tree	entailment
+228	An elderly man is sitting on a bench with his foot propped up on a plant.	An elderly man is sitting on a bench with his foot propped up on a tree.	plant	tree	neutral
+229	An elderly man is sitting on a bench with his foot propped up on a tree.	An elderly man is sitting on a bench with his foot propped up on a magnolia.	tree	magnolia	neutral
+230	An elderly man is sitting on a bench with his foot propped up on a magnolia.	An elderly man is sitting on a bench with his foot propped up on a tree.	tree	magnolia	entailment
+237	An elderly man is sitting on a bench with his foot propped up on a tree.	An elderly man is sitting on a bench with his foot propped up on an elm.	tree	elm	neutral
+238	An elderly man is sitting on a bench with his foot propped up on an elm.	An elderly man is sitting on a bench with his foot propped up on a tree.	tree	elm	entailment
+239	An elderly man is sitting on a bench with his foot propped up on a tree.	An elderly man is sitting on a bench with his foot propped up on a willow.	tree	willow	neutral
+240	An elderly man is sitting on a bench with his foot propped up on a willow.	An elderly man is sitting on a bench with his foot propped up on a tree.	tree	willow	entailment
+241	An elderly man is sitting on a bench with his foot propped up on a tree.	An elderly man is sitting on a bench with his foot propped up on a maple.	tree	maple	neutral
+242	An elderly man is sitting on a bench with his foot propped up on a maple.	An elderly man is sitting on a bench with his foot propped up on a tree.	tree	maple	entailment
+243	A boy swinging or holding an axe.	A boy swinging or holding a tool.	tool	axe	entailment
+244	A boy swinging or holding a tool.	A boy swinging or holding an axe.	tool	axe	neutral
+245	A choir is singing with a conductor guiding a symphony in a roman style building in front of a large gold statue of a woman and a snake.	A choir is singing with a conductor guiding a symphony in a roman style building in front of a large gold statue of a woman and a reptile.	reptile	snake	entailment
+246	A choir is singing with a conductor guiding a symphony in a roman style building in front of a large gold statue of a woman and a reptile.	A choir is singing with a conductor guiding a symphony in a roman style building in front of a large gold statue of a woman and a snake.	reptile	snake	neutral
+247	A choir is singing with a conductor guiding a symphony in a roman style building in front of a large gold statue of a woman and a snake.	A choir is singing with a conductor guiding a symphony in a roman style building in front of a large gold statue of a woman and an animal.	animal	snake	entailment
+248	A choir is singing with a conductor guiding a symphony in a roman style building in front of a large gold statue of a woman and an animal.	A choir is singing with a conductor guiding a symphony in a roman style building in front of a large gold statue of a woman and a snake.	animal	snake	neutral
+251	A choir is singing with a conductor guiding a symphony in a roman style building in front of a large gold statue of a woman and a snake.	A choir is singing with a conductor guiding a symphony in a roman style building in front of a large gold statue of a woman and a boa.	snake	boa	neutral
+252	A choir is singing with a conductor guiding a symphony in a roman style building in front of a large gold statue of a woman and a boa.	A choir is singing with a conductor guiding a symphony in a roman style building in front of a large gold statue of a woman and a snake.	snake	boa	entailment
+253	A choir is singing with a conductor guiding a symphony in a roman style building in front of a large gold statue of a woman and a snake.	A choir is singing with a conductor guiding a symphony in a roman style building in front of a large gold statue of a woman and a cobra.	snake	cobra	neutral
+254	A choir is singing with a conductor guiding a symphony in a roman style building in front of a large gold statue of a woman and a cobra.	A choir is singing with a conductor guiding a symphony in a roman style building in front of a large gold statue of a woman and a snake.	snake	cobra	entailment
+259	a man wearing a brown shirt throwing the basketball into the basket.	a man wearing a brown shirt throwing the ball into the basket.	ball	basketball	entailment
+260	a man wearing a brown shirt throwing the ball into the basket.	a man wearing a brown shirt throwing the basketball into the basket.	ball	basketball	neutral
+261	This is a young guy reaching for a falcon on a perch.	This is a young guy reaching for a bird on a perch.	bird	falcon	entailment
+262	This is a young guy reaching for a bird on a perch.	This is a young guy reaching for a falcon on a perch.	bird	falcon	neutral
+263	A man in a black t-shirt is standing in front of a book shelf.	An adult in a black t-shirt is standing in front of a book shelf.	adult	man	entailment
+264	An adult in a black t-shirt is standing in front of a book shelf.	A man in a black t-shirt is standing in front of a book shelf.	adult	man	neutral
+265	A man in a black t-shirt is standing in front of a book shelf.	An individual in a black t-shirt is standing in front of a book shelf.	individual	man	entailment
+266	An individual in a black t-shirt is standing in front of a book shelf.	A man in a black t-shirt is standing in front of a book shelf.	individual	man	neutral
+267	A man in a black t-shirt is standing in front of a book shelf.	A widower in a black t-shirt is standing in front of a book shelf.	man	widower	neutral
+268	A widower in a black t-shirt is standing in front of a book shelf.	A man in a black t-shirt is standing in front of a book shelf.	man	widower	entailment
+269	A man in a black t-shirt is standing in front of a book shelf.	A hunk in a black t-shirt is standing in front of a book shelf.	man	hunk	neutral
+270	A hunk in a black t-shirt is standing in front of a book shelf.	A man in a black t-shirt is standing in front of a book shelf.	man	hunk	entailment
+271	A man in a black t-shirt is standing in front of a book shelf.	A geezer in a black t-shirt is standing in front of a book shelf.	man	geezer	neutral
+272	A geezer in a black t-shirt is standing in front of a book shelf.	A man in a black t-shirt is standing in front of a book shelf.	man	geezer	entailment
+275	A young woman is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	A young adult is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	adult	woman	entailment
+276	A young adult is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	A young woman is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	adult	woman	neutral
+277	A young woman is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	A young person is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	person	woman	entailment
+278	A young person is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	A young woman is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	person	woman	neutral
+283	A young woman is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	A young maid is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	woman	maid	neutral
+284	A young maid is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	A young woman is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	woman	maid	entailment
+285	A young woman is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	A young girlfriend is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	woman	girlfriend	neutral
+286	A young girlfriend is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	A young woman is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	woman	girlfriend	entailment
+287	A young woman is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	A young hooker is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	woman	hooker	neutral
+288	A young hooker is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	A young woman is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	woman	hooker	entailment
+291	A young woman is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	A young housewife is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	woman	housewife	neutral
+292	A young housewife is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	A young woman is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	woman	housewife	entailment
+293	A young woman is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	A young whore is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	woman	whore	neutral
+294	A young whore is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	A young woman is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	woman	whore	entailment
+295	A young woman is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	A young mother is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	woman	mother	neutral
+296	A young mother is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	A young woman is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	woman	mother	entailment
+297	A young woman is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	A young bridesmaid is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	woman	bridesmaid	neutral
+298	A young bridesmaid is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	A young woman is drinking a beer while dressing in a pageant costume which includes lots of pink feathers and beads.	woman	bridesmaid	entailment
+303	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black pot as she wades through shallow water under a bridge.	object	pot	neutral
+304	A woman wearing a maroon hoodie is holding a black pot as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	object	pot	entailment
+307	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black helmet as she wades through shallow water under a bridge.	object	helmet	neutral
+308	A woman wearing a maroon hoodie is holding a black helmet as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	object	helmet	entailment
+309	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black brush as she wades through shallow water under a bridge.	object	brush	neutral
+310	A woman wearing a maroon hoodie is holding a black brush as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	object	brush	entailment
+315	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black calculator as she wades through shallow water under a bridge.	object	calculator	neutral
+316	A woman wearing a maroon hoodie is holding a black calculator as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	object	calculator	entailment
+319	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black jacket as she wades through shallow water under a bridge.	object	jacket	neutral
+320	A woman wearing a maroon hoodie is holding a black jacket as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	object	jacket	entailment
+325	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black hat as she wades through shallow water under a bridge.	object	hat	neutral
+326	A woman wearing a maroon hoodie is holding a black hat as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	object	hat	entailment
+327	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black cane as she wades through shallow water under a bridge.	object	cane	neutral
+328	A woman wearing a maroon hoodie is holding a black cane as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	object	cane	entailment
+329	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black box as she wades through shallow water under a bridge.	object	box	neutral
+330	A woman wearing a maroon hoodie is holding a black box as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	object	box	entailment
+333	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black horn as she wades through shallow water under a bridge.	object	horn	neutral
+334	A woman wearing a maroon hoodie is holding a black horn as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	object	horn	entailment
+335	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black mandolin as she wades through shallow water under a bridge.	object	mandolin	neutral
+336	A woman wearing a maroon hoodie is holding a black mandolin as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	object	mandolin	entailment
+337	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black spear as she wades through shallow water under a bridge.	object	spear	neutral
+338	A woman wearing a maroon hoodie is holding a black spear as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	object	spear	entailment
+339	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black shotgun as she wades through shallow water under a bridge.	object	shotgun	neutral
+340	A woman wearing a maroon hoodie is holding a black shotgun as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	object	shotgun	entailment
+341	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black book as she wades through shallow water under a bridge.	object	book	neutral
+342	A woman wearing a maroon hoodie is holding a black book as she wades through shallow water under a bridge.	A woman wearing a maroon hoodie is holding a black object as she wades through shallow water under a bridge.	object	book	entailment
+343	Two figures in a red and green boat are gazing toward some large rocks on the shore.	Two figures in a red and green lifeboat are gazing toward some large rocks on the shore.	boat	lifeboat	neutral
+344	Two figures in a red and green lifeboat are gazing toward some large rocks on the shore.	Two figures in a red and green boat are gazing toward some large rocks on the shore.	boat	lifeboat	entailment
+347	Two figures in a red and green boat are gazing toward some large rocks on the shore.	Two figures in a red and green speedboat are gazing toward some large rocks on the shore.	boat	speedboat	neutral
+348	Two figures in a red and green speedboat are gazing toward some large rocks on the shore.	Two figures in a red and green boat are gazing toward some large rocks on the shore.	boat	speedboat	entailment
+349	Two figures in a red and green boat are gazing toward some large rocks on the shore.	Two figures in a red and green houseboat are gazing toward some large rocks on the shore.	boat	houseboat	neutral
+350	Two figures in a red and green houseboat are gazing toward some large rocks on the shore.	Two figures in a red and green boat are gazing toward some large rocks on the shore.	boat	houseboat	entailment
+351	Two figures in a red and green boat are gazing toward some large rocks on the shore.	Two figures in a red and green motorboat are gazing toward some large rocks on the shore.	boat	motorboat	neutral
+352	Two figures in a red and green motorboat are gazing toward some large rocks on the shore.	Two figures in a red and green boat are gazing toward some large rocks on the shore.	boat	motorboat	entailment
+355	Two figures in a red and green boat are gazing toward some large rocks on the shore.	Two figures in a red and green tugboat are gazing toward some large rocks on the shore.	boat	tugboat	neutral
+356	Two figures in a red and green tugboat are gazing toward some large rocks on the shore.	Two figures in a red and green boat are gazing toward some large rocks on the shore.	boat	tugboat	entailment
+357	Two figures in a red and green boat are gazing toward some large rocks on the shore.	Two figures in a red and green canoe are gazing toward some large rocks on the shore.	boat	canoe	neutral
+358	Two figures in a red and green canoe are gazing toward some large rocks on the shore.	Two figures in a red and green boat are gazing toward some large rocks on the shore.	boat	canoe	entailment
+361	A group of people eat a meal at a restaurant.	A group of people eat a meal at a steakhouse.	restaurant	steakhouse	neutral
+362	A group of people eat a meal at a steakhouse.	A group of people eat a meal at a restaurant.	restaurant	steakhouse	entailment
+363	A group of people eat a meal at a restaurant.	A group of people eat a meal at a cafe.	restaurant	cafe	neutral
+364	A group of people eat a meal at a cafe.	A group of people eat a meal at a restaurant.	restaurant	cafe	entailment
+367	An Asian person with yellow sandals sitting with a basket to their right.	An Asian executive with yellow sandals sitting with a basket to their right.	person	executive	neutral
+368	An Asian executive with yellow sandals sitting with a basket to their right.	An Asian person with yellow sandals sitting with a basket to their right.	person	executive	entailment
+369	An Asian person with yellow sandals sitting with a basket to their right.	An Asian gravedigger with yellow sandals sitting with a basket to their right.	person	gravedigger	neutral
+370	An Asian gravedigger with yellow sandals sitting with a basket to their right.	An Asian person with yellow sandals sitting with a basket to their right.	person	gravedigger	entailment
+377	An Asian person with yellow sandals sitting with a basket to their right.	An Asian bowler with yellow sandals sitting with a basket to their right.	person	bowler	neutral
+378	An Asian bowler with yellow sandals sitting with a basket to their right.	An Asian person with yellow sandals sitting with a basket to their right.	person	bowler	entailment
+379	An Asian person with yellow sandals sitting with a basket to their right.	An Asian farmer with yellow sandals sitting with a basket to their right.	person	farmer	neutral
+380	An Asian farmer with yellow sandals sitting with a basket to their right.	An Asian person with yellow sandals sitting with a basket to their right.	person	farmer	entailment
+383	An Asian person with yellow sandals sitting with a basket to their right.	An Asian bartender with yellow sandals sitting with a basket to their right.	person	bartender	neutral
+384	An Asian bartender with yellow sandals sitting with a basket to their right.	An Asian person with yellow sandals sitting with a basket to their right.	person	bartender	entailment
+387	An Asian person with yellow sandals sitting with a basket to their right.	An Asian republican with yellow sandals sitting with a basket to their right.	person	republican	neutral
+388	An Asian republican with yellow sandals sitting with a basket to their right.	An Asian person with yellow sandals sitting with a basket to their right.	person	republican	entailment
+389	An Asian person with yellow sandals sitting with a basket to their right.	An Asian cowboy with yellow sandals sitting with a basket to their right.	person	cowboy	neutral
+390	An Asian cowboy with yellow sandals sitting with a basket to their right.	An Asian person with yellow sandals sitting with a basket to their right.	person	cowboy	entailment
+397	An Asian person with yellow sandals sitting with a basket to their right.	An Asian businessperson with yellow sandals sitting with a basket to their right.	person	businessperson	neutral
+398	An Asian businessperson with yellow sandals sitting with a basket to their right.	An Asian person with yellow sandals sitting with a basket to their right.	person	businessperson	entailment
+399	An Asian person with yellow sandals sitting with a basket to their right.	An Asian repairman with yellow sandals sitting with a basket to their right.	person	repairman	neutral
+400	An Asian repairman with yellow sandals sitting with a basket to their right.	An Asian person with yellow sandals sitting with a basket to their right.	person	repairman	entailment
+401	An Asian person with yellow sandals sitting with a basket to their right.	An Asian pimp with yellow sandals sitting with a basket to their right.	person	pimp	neutral
+402	An Asian pimp with yellow sandals sitting with a basket to their right.	An Asian person with yellow sandals sitting with a basket to their right.	person	pimp	entailment
+403	An Asian person with yellow sandals sitting with a basket to their right.	An Asian billionaire with yellow sandals sitting with a basket to their right.	person	billionaire	neutral
+404	An Asian billionaire with yellow sandals sitting with a basket to their right.	An Asian person with yellow sandals sitting with a basket to their right.	person	billionaire	entailment
+405	Several people in line for checkout at a large store.	Several people in line for checkout at a large drugstore.	store	drugstore	neutral
+406	Several people in line for checkout at a large drugstore.	Several people in line for checkout at a large store.	store	drugstore	entailment
+407	Several people in line for checkout at a large store.	Several people in line for checkout at a large boutique.	store	boutique	neutral
+408	Several people in line for checkout at a large boutique.	Several people in line for checkout at a large store.	store	boutique	entailment
+409	Several people in line for checkout at a large store.	Several people in line for checkout at a large florist.	store	florist	neutral
+410	Several people in line for checkout at a large florist.	Several people in line for checkout at a large store.	store	florist	entailment
+413	A dog chases a stuffed animal attached to a string.	A dog chases a stuffed bluebird attached to a string.	animal	bluebird	neutral
+414	A dog chases a stuffed bluebird attached to a string.	A dog chases a stuffed animal attached to a string.	animal	bluebird	entailment
+415	A dog chases a stuffed animal attached to a string.	A dog chases a stuffed baboon attached to a string.	animal	baboon	neutral
+416	A dog chases a stuffed baboon attached to a string.	A dog chases a stuffed animal attached to a string.	animal	baboon	entailment
+417	A dog chases a stuffed animal attached to a string.	A dog chases a stuffed weasel attached to a string.	animal	weasel	neutral
+418	A dog chases a stuffed weasel attached to a string.	A dog chases a stuffed animal attached to a string.	animal	weasel	entailment
+419	A dog chases a stuffed animal attached to a string.	A dog chases a stuffed parrot attached to a string.	animal	parrot	neutral
+420	A dog chases a stuffed parrot attached to a string.	A dog chases a stuffed animal attached to a string.	animal	parrot	entailment
+421	A dog chases a stuffed animal attached to a string.	A dog chases a stuffed gopher attached to a string.	animal	gopher	neutral
+422	A dog chases a stuffed gopher attached to a string.	A dog chases a stuffed animal attached to a string.	animal	gopher	entailment
+423	A dog chases a stuffed animal attached to a string.	A dog chases a stuffed quail attached to a string.	animal	quail	neutral
+424	A dog chases a stuffed quail attached to a string.	A dog chases a stuffed animal attached to a string.	animal	quail	entailment
+425	A dog chases a stuffed animal attached to a string.	A dog chases a stuffed snake attached to a string.	animal	snake	neutral
+426	A dog chases a stuffed snake attached to a string.	A dog chases a stuffed animal attached to a string.	animal	snake	entailment
+431	A dog chases a stuffed animal attached to a string.	A dog chases a stuffed caterpillar attached to a string.	animal	caterpillar	neutral
+432	A dog chases a stuffed caterpillar attached to a string.	A dog chases a stuffed animal attached to a string.	animal	caterpillar	entailment
+435	A dog chases a stuffed animal attached to a string.	A dog chases a stuffed leopard attached to a string.	animal	leopard	neutral
+436	A dog chases a stuffed leopard attached to a string.	A dog chases a stuffed animal attached to a string.	animal	leopard	entailment
+441	A dog chases a stuffed animal attached to a string.	A dog chases a stuffed mouse attached to a string.	animal	mouse	neutral
+442	A dog chases a stuffed mouse attached to a string.	A dog chases a stuffed animal attached to a string.	animal	mouse	entailment
+443	A dog chases a stuffed animal attached to a string.	A dog chases a stuffed bull attached to a string.	animal	bull	neutral
+444	A dog chases a stuffed bull attached to a string.	A dog chases a stuffed animal attached to a string.	animal	bull	entailment
+445	A dog chases a stuffed animal attached to a string.	A dog chases a stuffed eagle attached to a string.	animal	eagle	neutral
+446	A dog chases a stuffed eagle attached to a string.	A dog chases a stuffed animal attached to a string.	animal	eagle	entailment
+447	A dog chases a stuffed animal attached to a string.	A dog chases a stuffed panda attached to a string.	animal	panda	neutral
+448	A dog chases a stuffed panda attached to a string.	A dog chases a stuffed animal attached to a string.	animal	panda	entailment
+449	A dog chases a stuffed animal attached to a string.	A dog chases a stuffed llama attached to a string.	animal	llama	neutral
+450	A dog chases a stuffed llama attached to a string.	A dog chases a stuffed animal attached to a string.	animal	llama	entailment
+453	A man is standing in a field looking at a plant in his hand.	A man is standing in a field looking at a milkweed in his hand.	plant	milkweed	neutral
+454	A man is standing in a field looking at a milkweed in his hand.	A man is standing in a field looking at a plant in his hand.	plant	milkweed	entailment
+455	A man is standing in a field looking at a plant in his hand.	A man is standing in a field looking at a tumbleweed in his hand.	plant	tumbleweed	neutral
+456	A man is standing in a field looking at a tumbleweed in his hand.	A man is standing in a field looking at a plant in his hand.	plant	tumbleweed	entailment
+461	A man is standing in a field looking at a plant in his hand.	A man is standing in a field looking at a shrub in his hand.	plant	shrub	neutral
+462	A man is standing in a field looking at a shrub in his hand.	A man is standing in a field looking at a plant in his hand.	plant	shrub	entailment
+463	A man is standing in a field looking at a plant in his hand.	A man is standing in a field looking at a reed in his hand.	plant	reed	neutral
+464	A man is standing in a field looking at a reed in his hand.	A man is standing in a field looking at a plant in his hand.	plant	reed	entailment
+465	A man is standing in a field looking at a plant in his hand.	A man is standing in a field looking at a cactus in his hand.	plant	cactus	neutral
+466	A man is standing in a field looking at a cactus in his hand.	A man is standing in a field looking at a plant in his hand.	plant	cactus	entailment
+471	A man is standing in a field looking at a plant in his hand.	A man is standing in a field looking at a lilac in his hand.	plant	lilac	neutral
+472	A man is standing in a field looking at a lilac in his hand.	A man is standing in a field looking at a plant in his hand.	plant	lilac	entailment
+473	A man is standing in a field looking at a plant in his hand.	A man is standing in a field looking at a flower in his hand.	plant	flower	neutral
+474	A man is standing in a field looking at a flower in his hand.	A man is standing in a field looking at a plant in his hand.	plant	flower	entailment
+475	A man is standing in a field looking at a plant in his hand.	A man is standing in a field looking at a sunflower in his hand.	plant	sunflower	neutral
+476	A man is standing in a field looking at a sunflower in his hand.	A man is standing in a field looking at a plant in his hand.	plant	sunflower	entailment
+477	A man is standing in a field looking at a plant in his hand.	A man is standing in a field looking at a vine in his hand.	plant	vine	neutral
+478	A man is standing in a field looking at a vine in his hand.	A man is standing in a field looking at a plant in his hand.	plant	vine	entailment
+479	A man is standing in a field looking at a plant in his hand.	A man is standing in a field looking at a rose in his hand.	plant	rose	neutral
+480	A man is standing in a field looking at a rose in his hand.	A man is standing in a field looking at a plant in his hand.	plant	rose	entailment
+481	A man is standing in a field looking at a plant in his hand.	A man is standing in a field looking at a lily in his hand.	plant	lily	neutral
+482	A man is standing in a field looking at a lily in his hand.	A man is standing in a field looking at a plant in his hand.	plant	lily	entailment
+483	A man is standing in a field looking at a plant in his hand.	A man is standing in a field looking at a herb in his hand.	plant	herb	neutral
+484	A man is standing in a field looking at a herb in his hand.	A man is standing in a field looking at a plant in his hand.	plant	herb	entailment
+487	A man is standing in a field looking at a plant in his hand.	A man is standing in a field looking at a weed in his hand.	plant	weed	neutral
+488	A man is standing in a field looking at a weed in his hand.	A man is standing in a field looking at a plant in his hand.	plant	weed	entailment
+497	A woman holding a flower stands in front of a marketplace tableau of vibrant green produce, including, lettuce of various types, cactus, radishes, and various herbs.	A woman holding a sunflower stands in front of a marketplace tableau of vibrant green produce, including, lettuce of various types, cactus, radishes, and various herbs.	flower	sunflower	neutral
+498	A woman holding a sunflower stands in front of a marketplace tableau of vibrant green produce, including, lettuce of various types, cactus, radishes, and various herbs.	A woman holding a flower stands in front of a marketplace tableau of vibrant green produce, including, lettuce of various types, cactus, radishes, and various herbs.	flower	sunflower	entailment
+499	two young girls wearing bonnets standing by a tree watching a snake nearby.	two young girls wearing bonnets standing by a tree watching a reptile nearby.	reptile	snake	entailment
+500	two young girls wearing bonnets standing by a tree watching a reptile nearby.	two young girls wearing bonnets standing by a tree watching a snake nearby.	reptile	snake	neutral
+501	two young girls wearing bonnets standing by a tree watching a snake nearby.	two young girls wearing bonnets standing by a tree watching a creature nearby.	creature	snake	entailment
+502	two young girls wearing bonnets standing by a tree watching a creature nearby.	two young girls wearing bonnets standing by a tree watching a snake nearby.	creature	snake	neutral
+505	two young girls wearing bonnets standing by a tree watching a snake nearby.	two young girls wearing bonnets standing by a tree watching a cobra nearby.	snake	cobra	neutral
+506	two young girls wearing bonnets standing by a tree watching a cobra nearby.	two young girls wearing bonnets standing by a tree watching a snake nearby.	snake	cobra	entailment
+507	two young girls wearing bonnets standing by a tree watching a snake nearby.	two young girls wearing bonnets standing by a tree watching a boa nearby.	snake	boa	neutral
+508	two young girls wearing bonnets standing by a tree watching a boa nearby.	two young girls wearing bonnets standing by a tree watching a snake nearby.	snake	boa	entailment
+509	A person stands atop a rock face.	A pagan stands atop a rock face.	person	pagan	neutral
+510	A pagan stands atop a rock face.	A person stands atop a rock face.	person	pagan	entailment
+511	A person stands atop a rock face.	A runner stands atop a rock face.	person	runner	neutral
+512	A runner stands atop a rock face.	A person stands atop a rock face.	person	runner	entailment
+513	A person stands atop a rock face.	A landscaper stands atop a rock face.	person	landscaper	neutral
+514	A landscaper stands atop a rock face.	A person stands atop a rock face.	person	landscaper	entailment
+517	A person stands atop a rock face.	A shepherd stands atop a rock face.	person	shepherd	neutral
+518	A shepherd stands atop a rock face.	A person stands atop a rock face.	person	shepherd	entailment
+519	A person stands atop a rock face.	A housekeeper stands atop a rock face.	person	housekeeper	neutral
+520	A housekeeper stands atop a rock face.	A person stands atop a rock face.	person	housekeeper	entailment
+525	A person stands atop a rock face.	A physicist stands atop a rock face.	person	physicist	neutral
+526	A physicist stands atop a rock face.	A person stands atop a rock face.	person	physicist	entailment
+527	A person stands atop a rock face.	An oldtimer stands atop a rock face.	person	oldtimer	neutral
+528	An oldtimer stands atop a rock face.	A person stands atop a rock face.	person	oldtimer	entailment
+529	A person stands atop a rock face.	A steward stands atop a rock face.	person	steward	neutral
+530	A steward stands atop a rock face.	A person stands atop a rock face.	person	steward	entailment
+531	A person stands atop a rock face.	An Ukranian stands atop a rock face.	person	ukranian	neutral
+532	An Ukranian stands atop a rock face.	A person stands atop a rock face.	person	ukranian	entailment
+533	A person stands atop a rock face.	An actress stands atop a rock face.	person	actress	neutral
+534	An actress stands atop a rock face.	A person stands atop a rock face.	person	actress	entailment
+537	A person stands atop a rock face.	A stewardess stands atop a rock face.	person	stewardess	neutral
+538	A stewardess stands atop a rock face.	A person stands atop a rock face.	person	stewardess	entailment
+543	A person stands atop a rock face.	A sergeant stands atop a rock face.	person	sergeant	neutral
+544	A sergeant stands atop a rock face.	A person stands atop a rock face.	person	sergeant	entailment
+545	A person stands atop a rock face.	A fiddler stands atop a rock face.	person	fiddler	neutral
+546	A fiddler stands atop a rock face.	A person stands atop a rock face.	person	fiddler	entailment
+549	A person stands atop a rock face.	A gal stands atop a rock face.	person	gal	neutral
+550	A gal stands atop a rock face.	A person stands atop a rock face.	person	gal	entailment
+551	A person stands atop a rock face.	A farmer stands atop a rock face.	person	farmer	neutral
+552	A farmer stands atop a rock face.	A person stands atop a rock face.	person	farmer	entailment
+553	A person stands atop a rock face.	A cop stands atop a rock face.	person	cop	neutral
+554	A cop stands atop a rock face.	A person stands atop a rock face.	person	cop	entailment
+555	A person stands atop a rock face.	A vegetarian stands atop a rock face.	person	vegetarian	neutral
+556	A vegetarian stands atop a rock face.	A person stands atop a rock face.	person	vegetarian	entailment
+565	A person stands atop a rock face.	A navigator stands atop a rock face.	person	navigator	neutral
+566	A navigator stands atop a rock face.	A person stands atop a rock face.	person	navigator	entailment
+567	A person stands atop a rock face.	An Indian stands atop a rock face.	person	indian	neutral
+568	An Indian stands atop a rock face.	A person stands atop a rock face.	person	indian	entailment
+569	A person stands atop a rock face.	A genius stands atop a rock face.	person	genius	neutral
+570	A genius stands atop a rock face.	A person stands atop a rock face.	person	genius	entailment
+571	A person stands atop a rock face.	A youth stands atop a rock face.	person	youth	neutral
+572	A youth stands atop a rock face.	A person stands atop a rock face.	person	youth	entailment
+573	A person stands atop a rock face.	A cleaner stands atop a rock face.	person	cleaner	neutral
+574	A cleaner stands atop a rock face.	A person stands atop a rock face.	person	cleaner	entailment
+575	A person stands atop a rock face.	A lunatic stands atop a rock face.	person	lunatic	neutral
+576	A lunatic stands atop a rock face.	A person stands atop a rock face.	person	lunatic	entailment
+577	A person stands atop a rock face.	An architect stands atop a rock face.	person	architect	neutral
+578	An architect stands atop a rock face.	A person stands atop a rock face.	person	architect	entailment
+581	A swimming pool with men tossing a ball around.	A swimming pool with men tossing a volleyball around.	ball	volleyball	neutral
+582	A swimming pool with men tossing a volleyball around.	A swimming pool with men tossing a ball around.	ball	volleyball	entailment
+585	A swimming pool with men tossing a ball around.	A swimming pool with men tossing a baseball around.	ball	baseball	neutral
+586	A swimming pool with men tossing a baseball around.	A swimming pool with men tossing a ball around.	ball	baseball	entailment
+587	A swimming pool with men tossing a ball around.	A swimming pool with men tossing a basketball around.	ball	basketball	neutral
+588	A swimming pool with men tossing a basketball around.	A swimming pool with men tossing a ball around.	ball	basketball	entailment
+589	A swimming pool with men tossing a ball around.	A swimming pool with men tossing a softball around.	ball	softball	neutral
+590	A swimming pool with men tossing a softball around.	A swimming pool with men tossing a ball around.	ball	softball	entailment
+591	A swimming pool with men tossing a ball around.	A swimming pool with men tossing a racquetball around.	ball	racquetball	neutral
+592	A swimming pool with men tossing a racquetball around.	A swimming pool with men tossing a ball around.	ball	racquetball	entailment
+593	A female athlete is running after exiting a swimming pool.	A female individual is running after exiting a swimming pool.	individual	athlete	entailment
+594	A female individual is running after exiting a swimming pool.	A female athlete is running after exiting a swimming pool.	individual	athlete	neutral
+595	A female athlete is running after exiting a swimming pool.	A female goalie is running after exiting a swimming pool.	athlete	goalie	neutral
+596	A female goalie is running after exiting a swimming pool.	A female athlete is running after exiting a swimming pool.	athlete	goalie	entailment
+597	A female athlete is running after exiting a swimming pool.	A female pitcher is running after exiting a swimming pool.	athlete	pitcher	neutral
+598	A female pitcher is running after exiting a swimming pool.	A female athlete is running after exiting a swimming pool.	athlete	pitcher	entailment
+601	A female athlete is running after exiting a swimming pool.	A female outfielder is running after exiting a swimming pool.	athlete	outfielder	neutral
+602	A female outfielder is running after exiting a swimming pool.	A female athlete is running after exiting a swimming pool.	athlete	outfielder	entailment
+603	A female athlete is running after exiting a swimming pool.	A female marathoner is running after exiting a swimming pool.	athlete	marathoner	neutral
+604	A female marathoner is running after exiting a swimming pool.	A female athlete is running after exiting a swimming pool.	athlete	marathoner	entailment
+605	A female athlete is running after exiting a swimming pool.	A female ballplayer is running after exiting a swimming pool.	athlete	ballplayer	neutral
+606	A female ballplayer is running after exiting a swimming pool.	A female athlete is running after exiting a swimming pool.	athlete	ballplayer	entailment
+607	A female athlete is running after exiting a swimming pool.	A female sprinter is running after exiting a swimming pool.	athlete	sprinter	neutral
+608	A female sprinter is running after exiting a swimming pool.	A female athlete is running after exiting a swimming pool.	athlete	sprinter	entailment
+609	A female athlete is running after exiting a swimming pool.	A female linebacker is running after exiting a swimming pool.	athlete	linebacker	neutral
+610	A female linebacker is running after exiting a swimming pool.	A female athlete is running after exiting a swimming pool.	athlete	linebacker	entailment
+611	A female athlete is running after exiting a swimming pool.	A female punter is running after exiting a swimming pool.	athlete	punter	neutral
+612	A female punter is running after exiting a swimming pool.	A female athlete is running after exiting a swimming pool.	athlete	punter	entailment
+613	A female athlete is running after exiting a swimming pool.	A female catcher is running after exiting a swimming pool.	athlete	catcher	neutral
+614	A female catcher is running after exiting a swimming pool.	A female athlete is running after exiting a swimming pool.	athlete	catcher	entailment
+615	A female athlete is running after exiting a swimming pool.	A female kicker is running after exiting a swimming pool.	athlete	kicker	neutral
+616	A female kicker is running after exiting a swimming pool.	A female athlete is running after exiting a swimming pool.	athlete	kicker	entailment
+619	A female athlete is running after exiting a swimming pool.	A female quarterback is running after exiting a swimming pool.	athlete	quarterback	neutral
+620	A female quarterback is running after exiting a swimming pool.	A female athlete is running after exiting a swimming pool.	athlete	quarterback	entailment
+621	A female athlete is running after exiting a swimming pool.	A female bowler is running after exiting a swimming pool.	athlete	bowler	neutral
+622	A female bowler is running after exiting a swimming pool.	A female athlete is running after exiting a swimming pool.	athlete	bowler	entailment
+627	A little girl in stripes, overalls and pigtails is eating a piece of fruit in her hands on a sunny day in the shade.	A little girl in stripes, overalls and pigtails is eating a piece of cantaloupe in her hands on a sunny day in the shade.	fruit	cantaloupe	neutral
+628	A little girl in stripes, overalls and pigtails is eating a piece of cantaloupe in her hands on a sunny day in the shade.	A little girl in stripes, overalls and pigtails is eating a piece of fruit in her hands on a sunny day in the shade.	fruit	cantaloupe	entailment
+629	A little girl in stripes, overalls and pigtails is eating a piece of fruit in her hands on a sunny day in the shade.	A little girl in stripes, overalls and pigtails is eating a piece of peach in her hands on a sunny day in the shade.	fruit	peach	neutral
+630	A little girl in stripes, overalls and pigtails is eating a piece of peach in her hands on a sunny day in the shade.	A little girl in stripes, overalls and pigtails is eating a piece of fruit in her hands on a sunny day in the shade.	fruit	peach	entailment
+633	A little girl in stripes, overalls and pigtails is eating a piece of fruit in her hands on a sunny day in the shade.	A little girl in stripes, overalls and pigtails is eating a piece of pineapple in her hands on a sunny day in the shade.	fruit	pineapple	neutral
+634	A little girl in stripes, overalls and pigtails is eating a piece of pineapple in her hands on a sunny day in the shade.	A little girl in stripes, overalls and pigtails is eating a piece of fruit in her hands on a sunny day in the shade.	fruit	pineapple	entailment
+635	A little girl in stripes, overalls and pigtails is eating a piece of fruit in her hands on a sunny day in the shade.	A little girl in stripes, overalls and pigtails is eating a piece of orange in her hands on a sunny day in the shade.	fruit	orange	neutral
+636	A little girl in stripes, overalls and pigtails is eating a piece of orange in her hands on a sunny day in the shade.	A little girl in stripes, overalls and pigtails is eating a piece of fruit in her hands on a sunny day in the shade.	fruit	orange	entailment
+639	A little girl in stripes, overalls and pigtails is eating a piece of fruit in her hands on a sunny day in the shade.	A little girl in stripes, overalls and pigtails is eating a piece of plum in her hands on a sunny day in the shade.	fruit	plum	neutral
+640	A little girl in stripes, overalls and pigtails is eating a piece of plum in her hands on a sunny day in the shade.	A little girl in stripes, overalls and pigtails is eating a piece of fruit in her hands on a sunny day in the shade.	fruit	plum	entailment
+641	A little girl in stripes, overalls and pigtails is eating a piece of fruit in her hands on a sunny day in the shade.	A little girl in stripes, overalls and pigtails is eating a piece of melon in her hands on a sunny day in the shade.	fruit	melon	neutral
+642	A little girl in stripes, overalls and pigtails is eating a piece of melon in her hands on a sunny day in the shade.	A little girl in stripes, overalls and pigtails is eating a piece of fruit in her hands on a sunny day in the shade.	fruit	melon	entailment
+643	A little girl in stripes, overalls and pigtails is eating a piece of fruit in her hands on a sunny day in the shade.	A little girl in stripes, overalls and pigtails is eating a piece of papaya in her hands on a sunny day in the shade.	fruit	papaya	neutral
+644	A little girl in stripes, overalls and pigtails is eating a piece of papaya in her hands on a sunny day in the shade.	A little girl in stripes, overalls and pigtails is eating a piece of fruit in her hands on a sunny day in the shade.	fruit	papaya	entailment
+645	A little girl in stripes, overalls and pigtails is eating a piece of fruit in her hands on a sunny day in the shade.	A little girl in stripes, overalls and pigtails is eating a piece of lime in her hands on a sunny day in the shade.	fruit	lime	neutral
+646	A little girl in stripes, overalls and pigtails is eating a piece of lime in her hands on a sunny day in the shade.	A little girl in stripes, overalls and pigtails is eating a piece of fruit in her hands on a sunny day in the shade.	fruit	lime	entailment
+647	A little girl in stripes, overalls and pigtails is eating a piece of fruit in her hands on a sunny day in the shade.	A little girl in stripes, overalls and pigtails is eating a piece of banana in her hands on a sunny day in the shade.	fruit	banana	neutral
+648	A little girl in stripes, overalls and pigtails is eating a piece of banana in her hands on a sunny day in the shade.	A little girl in stripes, overalls and pigtails is eating a piece of fruit in her hands on a sunny day in the shade.	fruit	banana	entailment
+653	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	A little girl in a floury, pink jacket, picks out a cantaloupe from a vendors table.	fruit	cantaloupe	neutral
+654	A little girl in a floury, pink jacket, picks out a cantaloupe from a vendors table.	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	fruit	cantaloupe	entailment
+655	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	A little girl in a floury, pink jacket, picks out a blueberry from a vendors table.	fruit	blueberry	neutral
+656	A little girl in a floury, pink jacket, picks out a blueberry from a vendors table.	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	fruit	blueberry	entailment
+661	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	A little girl in a floury, pink jacket, picks out a strawberry from a vendors table.	fruit	strawberry	neutral
+662	A little girl in a floury, pink jacket, picks out a strawberry from a vendors table.	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	fruit	strawberry	entailment
+663	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	A little girl in a floury, pink jacket, picks out a peach from a vendors table.	fruit	peach	neutral
+664	A little girl in a floury, pink jacket, picks out a peach from a vendors table.	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	fruit	peach	entailment
+667	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	A little girl in a floury, pink jacket, picks out a huckleberry from a vendors table.	fruit	huckleberry	neutral
+668	A little girl in a floury, pink jacket, picks out a huckleberry from a vendors table.	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	fruit	huckleberry	entailment
+671	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	A little girl in a floury, pink jacket, picks out a papaya from a vendors table.	fruit	papaya	neutral
+672	A little girl in a floury, pink jacket, picks out a papaya from a vendors table.	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	fruit	papaya	entailment
+673	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	A little girl in a floury, pink jacket, picks out a pineapple from a vendors table.	fruit	pineapple	neutral
+674	A little girl in a floury, pink jacket, picks out a pineapple from a vendors table.	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	fruit	pineapple	entailment
+677	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	A little girl in a floury, pink jacket, picks out an orange from a vendors table.	fruit	orange	neutral
+678	A little girl in a floury, pink jacket, picks out an orange from a vendors table.	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	fruit	orange	entailment
+679	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	A little girl in a floury, pink jacket, picks out a plum from a vendors table.	fruit	plum	neutral
+680	A little girl in a floury, pink jacket, picks out a plum from a vendors table.	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	fruit	plum	entailment
+681	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	A little girl in a floury, pink jacket, picks out a banana from a vendors table.	fruit	banana	neutral
+682	A little girl in a floury, pink jacket, picks out a banana from a vendors table.	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	fruit	banana	entailment
+685	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	A little girl in a floury, pink jacket, picks out a cranberry from a vendors table.	fruit	cranberry	neutral
+686	A little girl in a floury, pink jacket, picks out a cranberry from a vendors table.	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	fruit	cranberry	entailment
+687	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	A little girl in a floury, pink jacket, picks out a grape from a vendors table.	fruit	grape	neutral
+688	A little girl in a floury, pink jacket, picks out a grape from a vendors table.	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	fruit	grape	entailment
+689	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	A little girl in a floury, pink jacket, picks out a cherry from a vendors table.	fruit	cherry	neutral
+690	A little girl in a floury, pink jacket, picks out a cherry from a vendors table.	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	fruit	cherry	entailment
+691	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	A little girl in a floury, pink jacket, picks out a lime from a vendors table.	fruit	lime	neutral
+692	A little girl in a floury, pink jacket, picks out a lime from a vendors table.	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	fruit	lime	entailment
+693	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	A little girl in a floury, pink jacket, picks out a melon from a vendors table.	fruit	melon	neutral
+694	A little girl in a floury, pink jacket, picks out a melon from a vendors table.	A little girl in a floury, pink jacket, picks out a fruit from a vendors table.	fruit	melon	entailment
+695	Three people are sleeping in a mass-transit vehicle.	Three people are sleeping in a mass-transit seaplane.	vehicle	seaplane	neutral
+696	Three people are sleeping in a mass-transit seaplane.	Three people are sleeping in a mass-transit vehicle.	vehicle	seaplane	entailment
+697	Three people are sleeping in a mass-transit vehicle.	Three people are sleeping in a mass-transit yacht.	vehicle	yacht	neutral
+698	Three people are sleeping in a mass-transit yacht.	Three people are sleeping in a mass-transit vehicle.	vehicle	yacht	entailment
+699	Three people are sleeping in a mass-transit vehicle.	Three people are sleeping in a mass-transit cruiser.	vehicle	cruiser	neutral
+700	Three people are sleeping in a mass-transit cruiser.	Three people are sleeping in a mass-transit vehicle.	vehicle	cruiser	entailment
+703	Three people are sleeping in a mass-transit vehicle.	Three people are sleeping in a mass-transit van.	vehicle	van	neutral
+704	Three people are sleeping in a mass-transit van.	Three people are sleeping in a mass-transit vehicle.	vehicle	van	entailment
+705	Three people are sleeping in a mass-transit vehicle.	Three people are sleeping in a mass-transit helicopter.	vehicle	helicopter	neutral
+706	Three people are sleeping in a mass-transit helicopter.	Three people are sleeping in a mass-transit vehicle.	vehicle	helicopter	entailment
+707	Three people are sleeping in a mass-transit vehicle.	Three people are sleeping in a mass-transit airship.	vehicle	airship	neutral
+708	Three people are sleeping in a mass-transit airship.	Three people are sleeping in a mass-transit vehicle.	vehicle	airship	entailment
+709	Three people are sleeping in a mass-transit vehicle.	Three people are sleeping in a mass-transit bus.	vehicle	bus	neutral
+710	Three people are sleeping in a mass-transit bus.	Three people are sleeping in a mass-transit vehicle.	vehicle	bus	entailment
+711	A man buys food from a street vendor.	A man buys jam from a street vendor.	food	jam	neutral
+712	A man buys jam from a street vendor.	A man buys food from a street vendor.	food	jam	entailment
+713	A man buys food from a street vendor.	A man buys broth from a street vendor.	food	broth	neutral
+714	A man buys broth from a street vendor.	A man buys food from a street vendor.	food	broth	entailment
+715	A man buys food from a street vendor.	A man buys bread from a street vendor.	food	bread	neutral
+716	A man buys bread from a street vendor.	A man buys food from a street vendor.	food	bread	entailment
+717	A man buys food from a street vendor.	A man buys rye from a street vendor.	food	rye	neutral
+718	A man buys rye from a street vendor.	A man buys food from a street vendor.	food	rye	entailment
+719	A man buys food from a street vendor.	A man buys falafel from a street vendor.	food	falafel	neutral
+720	A man buys falafel from a street vendor.	A man buys food from a street vendor.	food	falafel	entailment
+721	A man buys food from a street vendor.	A man buys sushi from a street vendor.	food	sushi	neutral
+722	A man buys sushi from a street vendor.	A man buys food from a street vendor.	food	sushi	entailment
+723	A man buys food from a street vendor.	A man buys fondue from a street vendor.	food	fondue	neutral
+724	A man buys fondue from a street vendor.	A man buys food from a street vendor.	food	fondue	entailment
+727	A man buys food from a street vendor.	A man buys salsa from a street vendor.	food	salsa	neutral
+728	A man buys salsa from a street vendor.	A man buys food from a street vendor.	food	salsa	entailment
+731	A man buys food from a street vendor.	A man buys salad from a street vendor.	food	salad	neutral
+732	A man buys salad from a street vendor.	A man buys food from a street vendor.	food	salad	entailment
+733	A man buys food from a street vendor.	A man buys casserole from a street vendor.	food	casserole	neutral
+734	A man buys casserole from a street vendor.	A man buys food from a street vendor.	food	casserole	entailment
+735	A man buys food from a street vendor.	A man buys naan from a street vendor.	food	naan	neutral
+736	A man buys naan from a street vendor.	A man buys food from a street vendor.	food	naan	entailment
+737	A man buys food from a street vendor.	A man buys eggs from a street vendor.	food	eggs	neutral
+738	A man buys eggs from a street vendor.	A man buys food from a street vendor.	food	eggs	entailment
+739	A man buys food from a street vendor.	A man buys licorice from a street vendor.	food	licorice	neutral
+740	A man buys licorice from a street vendor.	A man buys food from a street vendor.	food	licorice	entailment
+747	A man buys food from a street vendor.	A man buys popcorn from a street vendor.	food	popcorn	neutral
+748	A man buys popcorn from a street vendor.	A man buys food from a street vendor.	food	popcorn	entailment
+749	A man buys food from a street vendor.	A man buys rice from a street vendor.	food	rice	neutral
+750	A man buys rice from a street vendor.	A man buys food from a street vendor.	food	rice	entailment
+755	A man buys food from a street vendor.	A man buys oatmeal from a street vendor.	food	oatmeal	neutral
+756	A man buys oatmeal from a street vendor.	A man buys food from a street vendor.	food	oatmeal	entailment
+757	A man buys food from a street vendor.	A man buys pasta from a street vendor.	food	pasta	neutral
+758	A man buys pasta from a street vendor.	A man buys food from a street vendor.	food	pasta	entailment
+759	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding a tuba up to his mouth.	instrument	tuba	neutral
+760	A man wearing a red hat is holding a tuba up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	instrument	tuba	entailment
+761	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding a bass up to his mouth.	instrument	bass	neutral
+762	A man wearing a red hat is holding a bass up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	instrument	bass	entailment
+763	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding an accordion up to his mouth.	instrument	accordion	neutral
+764	A man wearing a red hat is holding an accordion up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	instrument	accordion	entailment
+765	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding a harmonica up to his mouth.	instrument	harmonica	neutral
+766	A man wearing a red hat is holding a harmonica up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	instrument	harmonica	entailment
+767	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding a harpsichord up to his mouth.	instrument	harpsichord	neutral
+768	A man wearing a red hat is holding a harpsichord up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	instrument	harpsichord	entailment
+769	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding a baritone up to his mouth.	instrument	baritone	neutral
+770	A man wearing a red hat is holding a baritone up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	instrument	baritone	entailment
+773	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding a bagpipe up to his mouth.	instrument	bagpipe	neutral
+774	A man wearing a red hat is holding a bagpipe up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	instrument	bagpipe	entailment
+775	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding a sousaphone up to his mouth.	instrument	sousaphone	neutral
+776	A man wearing a red hat is holding a sousaphone up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	instrument	sousaphone	entailment
+777	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding an oboe up to his mouth.	instrument	oboe	neutral
+778	A man wearing a red hat is holding an oboe up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	instrument	oboe	entailment
+779	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding a mandolin up to his mouth.	instrument	mandolin	neutral
+780	A man wearing a red hat is holding a mandolin up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	instrument	mandolin	entailment
+783	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding a flute up to his mouth.	instrument	flute	neutral
+784	A man wearing a red hat is holding a flute up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	instrument	flute	entailment
+785	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding a sitar up to his mouth.	instrument	sitar	neutral
+786	A man wearing a red hat is holding a sitar up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	instrument	sitar	entailment
+787	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding a saxophone up to his mouth.	instrument	saxophone	neutral
+788	A man wearing a red hat is holding a saxophone up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	instrument	saxophone	entailment
+789	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding a violin up to his mouth.	instrument	violin	neutral
+790	A man wearing a red hat is holding a violin up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	instrument	violin	entailment
+791	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding a drum up to his mouth.	instrument	drum	neutral
+792	A man wearing a red hat is holding a drum up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	instrument	drum	entailment
+793	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding a woodwind up to his mouth.	instrument	woodwind	neutral
+794	A man wearing a red hat is holding a woodwind up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	instrument	woodwind	entailment
+797	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding a piano up to his mouth.	instrument	piano	neutral
+798	A man wearing a red hat is holding a piano up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	instrument	piano	entailment
+799	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding a banjo up to his mouth.	instrument	banjo	neutral
+800	A man wearing a red hat is holding a banjo up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	instrument	banjo	entailment
+805	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding a xylophone up to his mouth.	instrument	xylophone	neutral
+806	A man wearing a red hat is holding a xylophone up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	instrument	xylophone	entailment
+807	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding an ukulele up to his mouth.	instrument	ukulele	neutral
+808	A man wearing a red hat is holding an ukulele up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	instrument	ukulele	entailment
+809	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding a cornet up to his mouth.	instrument	cornet	neutral
+810	A man wearing a red hat is holding a cornet up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	instrument	cornet	entailment
+813	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding a horn up to his mouth.	instrument	horn	neutral
+814	A man wearing a red hat is holding a horn up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	instrument	horn	entailment
+815	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding a snare up to his mouth.	instrument	snare	neutral
+816	A man wearing a red hat is holding a snare up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	instrument	snare	entailment
+819	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding a trombone up to his mouth.	instrument	trombone	neutral
+820	A man wearing a red hat is holding a trombone up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	instrument	trombone	entailment
+823	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding a harp up to his mouth.	instrument	harp	neutral
+824	A man wearing a red hat is holding a harp up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	instrument	harp	entailment
+825	A man wearing a red hat is holding an instrument up to his mouth.	A man wearing a red hat is holding a cello up to his mouth.	instrument	cello	neutral
+826	A man wearing a red hat is holding a cello up to his mouth.	A man wearing a red hat is holding an instrument up to his mouth.	instrument	cello	entailment
+827	Musicians preparing to entertain people in a club.	cellists preparing to entertain people in a club.	musicians	cellists	neutral
+828	cellists preparing to entertain people in a club.	Musicians preparing to entertain people in a club.	musicians	cellists	entailment
+829	Musicians preparing to entertain people in a club.	trumpeters preparing to entertain people in a club.	musicians	trumpeters	neutral
+830	trumpeters preparing to entertain people in a club.	Musicians preparing to entertain people in a club.	musicians	trumpeters	entailment
+831	Musicians preparing to entertain people in a club.	rappers preparing to entertain people in a club.	musicians	rappers	neutral
+832	rappers preparing to entertain people in a club.	Musicians preparing to entertain people in a club.	musicians	rappers	entailment
+833	Musicians preparing to entertain people in a club.	bagpipers preparing to entertain people in a club.	musicians	bagpipers	neutral
+834	bagpipers preparing to entertain people in a club.	Musicians preparing to entertain people in a club.	musicians	bagpipers	entailment
+835	Musicians preparing to entertain people in a club.	drummers preparing to entertain people in a club.	musicians	drummers	neutral
+836	drummers preparing to entertain people in a club.	Musicians preparing to entertain people in a club.	musicians	drummers	entailment
+837	Musicians preparing to entertain people in a club.	rockers preparing to entertain people in a club.	musicians	rockers	neutral
+838	rockers preparing to entertain people in a club.	Musicians preparing to entertain people in a club.	musicians	rockers	entailment
+839	Musicians preparing to entertain people in a club.	pianists preparing to entertain people in a club.	musicians	pianists	neutral
+840	pianists preparing to entertain people in a club.	Musicians preparing to entertain people in a club.	musicians	pianists	entailment
+841	Musicians preparing to entertain people in a club.	xylophonists preparing to entertain people in a club.	musicians	xylophonists	neutral
+842	xylophonists preparing to entertain people in a club.	Musicians preparing to entertain people in a club.	musicians	xylophonists	entailment
+845	Musicians preparing to entertain people in a club.	percussionists preparing to entertain people in a club.	musicians	percussionists	neutral
+846	percussionists preparing to entertain people in a club.	Musicians preparing to entertain people in a club.	musicians	percussionists	entailment
+847	Musicians preparing to entertain people in a club.	singers preparing to entertain people in a club.	musicians	singers	neutral
+848	singers preparing to entertain people in a club.	Musicians preparing to entertain people in a club.	musicians	singers	entailment
+849	Musicians preparing to entertain people in a club.	violinists preparing to entertain people in a club.	musicians	violinists	neutral
+850	violinists preparing to entertain people in a club.	Musicians preparing to entertain people in a club.	musicians	violinists	entailment
+851	Musicians preparing to entertain people in a club.	guitarists preparing to entertain people in a club.	musicians	guitarists	neutral
+852	guitarists preparing to entertain people in a club.	Musicians preparing to entertain people in a club.	musicians	guitarists	entailment
+853	Musicians preparing to entertain people in a club.	flutists preparing to entertain people in a club.	musicians	flutists	neutral
+854	flutists preparing to entertain people in a club.	Musicians preparing to entertain people in a club.	musicians	flutists	entailment
+855	Musicians preparing to entertain people in a club.	harpists preparing to entertain people in a club.	musicians	harpists	neutral
+856	harpists preparing to entertain people in a club.	Musicians preparing to entertain people in a club.	musicians	harpists	entailment
+857	Musicians preparing to entertain people in a club.	clarinetists preparing to entertain people in a club.	musicians	clarinetists	neutral
+858	clarinetists preparing to entertain people in a club.	Musicians preparing to entertain people in a club.	musicians	clarinetists	entailment
+859	A man in a gray collared shirt working on a machine.	A man in a gray collared shirt working on a computer.	machine	computer	neutral
+860	A man in a gray collared shirt working on a computer.	A man in a gray collared shirt working on a machine.	machine	computer	entailment
+863	A man in a gray collared shirt working on a machine.	A man in a gray collared shirt working on a turbine.	machine	turbine	neutral
+864	A man in a gray collared shirt working on a turbine.	A man in a gray collared shirt working on a machine.	machine	turbine	entailment
+865	A man in a gray collared shirt working on a machine.	A man in a gray collared shirt working on a calculator.	machine	calculator	neutral
+866	A man in a gray collared shirt working on a calculator.	A man in a gray collared shirt working on a machine.	machine	calculator	entailment
+867	A man in a gray collared shirt working on a machine.	A man in a gray collared shirt working on an engine.	machine	engine	neutral
+868	A man in a gray collared shirt working on an engine.	A man in a gray collared shirt working on a machine.	machine	engine	entailment
+869	A man in a gray collared shirt working on a machine.	A man in a gray collared shirt working on an ATM.	machine	atm	neutral
+870	A man in a gray collared shirt working on an ATM.	A man in a gray collared shirt working on a machine.	machine	atm	entailment
+871	A man in a gray collared shirt working on a machine.	A man in a gray collared shirt working on a jukebox.	machine	jukebox	neutral
+872	A man in a gray collared shirt working on a jukebox.	A man in a gray collared shirt working on a machine.	machine	jukebox	entailment
+873	A man in a gray collared shirt working on a machine.	A man in a gray collared shirt working on a rocket.	machine	rocket	neutral
+874	A man in a gray collared shirt working on a rocket.	A man in a gray collared shirt working on a machine.	machine	rocket	entailment
+879	A man in a gray collared shirt working on a machine.	A man in a gray collared shirt working on a printer.	machine	printer	neutral
+880	A man in a gray collared shirt working on a printer.	A man in a gray collared shirt working on a machine.	machine	printer	entailment
+881	A man in a gray collared shirt working on a machine.	A man in a gray collared shirt working on a motor.	machine	motor	neutral
+882	A man in a gray collared shirt working on a motor.	A man in a gray collared shirt working on a machine.	machine	motor	entailment
+885	A man in a gray collared shirt working on a machine.	A man in a gray collared shirt working on a typewriter.	machine	typewriter	neutral
+886	A man in a gray collared shirt working on a typewriter.	A man in a gray collared shirt working on a machine.	machine	typewriter	entailment
+891	A group of people sit and stand discussing yellow melons.	A group of people sit and stand discussing yellow watermelons.	melons	watermelons	neutral
+892	A group of people sit and stand discussing yellow watermelons.	A group of people sit and stand discussing yellow melons.	melons	watermelons	entailment
+893	A brown dog is shaking off the snow.	A brown mammal is shaking off the snow.	mammal	dog	entailment
+894	A brown mammal is shaking off the snow.	A brown dog is shaking off the snow.	mammal	dog	neutral
+895	A brown dog is shaking off the snow.	A brown animal is shaking off the snow.	animal	dog	entailment
+896	A brown animal is shaking off the snow.	A brown dog is shaking off the snow.	animal	dog	neutral
+897	A brown dog is shaking off the snow.	A brown poodle is shaking off the snow.	dog	poodle	neutral
+898	A brown poodle is shaking off the snow.	A brown dog is shaking off the snow.	dog	poodle	entailment
+899	A brown dog is shaking off the snow.	A brown dachshund is shaking off the snow.	dog	dachshund	neutral
+900	A brown dachshund is shaking off the snow.	A brown dog is shaking off the snow.	dog	dachshund	entailment
+905	A brown dog is shaking off the snow.	A brown pug is shaking off the snow.	dog	pug	neutral
+906	A brown pug is shaking off the snow.	A brown dog is shaking off the snow.	dog	pug	entailment
+909	A brown dog is shaking off the snow.	A brown dalmatian is shaking off the snow.	dog	dalmatian	neutral
+910	A brown dalmatian is shaking off the snow.	A brown dog is shaking off the snow.	dog	dalmatian	entailment
+913	A brown dog is shaking off the snow.	A brown Rottweiler is shaking off the snow.	dog	rottweiler	neutral
+914	A brown Rottweiler is shaking off the snow.	A brown dog is shaking off the snow.	dog	rottweiler	entailment
+919	A brown dog is shaking off the snow.	A brown corgi is shaking off the snow.	dog	corgi	neutral
+920	A brown corgi is shaking off the snow.	A brown dog is shaking off the snow.	dog	corgi	entailment
+921	A brown dog is shaking off the snow.	A brown Chihuahua is shaking off the snow.	dog	chihuahua	neutral
+922	A brown Chihuahua is shaking off the snow.	A brown dog is shaking off the snow.	dog	chihuahua	entailment
+923	A brown dog is shaking off the snow.	A brown schnauzer is shaking off the snow.	dog	schnauzer	neutral
+924	A brown schnauzer is shaking off the snow.	A brown dog is shaking off the snow.	dog	schnauzer	entailment
+925	A brown dog is shaking off the snow.	A brown Maltese is shaking off the snow.	dog	maltese	neutral
+926	A brown Maltese is shaking off the snow.	A brown dog is shaking off the snow.	dog	maltese	entailment
+929	A brown dog is shaking off the snow.	A brown terrier is shaking off the snow.	dog	terrier	neutral
+930	A brown terrier is shaking off the snow.	A brown dog is shaking off the snow.	dog	terrier	entailment
+931	A brown dog is shaking off the snow.	A brown bulldog is shaking off the snow.	dog	bulldog	neutral
+932	A brown bulldog is shaking off the snow.	A brown dog is shaking off the snow.	dog	bulldog	entailment
+933	A brown dog is shaking off the snow.	A brown Doberman is shaking off the snow.	dog	doberman	neutral
+934	A brown Doberman is shaking off the snow.	A brown dog is shaking off the snow.	dog	doberman	entailment
+937	Ten people look at the same thing in a tiled room.	Ten people look at the same mongrel in a tiled room.	thing	mongrel	neutral
+938	Ten people look at the same mongrel in a tiled room.	Ten people look at the same thing in a tiled room.	thing	mongrel	entailment
+939	Ten people look at the same thing in a tiled room.	Ten people look at the same multivitamin in a tiled room.	thing	multivitamin	neutral
+940	Ten people look at the same multivitamin in a tiled room.	Ten people look at the same thing in a tiled room.	thing	multivitamin	entailment
+941	Ten people look at the same thing in a tiled room.	Ten people look at the same pill in a tiled room.	thing	pill	neutral
+942	Ten people look at the same pill in a tiled room.	Ten people look at the same thing in a tiled room.	thing	pill	entailment
+943	Ten people look at the same thing in a tiled room.	Ten people look at the same band in a tiled room.	thing	band	neutral
+944	Ten people look at the same band in a tiled room.	Ten people look at the same thing in a tiled room.	thing	band	entailment
+947	Ten people look at the same thing in a tiled room.	Ten people look at the same wax in a tiled room.	thing	wax	neutral
+948	Ten people look at the same wax in a tiled room.	Ten people look at the same thing in a tiled room.	thing	wax	entailment
+949	Ten people look at the same thing in a tiled room.	Ten people look at the same brain in a tiled room.	thing	brain	neutral
+950	Ten people look at the same brain in a tiled room.	Ten people look at the same thing in a tiled room.	thing	brain	entailment
+951	Ten people look at the same thing in a tiled room.	Ten people look at the same lung in a tiled room.	thing	lung	neutral
+952	Ten people look at the same lung in a tiled room.	Ten people look at the same thing in a tiled room.	thing	lung	entailment
+955	Ten people look at the same thing in a tiled room.	Ten people look at the same stick in a tiled room.	thing	stick	neutral
+956	Ten people look at the same stick in a tiled room.	Ten people look at the same thing in a tiled room.	thing	stick	entailment
+957	Ten people look at the same thing in a tiled room.	Ten people look at the same brush in a tiled room.	thing	brush	neutral
+958	Ten people look at the same brush in a tiled room.	Ten people look at the same thing in a tiled room.	thing	brush	entailment
+959	Ten people look at the same thing in a tiled room.	Ten people look at the same atlas in a tiled room.	thing	atlas	neutral
+960	Ten people look at the same atlas in a tiled room.	Ten people look at the same thing in a tiled room.	thing	atlas	entailment
+963	Ten people look at the same thing in a tiled room.	Ten people look at the same mug in a tiled room.	thing	mug	neutral
+964	Ten people look at the same mug in a tiled room.	Ten people look at the same thing in a tiled room.	thing	mug	entailment
+965	Ten people look at the same thing in a tiled room.	Ten people look at the same claw in a tiled room.	thing	claw	neutral
+966	Ten people look at the same claw in a tiled room.	Ten people look at the same thing in a tiled room.	thing	claw	entailment
+967	Ten people look at the same thing in a tiled room.	Ten people look at the same horn in a tiled room.	thing	horn	neutral
+968	Ten people look at the same horn in a tiled room.	Ten people look at the same thing in a tiled room.	thing	horn	entailment
+969	Ten people look at the same thing in a tiled room.	Ten people look at the same hammer in a tiled room.	thing	hammer	neutral
+970	Ten people look at the same hammer in a tiled room.	Ten people look at the same thing in a tiled room.	thing	hammer	entailment
+971	Ten people look at the same thing in a tiled room.	Ten people look at the same egg in a tiled room.	thing	egg	neutral
+972	Ten people look at the same egg in a tiled room.	Ten people look at the same thing in a tiled room.	thing	egg	entailment
+975	Ten people look at the same thing in a tiled room.	Ten people look at the same anvil in a tiled room.	thing	anvil	neutral
+976	Ten people look at the same anvil in a tiled room.	Ten people look at the same thing in a tiled room.	thing	anvil	entailment
+977	Ten people look at the same thing in a tiled room.	Ten people look at the same grinder in a tiled room.	thing	grinder	neutral
+978	Ten people look at the same grinder in a tiled room.	Ten people look at the same thing in a tiled room.	thing	grinder	entailment
+979	Ten people look at the same thing in a tiled room.	Ten people look at the same bone in a tiled room.	thing	bone	neutral
+980	Ten people look at the same bone in a tiled room.	Ten people look at the same thing in a tiled room.	thing	bone	entailment
+981	Ten people look at the same thing in a tiled room.	Ten people look at the same tube in a tiled room.	thing	tube	neutral
+982	Ten people look at the same tube in a tiled room.	Ten people look at the same thing in a tiled room.	thing	tube	entailment
+983	Ten people look at the same thing in a tiled room.	Ten people look at the same comb in a tiled room.	thing	comb	neutral
+984	Ten people look at the same comb in a tiled room.	Ten people look at the same thing in a tiled room.	thing	comb	entailment
+985	Ten people look at the same thing in a tiled room.	Ten people look at the same sticker in a tiled room.	thing	sticker	neutral
+986	Ten people look at the same sticker in a tiled room.	Ten people look at the same thing in a tiled room.	thing	sticker	entailment
+987	Ten people look at the same thing in a tiled room.	Ten people look at the same antenna in a tiled room.	thing	antenna	neutral
+988	Ten people look at the same antenna in a tiled room.	Ten people look at the same thing in a tiled room.	thing	antenna	entailment
+989	Ten people look at the same thing in a tiled room.	Ten people look at the same flag in a tiled room.	thing	flag	neutral
+990	Ten people look at the same flag in a tiled room.	Ten people look at the same thing in a tiled room.	thing	flag	entailment
+993	Ten people look at the same thing in a tiled room.	Ten people look at the same pump in a tiled room.	thing	pump	neutral
+994	Ten people look at the same pump in a tiled room.	Ten people look at the same thing in a tiled room.	thing	pump	entailment
+995	Ten people look at the same thing in a tiled room.	Ten people look at the same nut in a tiled room.	thing	nut	neutral
+996	Ten people look at the same nut in a tiled room.	Ten people look at the same thing in a tiled room.	thing	nut	entailment
+997	Ten people look at the same thing in a tiled room.	Ten people look at the same root in a tiled room.	thing	root	neutral
+998	Ten people look at the same root in a tiled room.	Ten people look at the same thing in a tiled room.	thing	root	entailment
+999	Ten people look at the same thing in a tiled room.	Ten people look at the same chain in a tiled room.	thing	chain	neutral
+1000	Ten people look at the same chain in a tiled room.	Ten people look at the same thing in a tiled room.	thing	chain	entailment
+1001	Ten people look at the same thing in a tiled room.	Ten people look at the same noodle in a tiled room.	thing	noodle	neutral
+1002	Ten people look at the same noodle in a tiled room.	Ten people look at the same thing in a tiled room.	thing	noodle	entailment
+1003	Ten people look at the same thing in a tiled room.	Ten people look at the same structure in a tiled room.	thing	structure	neutral
+1004	Ten people look at the same structure in a tiled room.	Ten people look at the same thing in a tiled room.	thing	structure	entailment
+1005	Ten people look at the same thing in a tiled room.	Ten people look at the same plate in a tiled room.	thing	plate	neutral
+1006	Ten people look at the same plate in a tiled room.	Ten people look at the same thing in a tiled room.	thing	plate	entailment
+1009	Ten people look at the same thing in a tiled room.	Ten people look at the same saddle in a tiled room.	thing	saddle	neutral
+1010	Ten people look at the same saddle in a tiled room.	Ten people look at the same thing in a tiled room.	thing	saddle	entailment
+1011	Ten people look at the same thing in a tiled room.	Ten people look at the same tusk in a tiled room.	thing	tusk	neutral
+1012	Ten people look at the same tusk in a tiled room.	Ten people look at the same thing in a tiled room.	thing	tusk	entailment
+1013	Ten people look at the same thing in a tiled room.	Ten people look at the same nugget in a tiled room.	thing	nugget	neutral
+1014	Ten people look at the same nugget in a tiled room.	Ten people look at the same thing in a tiled room.	thing	nugget	entailment
+1015	Ten people look at the same thing in a tiled room.	Ten people look at the same capsule in a tiled room.	thing	capsule	neutral
+1016	Ten people look at the same capsule in a tiled room.	Ten people look at the same thing in a tiled room.	thing	capsule	entailment
+1021	A young boy listens to music through headphones in front of a kitchen.	A young boy listens to blues through headphones in front of a kitchen.	music	blues	neutral
+1022	A young boy listens to blues through headphones in front of a kitchen.	A young boy listens to music through headphones in front of a kitchen.	music	blues	entailment
+1023	A young boy listens to music through headphones in front of a kitchen.	A young boy listens to polka through headphones in front of a kitchen.	music	polka	neutral
+1024	A young boy listens to polka through headphones in front of a kitchen.	A young boy listens to music through headphones in front of a kitchen.	music	polka	entailment
+1025	A young boy listens to music through headphones in front of a kitchen.	A young boy listens to folk through headphones in front of a kitchen.	music	folk	neutral
+1026	A young boy listens to folk through headphones in front of a kitchen.	A young boy listens to music through headphones in front of a kitchen.	music	folk	entailment
+1029	A young boy listens to music through headphones in front of a kitchen.	A young boy listens to rockabilly through headphones in front of a kitchen.	music	rockabilly	neutral
+1030	A young boy listens to rockabilly through headphones in front of a kitchen.	A young boy listens to music through headphones in front of a kitchen.	music	rockabilly	entailment
+1031	A young boy listens to music through headphones in front of a kitchen.	A young boy listens to ragtime through headphones in front of a kitchen.	music	ragtime	neutral
+1032	A young boy listens to ragtime through headphones in front of a kitchen.	A young boy listens to music through headphones in front of a kitchen.	music	ragtime	entailment
+1033	A young boy listens to music through headphones in front of a kitchen.	A young boy listens to swing through headphones in front of a kitchen.	music	swing	neutral
+1034	A young boy listens to swing through headphones in front of a kitchen.	A young boy listens to music through headphones in front of a kitchen.	music	swing	entailment
+1035	A young boy listens to music through headphones in front of a kitchen.	A young boy listens to jazz through headphones in front of a kitchen.	music	jazz	neutral
+1036	A young boy listens to jazz through headphones in front of a kitchen.	A young boy listens to music through headphones in front of a kitchen.	music	jazz	entailment
+1037	A young boy listens to music through headphones in front of a kitchen.	A young boy listens to bluegrass through headphones in front of a kitchen.	music	bluegrass	neutral
+1038	A young boy listens to bluegrass through headphones in front of a kitchen.	A young boy listens to music through headphones in front of a kitchen.	music	bluegrass	entailment
+1039	A young boy listens to music through headphones in front of a kitchen.	A young boy listens to Wagner through headphones in front of a kitchen.	music	wagner	neutral
+1040	A young boy listens to Wagner through headphones in front of a kitchen.	A young boy listens to music through headphones in front of a kitchen.	music	wagner	entailment
+1041	A young boy listens to music through headphones in front of a kitchen.	A young boy listens to pop through headphones in front of a kitchen.	music	pop	neutral
+1042	A young boy listens to pop through headphones in front of a kitchen.	A young boy listens to music through headphones in front of a kitchen.	music	pop	entailment
+1043	A young boy listens to music through headphones in front of a kitchen.	A young boy listens to rap through headphones in front of a kitchen.	music	rap	neutral
+1044	A young boy listens to rap through headphones in front of a kitchen.	A young boy listens to music through headphones in front of a kitchen.	music	rap	entailment
+1047	A young boy listens to music through headphones in front of a kitchen.	A young boy listens to blues through headphones in front of a kitchen.	music	blues	neutral
+1048	A young boy listens to blues through headphones in front of a kitchen.	A young boy listens to music through headphones in front of a kitchen.	music	blues	entailment
+1051	A young boy listens to music through headphones in front of a kitchen.	A young boy listens to soul through headphones in front of a kitchen.	music	soul	neutral
+1052	A young boy listens to soul through headphones in front of a kitchen.	A young boy listens to music through headphones in front of a kitchen.	music	soul	entailment
+1063	A man holds up a fish he just caught.	A man holds up a trout he just caught.	fish	trout	neutral
+1064	A man holds up a trout he just caught.	A man holds up a fish he just caught.	fish	trout	entailment
+1065	A man holds up a fish he just caught.	A man holds up a bass he just caught.	fish	bass	neutral
+1066	A man holds up a bass he just caught.	A man holds up a fish he just caught.	fish	bass	entailment
+1067	A man holds up a fish he just caught.	A man holds up a catfish he just caught.	fish	catfish	neutral
+1068	A man holds up a catfish he just caught.	A man holds up a fish he just caught.	fish	catfish	entailment
+1071	A man holds up a fish he just caught.	A man holds up a salmon he just caught.	fish	salmon	neutral
+1072	A man holds up a salmon he just caught.	A man holds up a fish he just caught.	fish	salmon	entailment
+1073	A man holds up a fish he just caught.	A man holds up a catfish he just caught.	fish	catfish	neutral
+1074	A man holds up a catfish he just caught.	A man holds up a fish he just caught.	fish	catfish	entailment
+1077	A man holds up a fish he just caught.	A man holds up a swordfish he just caught.	fish	swordfish	neutral
+1078	A man holds up a swordfish he just caught.	A man holds up a fish he just caught.	fish	swordfish	entailment
+1079	A man holds up a fish he just caught.	A man holds up a herring he just caught.	fish	herring	neutral
+1080	A man holds up a herring he just caught.	A man holds up a fish he just caught.	fish	herring	entailment
+1081	A gentleman in a purple scarf and hat is looking at money while holding an accordion.	A gentleman in a purple scarf and sombrero is looking at money while holding an accordion.	hat	sombrero	neutral
+1082	A gentleman in a purple scarf and sombrero is looking at money while holding an accordion.	A gentleman in a purple scarf and hat is looking at money while holding an accordion.	hat	sombrero	entailment
+1083	A gentleman in a purple scarf and hat is looking at money while holding an accordion.	A gentleman in a purple scarf and fedora is looking at money while holding an accordion.	hat	fedora	neutral
+1084	A gentleman in a purple scarf and fedora is looking at money while holding an accordion.	A gentleman in a purple scarf and hat is looking at money while holding an accordion.	hat	fedora	entailment
+1089	A woman in a hat and sunglasses looks at some produces in an outdoor market.	A woman in a hat and sunglasses looks at some plums in an outdoor market.	produces	plums	neutral
+1090	A woman in a hat and sunglasses looks at some plums in an outdoor market.	A woman in a hat and sunglasses looks at some produces in an outdoor market.	produces	plums	entailment
+1091	A woman in a hat and sunglasses looks at some produces in an outdoor market.	A woman in a hat and sunglasses looks at some yams in an outdoor market.	produces	yams	neutral
+1092	A woman in a hat and sunglasses looks at some yams in an outdoor market.	A woman in a hat and sunglasses looks at some produces in an outdoor market.	produces	yams	entailment
+1099	A woman in a hat and sunglasses looks at some produces in an outdoor market.	A woman in a hat and sunglasses looks at some cabbages in an outdoor market.	produces	cabbages	neutral
+1100	A woman in a hat and sunglasses looks at some cabbages in an outdoor market.	A woman in a hat and sunglasses looks at some produces in an outdoor market.	produces	cabbages	entailment
+1103	A woman in a hat and sunglasses looks at some produces in an outdoor market.	A woman in a hat and sunglasses looks at some cauliflowers in an outdoor market.	produces	cauliflowers	neutral
+1104	A woman in a hat and sunglasses looks at some cauliflowers in an outdoor market.	A woman in a hat and sunglasses looks at some produces in an outdoor market.	produces	cauliflowers	entailment
+1107	A woman in a hat and sunglasses looks at some produces in an outdoor market.	A woman in a hat and sunglasses looks at some strawberries in an outdoor market.	produces	strawberries	neutral
+1108	A woman in a hat and sunglasses looks at some strawberries in an outdoor market.	A woman in a hat and sunglasses looks at some produces in an outdoor market.	produces	strawberries	entailment
+1111	A woman in a hat and sunglasses looks at some produces in an outdoor market.	A woman in a hat and sunglasses looks at some grapes in an outdoor market.	produces	grapes	neutral
+1112	A woman in a hat and sunglasses looks at some grapes in an outdoor market.	A woman in a hat and sunglasses looks at some produces in an outdoor market.	produces	grapes	entailment
+1113	A woman in a hat and sunglasses looks at some produces in an outdoor market.	A woman in a hat and sunglasses looks at some pears in an outdoor market.	produces	pears	neutral
+1114	A woman in a hat and sunglasses looks at some pears in an outdoor market.	A woman in a hat and sunglasses looks at some produces in an outdoor market.	produces	pears	entailment
+1117	A woman in a hat and sunglasses looks at some produces in an outdoor market.	A woman in a hat and sunglasses looks at some pineapples in an outdoor market.	produces	pineapples	neutral
+1118	A woman in a hat and sunglasses looks at some pineapples in an outdoor market.	A woman in a hat and sunglasses looks at some produces in an outdoor market.	produces	pineapples	entailment
+1119	A woman in a hat and sunglasses looks at some produces in an outdoor market.	A woman in a hat and sunglasses looks at some mangoes in an outdoor market.	produces	mangoes	neutral
+1120	A woman in a hat and sunglasses looks at some mangoes in an outdoor market.	A woman in a hat and sunglasses looks at some produces in an outdoor market.	produces	mangoes	entailment
+1121	A woman in a hat and sunglasses looks at some produces in an outdoor market.	A woman in a hat and sunglasses looks at some watermelons in an outdoor market.	produces	watermelons	neutral
+1122	A woman in a hat and sunglasses looks at some watermelons in an outdoor market.	A woman in a hat and sunglasses looks at some produces in an outdoor market.	produces	watermelons	entailment
+1123	A woman in a hat and sunglasses looks at some produces in an outdoor market.	A woman in a hat and sunglasses looks at some tomatoes in an outdoor market.	produces	tomatoes	neutral
+1124	A woman in a hat and sunglasses looks at some tomatoes in an outdoor market.	A woman in a hat and sunglasses looks at some produces in an outdoor market.	produces	tomatoes	entailment
+1127	A woman in a hat and sunglasses looks at some produces in an outdoor market.	A woman in a hat and sunglasses looks at some limes in an outdoor market.	produces	limes	neutral
+1128	A woman in a hat and sunglasses looks at some limes in an outdoor market.	A woman in a hat and sunglasses looks at some produces in an outdoor market.	produces	limes	entailment
+1129	A woman in a hat and sunglasses looks at some produces in an outdoor market.	A woman in a hat and sunglasses looks at some peppers in an outdoor market.	produces	peppers	neutral
+1130	A woman in a hat and sunglasses looks at some peppers in an outdoor market.	A woman in a hat and sunglasses looks at some produces in an outdoor market.	produces	peppers	entailment
+1131	A woman in a hat and sunglasses looks at some produces in an outdoor market.	A woman in a hat and sunglasses looks at some raspberries in an outdoor market.	produces	raspberries	neutral
+1132	A woman in a hat and sunglasses looks at some raspberries in an outdoor market.	A woman in a hat and sunglasses looks at some produces in an outdoor market.	produces	raspberries	entailment
+1133	A woman in a hat and sunglasses looks at some produces in an outdoor market.	A woman in a hat and sunglasses looks at some cucumbers in an outdoor market.	produces	cucumbers	neutral
+1134	A woman in a hat and sunglasses looks at some cucumbers in an outdoor market.	A woman in a hat and sunglasses looks at some produces in an outdoor market.	produces	cucumbers	entailment
+1135	A woman in a hat and sunglasses looks at some produces in an outdoor market.	A woman in a hat and sunglasses looks at some apples in an outdoor market.	produces	apples	neutral
+1136	A woman in a hat and sunglasses looks at some apples in an outdoor market.	A woman in a hat and sunglasses looks at some produces in an outdoor market.	produces	apples	entailment
+1137	A woman in a hat and sunglasses looks at some produces in an outdoor market.	A woman in a hat and sunglasses looks at some carrots in an outdoor market.	produces	carrots	neutral
+1138	A woman in a hat and sunglasses looks at some carrots in an outdoor market.	A woman in a hat and sunglasses looks at some produces in an outdoor market.	produces	carrots	entailment
+1143	A woman in a hat and sunglasses looks at some produces in an outdoor market.	A woman in a hat and sunglasses looks at some oranges in an outdoor market.	produces	oranges	neutral
+1144	A woman in a hat and sunglasses looks at some oranges in an outdoor market.	A woman in a hat and sunglasses looks at some produces in an outdoor market.	produces	oranges	entailment
+1149	Children selling beads and jewelry on a floor.	Children selling beads and bracelets on a floor.	jewelry	bracelets	neutral
+1150	Children selling beads and bracelets on a floor.	Children selling beads and jewelry on a floor.	jewelry	bracelets	entailment
+1151	Children selling beads and jewelry on a floor.	Children selling beads and necklaces on a floor.	jewelry	necklaces	neutral
+1152	Children selling beads and necklaces on a floor.	Children selling beads and jewelry on a floor.	jewelry	necklaces	entailment
+1153	Children selling beads and jewelry on a floor.	Children selling beads and ringlets on a floor.	jewelry	ringlets	neutral
+1154	Children selling beads and ringlets on a floor.	Children selling beads and jewelry on a floor.	jewelry	ringlets	entailment
+1155	Children selling beads and jewelry on a floor.	Children selling beads and earrings on a floor.	jewelry	earrings	neutral
+1156	Children selling beads and earrings on a floor.	Children selling beads and jewelry on a floor.	jewelry	earrings	entailment
+1161	A woman in a green shirt swinging, with only one shoe on.	A woman in a green shirt swinging, with only one sneaker on.	shoe	sneaker	neutral
+1162	A woman in a green shirt swinging, with only one sneaker on.	A woman in a green shirt swinging, with only one shoe on.	shoe	sneaker	entailment
+1163	A woman in a green shirt swinging, with only one shoe on.	A woman in a green shirt swinging, with only one pump on.	shoe	pump	neutral
+1164	A woman in a green shirt swinging, with only one pump on.	A woman in a green shirt swinging, with only one shoe on.	shoe	pump	entailment
+1165	A woman in a green shirt swinging, with only one shoe on.	A woman in a green shirt swinging, with only one sandal on.	shoe	sandal	neutral
+1166	A woman in a green shirt swinging, with only one sandal on.	A woman in a green shirt swinging, with only one shoe on.	shoe	sandal	entailment
+1167	A politician gives a speech as people watch.	A person gives a speech as people watch.	person	politician	entailment
+1168	A person gives a speech as people watch.	A politician gives a speech as people watch.	person	politician	neutral
+1171	A politician gives a speech as people watch.	A senator gives a speech as people watch.	politician	senator	neutral
+1172	A senator gives a speech as people watch.	A politician gives a speech as people watch.	politician	senator	entailment
+1175	A politician gives a speech as people watch.	A governor gives a speech as people watch.	politician	governor	neutral
+1176	A governor gives a speech as people watch.	A politician gives a speech as people watch.	politician	governor	entailment
+1177	An artist is carving an intricate sculpture using a tree and an electric saw.	A person is carving an intricate sculpture using a tree and an electric saw.	person	artist	entailment
+1178	A person is carving an intricate sculpture using a tree and an electric saw.	An artist is carving an intricate sculpture using a tree and an electric saw.	person	artist	neutral
+1179	An artist is carving an intricate sculpture using a tree and an electric saw.	A sculptor is carving an intricate sculpture using a tree and an electric saw.	artist	sculptor	neutral
+1180	A sculptor is carving an intricate sculpture using a tree and an electric saw.	An artist is carving an intricate sculpture using a tree and an electric saw.	artist	sculptor	entailment
+1189	An artist is carving an intricate sculpture using a tree and an electric saw.	A composer is carving an intricate sculpture using a tree and an electric saw.	artist	composer	neutral
+1190	A composer is carving an intricate sculpture using a tree and an electric saw.	An artist is carving an intricate sculpture using a tree and an electric saw.	artist	composer	entailment
+1193	An artist is carving an intricate sculpture using a tree and an electric saw.	A minimalist is carving an intricate sculpture using a tree and an electric saw.	artist	minimalist	neutral
+1194	A minimalist is carving an intricate sculpture using a tree and an electric saw.	An artist is carving an intricate sculpture using a tree and an electric saw.	artist	minimalist	entailment
+1195	An artist is carving an intricate sculpture using a tree and an electric saw.	A songwriter is carving an intricate sculpture using a tree and an electric saw.	artist	songwriter	neutral
+1196	A songwriter is carving an intricate sculpture using a tree and an electric saw.	An artist is carving an intricate sculpture using a tree and an electric saw.	artist	songwriter	entailment
+1197	A person is walking down a berry picker trail.	A person is walking down a cranberry picker trail.	berry	cranberry	neutral
+1198	A person is walking down a cranberry picker trail.	A person is walking down a berry picker trail.	berry	cranberry	entailment
+1199	A person is walking down a berry picker trail.	A person is walking down a strawberry picker trail.	berry	strawberry	neutral
+1200	A person is walking down a strawberry picker trail.	A person is walking down a berry picker trail.	berry	strawberry	entailment
+1201	A person is walking down a berry picker trail.	A person is walking down a huckleberry picker trail.	berry	huckleberry	neutral
+1202	A person is walking down a huckleberry picker trail.	A person is walking down a berry picker trail.	berry	huckleberry	entailment
+1205	A person is walking down a berry picker trail.	A person is walking down a blueberry picker trail.	berry	blueberry	neutral
+1206	A person is walking down a blueberry picker trail.	A person is walking down a berry picker trail.	berry	blueberry	entailment
+1209	A man is swinging a tool at his sculpture.	A man is swinging a shovel at his sculpture.	tool	shovel	neutral
+1210	A man is swinging a shovel at his sculpture.	A man is swinging a tool at his sculpture.	tool	shovel	entailment
+1211	A man is swinging a tool at his sculpture.	A man is swinging a mallet at his sculpture.	tool	mallet	neutral
+1212	A man is swinging a mallet at his sculpture.	A man is swinging a tool at his sculpture.	tool	mallet	entailment
+1213	A man is swinging a tool at his sculpture.	A man is swinging an axe at his sculpture.	tool	axe	neutral
+1214	A man is swinging an axe at his sculpture.	A man is swinging a tool at his sculpture.	tool	axe	entailment
+1215	A man is swinging a tool at his sculpture.	A man is swinging a pick at his sculpture.	tool	pick	neutral
+1216	A man is swinging a pick at his sculpture.	A man is swinging a tool at his sculpture.	tool	pick	entailment
+1217	A man is swinging a tool at his sculpture.	A man is swinging a handsaw at his sculpture.	tool	handsaw	neutral
+1218	A man is swinging a handsaw at his sculpture.	A man is swinging a tool at his sculpture.	tool	handsaw	entailment
+1219	A man is swinging a tool at his sculpture.	A man is swinging a hammer at his sculpture.	tool	hammer	neutral
+1220	A man is swinging a hammer at his sculpture.	A man is swinging a tool at his sculpture.	tool	hammer	entailment
+1223	A man is swinging a tool at his sculpture.	A man is swinging a drill at his sculpture.	tool	drill	neutral
+1224	A man is swinging a drill at his sculpture.	A man is swinging a tool at his sculpture.	tool	drill	entailment
+1225	A man is swinging a tool at his sculpture.	A man is swinging a hoe at his sculpture.	tool	hoe	neutral
+1226	A man is swinging a hoe at his sculpture.	A man is swinging a tool at his sculpture.	tool	hoe	entailment
+1227	A man is swinging a tool at his sculpture.	A man is swinging a screwdriver at his sculpture.	tool	screwdriver	neutral
+1228	A man is swinging a screwdriver at his sculpture.	A man is swinging a tool at his sculpture.	tool	screwdriver	entailment
+1233	A man is swinging a tool at his sculpture.	A man is swinging a saw at his sculpture.	tool	saw	neutral
+1234	A man is swinging a saw at his sculpture.	A man is swinging a tool at his sculpture.	tool	saw	entailment
+1235	A man is swinging a tool at his sculpture.	A man is swinging a jackhammer at his sculpture.	tool	jackhammer	neutral
+1236	A man is swinging a jackhammer at his sculpture.	A man is swinging a tool at his sculpture.	tool	jackhammer	entailment
+1237	Boys dragging a monkey on the African plains.	Boys dragging a primate on the African plains.	primate	monkey	entailment
+1238	Boys dragging a primate on the African plains.	Boys dragging a monkey on the African plains.	primate	monkey	neutral
+1239	Boys dragging a monkey on the African plains.	Boys dragging a mammal on the African plains.	mammal	monkey	entailment
+1240	Boys dragging a mammal on the African plains.	Boys dragging a monkey on the African plains.	mammal	monkey	neutral
+1241	Boys dragging a monkey on the African plains.	Boys dragging a vertebrate on the African plains.	vertebrate	monkey	entailment
+1242	Boys dragging a vertebrate on the African plains.	Boys dragging a monkey on the African plains.	vertebrate	monkey	neutral
+1243	Boys dragging a monkey on the African plains.	Boys dragging an animal on the African plains.	animal	monkey	entailment
+1244	Boys dragging an animal on the African plains.	Boys dragging a monkey on the African plains.	animal	monkey	neutral
+1245	Boys dragging a monkey on the African plains.	Boys dragging a baboon on the African plains.	monkey	baboon	neutral
+1246	Boys dragging a baboon on the African plains.	Boys dragging a monkey on the African plains.	monkey	baboon	entailment
+1247	A boy is holding a reptile with trees in the background.	A boy is holding a vertebrate with trees in the background.	vertebrate	reptile	entailment
+1248	A boy is holding a vertebrate with trees in the background.	A boy is holding a reptile with trees in the background.	vertebrate	reptile	neutral
+1249	A boy is holding a reptile with trees in the background.	A boy is holding an animal with trees in the background.	animal	reptile	entailment
+1250	A boy is holding an animal with trees in the background.	A boy is holding a reptile with trees in the background.	animal	reptile	neutral
+1253	A boy is holding a reptile with trees in the background.	A boy is holding a turtle with trees in the background.	reptile	turtle	neutral
+1254	A boy is holding a turtle with trees in the background.	A boy is holding a reptile with trees in the background.	reptile	turtle	entailment
+1257	A boy is holding a reptile with trees in the background.	A boy is holding a crocodile with trees in the background.	reptile	crocodile	neutral
+1258	A boy is holding a crocodile with trees in the background.	A boy is holding a reptile with trees in the background.	reptile	crocodile	entailment
+1259	A boy is holding a reptile with trees in the background.	A boy is holding a cobra with trees in the background.	reptile	cobra	neutral
+1260	A boy is holding a cobra with trees in the background.	A boy is holding a reptile with trees in the background.	reptile	cobra	entailment
+1261	A boy is holding a reptile with trees in the background.	A boy is holding a tortoise with trees in the background.	reptile	tortoise	neutral
+1262	A boy is holding a tortoise with trees in the background.	A boy is holding a reptile with trees in the background.	reptile	tortoise	entailment
+1263	A boy is holding a reptile with trees in the background.	A boy is holding a snake with trees in the background.	reptile	snake	neutral
+1264	A boy is holding a snake with trees in the background.	A boy is holding a reptile with trees in the background.	reptile	snake	entailment
+1267	A boy is holding a reptile with trees in the background.	A boy is holding an iguana with trees in the background.	reptile	iguana	neutral
+1268	A boy is holding an iguana with trees in the background.	A boy is holding a reptile with trees in the background.	reptile	iguana	entailment
+1269	A boy is holding a reptile with trees in the background.	A boy is holding a lizard with trees in the background.	reptile	lizard	neutral
+1270	A boy is holding a lizard with trees in the background.	A boy is holding a reptile with trees in the background.	reptile	lizard	entailment
+1271	A boy is holding a reptile with trees in the background.	A boy is holding a boa with trees in the background.	reptile	boa	neutral
+1272	A boy is holding a boa with trees in the background.	A boy is holding a reptile with trees in the background.	reptile	boa	entailment
+1273	A doctor checks the stomach of a toddler.	A person checks the stomach of a toddler.	person	doctor	entailment
+1274	A person checks the stomach of a toddler.	A doctor checks the stomach of a toddler.	person	doctor	neutral
+1275	A doctor checks the stomach of a toddler.	A cardiologist checks the stomach of a toddler.	doctor	cardiologist	neutral
+1276	A cardiologist checks the stomach of a toddler.	A doctor checks the stomach of a toddler.	doctor	cardiologist	entailment
+1277	A doctor checks the stomach of a toddler.	A surgeon checks the stomach of a toddler.	doctor	surgeon	neutral
+1278	A surgeon checks the stomach of a toddler.	A doctor checks the stomach of a toddler.	doctor	surgeon	entailment
+1279	A doctor checks the stomach of a toddler.	An anesthesiologist checks the stomach of a toddler.	doctor	anesthesiologist	neutral
+1280	An anesthesiologist checks the stomach of a toddler.	A doctor checks the stomach of a toddler.	doctor	anesthesiologist	entailment
+1281	A doctor checks the stomach of a toddler.	A specialist checks the stomach of a toddler.	doctor	specialist	neutral
+1282	A specialist checks the stomach of a toddler.	A doctor checks the stomach of a toddler.	doctor	specialist	entailment
+1283	A doctor checks the stomach of a toddler.	A neurosurgeon checks the stomach of a toddler.	doctor	neurosurgeon	neutral
+1284	A neurosurgeon checks the stomach of a toddler.	A doctor checks the stomach of a toddler.	doctor	neurosurgeon	entailment
+1285	A woman with brown hair and a brown shirt plays with a purple dinosaur puppet as young children watch.	A woman with brown hair and a brown shirt plays with a purple tyrannosaurus puppet as young children watch.	dinosaur	tyrannosaurus	neutral
+1286	A woman with brown hair and a brown shirt plays with a purple tyrannosaurus puppet as young children watch.	A woman with brown hair and a brown shirt plays with a purple dinosaur puppet as young children watch.	dinosaur	tyrannosaurus	entailment
+1287	A dancer in a red costume has her hands raised up to form a shape.	A dancer in a red costume has her hands raised up to form a square.	shape	square	neutral
+1288	A dancer in a red costume has her hands raised up to form a square.	A dancer in a red costume has her hands raised up to form a shape.	shape	square	entailment
+1289	A dancer in a red costume has her hands raised up to form a shape.	A dancer in a red costume has her hands raised up to form a triangle.	shape	triangle	neutral
+1290	A dancer in a red costume has her hands raised up to form a triangle.	A dancer in a red costume has her hands raised up to form a shape.	shape	triangle	entailment
+1293	A dancer in a red costume has her hands raised up to form a shape.	A dancer in a red costume has her hands raised up to form a circle.	shape	circle	neutral
+1294	A dancer in a red costume has her hands raised up to form a circle.	A dancer in a red costume has her hands raised up to form a shape.	shape	circle	entailment
+1297	A dancer in a red costume has her hands raised up to form a shape.	A dancer in a red costume has her hands raised up to form a star.	shape	star	neutral
+1298	A dancer in a red costume has her hands raised up to form a star.	A dancer in a red costume has her hands raised up to form a shape.	shape	star	entailment
+1301	A dancer in a red costume has her hands raised up to form a shape.	A dancer in a red costume has her hands raised up to form an oval.	shape	oval	neutral
+1302	A dancer in a red costume has her hands raised up to form an oval.	A dancer in a red costume has her hands raised up to form a shape.	shape	oval	entailment
+1303	A young boy looks at an insect under a microscope.	A young boy looks at a grasshopper under a microscope.	insect	grasshopper	neutral
+1304	A young boy looks at a grasshopper under a microscope.	A young boy looks at an insect under a microscope.	insect	grasshopper	entailment
+1305	A young boy looks at an insect under a microscope.	A young boy looks at a ladybug under a microscope.	insect	ladybug	neutral
+1306	A young boy looks at a ladybug under a microscope.	A young boy looks at an insect under a microscope.	insect	ladybug	entailment
+1307	A young boy looks at an insect under a microscope.	A young boy looks at a fly under a microscope.	insect	fly	neutral
+1308	A young boy looks at a fly under a microscope.	A young boy looks at an insect under a microscope.	insect	fly	entailment
+1309	A young boy looks at an insect under a microscope.	A young boy looks at a dragonfly under a microscope.	insect	dragonfly	neutral
+1310	A young boy looks at a dragonfly under a microscope.	A young boy looks at an insect under a microscope.	insect	dragonfly	entailment
+1311	A young boy looks at an insect under a microscope.	A young boy looks at a moth under a microscope.	insect	moth	neutral
+1312	A young boy looks at a moth under a microscope.	A young boy looks at an insect under a microscope.	insect	moth	entailment
+1319	A young boy looks at an insect under a microscope.	A young boy looks at a butterfly under a microscope.	insect	butterfly	neutral
+1320	A young boy looks at a butterfly under a microscope.	A young boy looks at an insect under a microscope.	insect	butterfly	entailment
+1321	A young boy looks at an insect under a microscope.	A young boy looks at an ant under a microscope.	insect	ant	neutral
+1322	A young boy looks at an ant under a microscope.	A young boy looks at an insect under a microscope.	insect	ant	entailment
+1329	A young boy looks at an insect under a microscope.	A young boy looks at a beetle under a microscope.	insect	beetle	neutral
+1330	A young boy looks at a beetle under a microscope.	A young boy looks at an insect under a microscope.	insect	beetle	entailment
+1337	Scientists watching liquid flow out of a beaker in a lab.	Scientists watching bourbon flow out of a beaker in a lab.	liquid	bourbon	neutral
+1338	Scientists watching bourbon flow out of a beaker in a lab.	Scientists watching liquid flow out of a beaker in a lab.	liquid	bourbon	entailment
+1339	Scientists watching liquid flow out of a beaker in a lab.	Scientists watching liquor flow out of a beaker in a lab.	liquid	liquor	neutral
+1340	Scientists watching liquor flow out of a beaker in a lab.	Scientists watching liquid flow out of a beaker in a lab.	liquid	liquor	entailment
+1343	Scientists watching liquid flow out of a beaker in a lab.	Scientists watching mead flow out of a beaker in a lab.	liquid	mead	neutral
+1344	Scientists watching mead flow out of a beaker in a lab.	Scientists watching liquid flow out of a beaker in a lab.	liquid	mead	entailment
+1345	Scientists watching liquid flow out of a beaker in a lab.	Scientists watching Chardonnay flow out of a beaker in a lab.	liquid	chardonnay	neutral
+1346	Scientists watching Chardonnay flow out of a beaker in a lab.	Scientists watching liquid flow out of a beaker in a lab.	liquid	chardonnay	entailment
+1347	Scientists watching liquid flow out of a beaker in a lab.	Scientists watching beer flow out of a beaker in a lab.	liquid	beer	neutral
+1348	Scientists watching beer flow out of a beaker in a lab.	Scientists watching liquid flow out of a beaker in a lab.	liquid	beer	entailment
+1349	Scientists watching liquid flow out of a beaker in a lab.	Scientists watching margarita flow out of a beaker in a lab.	liquid	margarita	neutral
+1350	Scientists watching margarita flow out of a beaker in a lab.	Scientists watching liquid flow out of a beaker in a lab.	liquid	margarita	entailment
+1353	Scientists watching liquid flow out of a beaker in a lab.	Scientists watching water flow out of a beaker in a lab.	liquid	water	neutral
+1354	Scientists watching water flow out of a beaker in a lab.	Scientists watching liquid flow out of a beaker in a lab.	liquid	water	entailment
+1355	Scientists watching liquid flow out of a beaker in a lab.	Scientists watching ink flow out of a beaker in a lab.	liquid	ink	neutral
+1356	Scientists watching ink flow out of a beaker in a lab.	Scientists watching liquid flow out of a beaker in a lab.	liquid	ink	entailment
+1357	Scientists watching liquid flow out of a beaker in a lab.	Scientists watching espresso flow out of a beaker in a lab.	liquid	espresso	neutral
+1358	Scientists watching espresso flow out of a beaker in a lab.	Scientists watching liquid flow out of a beaker in a lab.	liquid	espresso	entailment
+1359	Scientists watching liquid flow out of a beaker in a lab.	Scientists watching moonshine flow out of a beaker in a lab.	liquid	moonshine	neutral
+1360	Scientists watching moonshine flow out of a beaker in a lab.	Scientists watching liquid flow out of a beaker in a lab.	liquid	moonshine	entailment
+1363	Scientists watching liquid flow out of a beaker in a lab.	Scientists watching gin flow out of a beaker in a lab.	liquid	gin	neutral
+1364	Scientists watching gin flow out of a beaker in a lab.	Scientists watching liquid flow out of a beaker in a lab.	liquid	gin	entailment
+1365	Scientists watching liquid flow out of a beaker in a lab.	Scientists watching lemonade flow out of a beaker in a lab.	liquid	lemonade	neutral
+1366	Scientists watching lemonade flow out of a beaker in a lab.	Scientists watching liquid flow out of a beaker in a lab.	liquid	lemonade	entailment
+1367	Scientists watching liquid flow out of a beaker in a lab.	Scientists watching wine flow out of a beaker in a lab.	liquid	wine	neutral
+1368	Scientists watching wine flow out of a beaker in a lab.	Scientists watching liquid flow out of a beaker in a lab.	liquid	wine	entailment
+1369	Scientists watching liquid flow out of a beaker in a lab.	Scientists watching alcohol flow out of a beaker in a lab.	liquid	alcohol	neutral
+1370	Scientists watching alcohol flow out of a beaker in a lab.	Scientists watching liquid flow out of a beaker in a lab.	liquid	alcohol	entailment
+1371	Scientists watching liquid flow out of a beaker in a lab.	Scientists watching tea flow out of a beaker in a lab.	liquid	tea	neutral
+1372	Scientists watching tea flow out of a beaker in a lab.	Scientists watching liquid flow out of a beaker in a lab.	liquid	tea	entailment
+1375	Scientists watching liquid flow out of a beaker in a lab.	Scientists watching brandy flow out of a beaker in a lab.	liquid	brandy	neutral
+1376	Scientists watching brandy flow out of a beaker in a lab.	Scientists watching liquid flow out of a beaker in a lab.	liquid	brandy	entailment
+1377	Scientists watching liquid flow out of a beaker in a lab.	Scientists watching whiskey flow out of a beaker in a lab.	liquid	whiskey	neutral
+1378	Scientists watching whiskey flow out of a beaker in a lab.	Scientists watching liquid flow out of a beaker in a lab.	liquid	whiskey	entailment
+1379	A man and a woman inside of a dark location with a drink nearby.	A man and a woman inside of a dark shantytown with a drink nearby.	location	shantytown	neutral
+1380	A man and a woman inside of a dark shantytown with a drink nearby.	A man and a woman inside of a dark location with a drink nearby.	location	shantytown	entailment
+1383	A man and a woman inside of a dark location with a drink nearby.	A man and a woman inside of a dark den with a drink nearby.	location	den	neutral
+1384	A man and a woman inside of a dark den with a drink nearby.	A man and a woman inside of a dark location with a drink nearby.	location	den	entailment
+1387	A man and a woman inside of a dark location with a drink nearby.	A man and a woman inside of a dark house with a drink nearby.	location	house	neutral
+1388	A man and a woman inside of a dark house with a drink nearby.	A man and a woman inside of a dark location with a drink nearby.	location	house	entailment
+1389	A man and a woman inside of a dark location with a drink nearby.	A man and a woman inside of a dark town with a drink nearby.	location	town	neutral
+1390	A man and a woman inside of a dark town with a drink nearby.	A man and a woman inside of a dark location with a drink nearby.	location	town	entailment
+1391	A man and a woman inside of a dark location with a drink nearby.	A man and a woman inside of a dark garden with a drink nearby.	location	garden	neutral
+1392	A man and a woman inside of a dark garden with a drink nearby.	A man and a woman inside of a dark location with a drink nearby.	location	garden	entailment
+1393	A man and a woman inside of a dark location with a drink nearby.	A man and a woman inside of a dark meadow with a drink nearby.	location	meadow	neutral
+1394	A man and a woman inside of a dark meadow with a drink nearby.	A man and a woman inside of a dark location with a drink nearby.	location	meadow	entailment
+1399	A man and a woman inside of a dark location with a drink nearby.	A man and a woman inside of a dark backyard with a drink nearby.	location	backyard	neutral
+1400	A man and a woman inside of a dark backyard with a drink nearby.	A man and a woman inside of a dark location with a drink nearby.	location	backyard	entailment
+1401	A man and a woman inside of a dark location with a drink nearby.	A man and a woman inside of a dark laboratory with a drink nearby.	location	laboratory	neutral
+1402	A man and a woman inside of a dark laboratory with a drink nearby.	A man and a woman inside of a dark location with a drink nearby.	location	laboratory	entailment
+1403	A man and a woman inside of a dark location with a drink nearby.	A man and a woman inside of a dark lab with a drink nearby.	location	lab	neutral
+1404	A man and a woman inside of a dark lab with a drink nearby.	A man and a woman inside of a dark location with a drink nearby.	location	lab	entailment
+1405	A man and a woman inside of a dark location with a drink nearby.	A man and a woman inside of a dark slum with a drink nearby.	location	slum	neutral
+1406	A man and a woman inside of a dark slum with a drink nearby.	A man and a woman inside of a dark location with a drink nearby.	location	slum	entailment
+1407	A man and a woman inside of a dark location with a drink nearby.	A man and a woman inside of a dark studio with a drink nearby.	location	studio	neutral
+1408	A man and a woman inside of a dark studio with a drink nearby.	A man and a woman inside of a dark location with a drink nearby.	location	studio	entailment
+1409	A man and a woman inside of a dark location with a drink nearby.	A man and a woman inside of a dark cemetery with a drink nearby.	location	cemetery	neutral
+1410	A man and a woman inside of a dark cemetery with a drink nearby.	A man and a woman inside of a dark location with a drink nearby.	location	cemetery	entailment
+1411	A man and a woman inside of a dark location with a drink nearby.	A man and a woman inside of a dark jungle with a drink nearby.	location	jungle	neutral
+1412	A man and a woman inside of a dark jungle with a drink nearby.	A man and a woman inside of a dark location with a drink nearby.	location	jungle	entailment
+1413	A man and a woman inside of a dark location with a drink nearby.	A man and a woman inside of a dark bakery with a drink nearby.	location	bakery	neutral
+1414	A man and a woman inside of a dark bakery with a drink nearby.	A man and a woman inside of a dark location with a drink nearby.	location	bakery	entailment
+1415	A man and a woman inside of a dark location with a drink nearby.	A man and a woman inside of a dark playground with a drink nearby.	location	playground	neutral
+1416	A man and a woman inside of a dark playground with a drink nearby.	A man and a woman inside of a dark location with a drink nearby.	location	playground	entailment
+1417	A man and a woman inside of a dark location with a drink nearby.	A man and a woman inside of a dark orchard with a drink nearby.	location	orchard	neutral
+1418	A man and a woman inside of a dark orchard with a drink nearby.	A man and a woman inside of a dark location with a drink nearby.	location	orchard	entailment
+1419	A man and a woman inside of a dark location with a drink nearby.	A man and a woman inside of a dark farm with a drink nearby.	location	farm	neutral
+1420	A man and a woman inside of a dark farm with a drink nearby.	A man and a woman inside of a dark location with a drink nearby.	location	farm	entailment
+1421	A man and a woman inside of a dark location with a drink nearby.	A man and a woman inside of a dark station with a drink nearby.	location	station	neutral
+1422	A man and a woman inside of a dark station with a drink nearby.	A man and a woman inside of a dark location with a drink nearby.	location	station	entailment
+1423	A man and a woman inside of a dark location with a drink nearby.	A man and a woman inside of a dark campsite with a drink nearby.	location	campsite	neutral
+1424	A man and a woman inside of a dark campsite with a drink nearby.	A man and a woman inside of a dark location with a drink nearby.	location	campsite	entailment
+1425	A man and a woman inside of a dark location with a drink nearby.	A man and a woman inside of a dark theater with a drink nearby.	location	theater	neutral
+1426	A man and a woman inside of a dark theater with a drink nearby.	A man and a woman inside of a dark location with a drink nearby.	location	theater	entailment
+1427	A man is posing while sitting with a weapon beside him.	A man is posing while sitting with a revolver beside him.	weapon	revolver	neutral
+1428	A man is posing while sitting with a revolver beside him.	A man is posing while sitting with a weapon beside him.	weapon	revolver	entailment
+1429	A man is posing while sitting with a weapon beside him.	A man is posing while sitting with a knife beside him.	weapon	knife	neutral
+1430	A man is posing while sitting with a knife beside him.	A man is posing while sitting with a weapon beside him.	weapon	knife	entailment
+1435	A man is posing while sitting with a weapon beside him.	A man is posing while sitting with a dagger beside him.	weapon	dagger	neutral
+1436	A man is posing while sitting with a dagger beside him.	A man is posing while sitting with a weapon beside him.	weapon	dagger	entailment
+1441	A man is posing while sitting with a weapon beside him.	A man is posing while sitting with a sword beside him.	weapon	sword	neutral
+1442	A man is posing while sitting with a sword beside him.	A man is posing while sitting with a weapon beside him.	weapon	sword	entailment
+1443	A man is posing while sitting with a weapon beside him.	A man is posing while sitting with a shotgun beside him.	weapon	shotgun	neutral
+1444	A man is posing while sitting with a shotgun beside him.	A man is posing while sitting with a weapon beside him.	weapon	shotgun	entailment
+1447	A man is posing while sitting with a weapon beside him.	A man is posing while sitting with a machete beside him.	weapon	machete	neutral
+1448	A man is posing while sitting with a machete beside him.	A man is posing while sitting with a weapon beside him.	weapon	machete	entailment
+1451	A man is posing while sitting with a weapon beside him.	A man is posing while sitting with a firearm beside him.	weapon	firearm	neutral
+1452	A man is posing while sitting with a firearm beside him.	A man is posing while sitting with a weapon beside him.	weapon	firearm	entailment
+1455	A man is posing while sitting with a weapon beside him.	A man is posing while sitting with a saber beside him.	weapon	saber	neutral
+1456	A man is posing while sitting with a saber beside him.	A man is posing while sitting with a weapon beside him.	weapon	saber	entailment
+1457	A man is posing while sitting with a weapon beside him.	A man is posing while sitting with a bayonet beside him.	weapon	bayonet	neutral
+1458	A man is posing while sitting with a bayonet beside him.	A man is posing while sitting with a weapon beside him.	weapon	bayonet	entailment
+1459	A man is posing while sitting with a weapon beside him.	A man is posing while sitting with a javelin beside him.	weapon	javelin	neutral
+1460	A man is posing while sitting with a javelin beside him.	A man is posing while sitting with a weapon beside him.	weapon	javelin	entailment
+1461	A scientist looking through a microscope in a lab.	A person looking through a microscope in a lab.	person	scientist	entailment
+1462	A person looking through a microscope in a lab.	A scientist looking through a microscope in a lab.	person	scientist	neutral
+1463	A scientist looking through a microscope in a lab.	A physicist looking through a microscope in a lab.	scientist	physicist	neutral
+1464	A physicist looking through a microscope in a lab.	A scientist looking through a microscope in a lab.	scientist	physicist	entailment
+1467	A scientist looking through a microscope in a lab.	A paleontologist looking through a microscope in a lab.	scientist	paleontologist	neutral
+1468	A paleontologist looking through a microscope in a lab.	A scientist looking through a microscope in a lab.	scientist	paleontologist	entailment
+1469	A scientist looking through a microscope in a lab.	A biologist looking through a microscope in a lab.	scientist	biologist	neutral
+1470	A biologist looking through a microscope in a lab.	A scientist looking through a microscope in a lab.	scientist	biologist	entailment
+1473	A scientist looking through a microscope in a lab.	An archeologist looking through a microscope in a lab.	scientist	archeologist	neutral
+1474	An archeologist looking through a microscope in a lab.	A scientist looking through a microscope in a lab.	scientist	archeologist	entailment
+1475	A scientist looking through a microscope in a lab.	A geologist looking through a microscope in a lab.	scientist	geologist	neutral
+1476	A geologist looking through a microscope in a lab.	A scientist looking through a microscope in a lab.	scientist	geologist	entailment

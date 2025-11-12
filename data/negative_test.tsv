@@ -1,0 +1,201 @@
+textid	text	pair	weak	strong	target
+1	the man does not own a dog	the man does not own a mammal	dog	mammal	neutral
+2	the man does not own a mammal	the man does not own a dog	dog	mammal	entailment
+3	the man does not own a dog	the man does not own an animal	dog	animal	neutral
+4	the man does not own an animal	the man does not own a dog	dog	animal	entailment
+5	the man does not own a dog	the man does not own a pinscher	pinscher	dog	entailment
+6	the man does not own a pinscher	the man does not own a dog	pinscher	dog	neutral
+7	the man does not own a dog	the man does not own a sheepdog	sheepdog	dog	entailment
+8	the man does not own a sheepdog	the man does not own a dog	sheepdog	dog	neutral
+9	the man does not own a dog	the man does not own a greyhound	greyhound	dog	entailment
+10	the man does not own a greyhound	the man does not own a dog	greyhound	dog	neutral
+11	the man does not own a dog	the man does not own a hound	hound	dog	entailment
+12	the man does not own a hound	the man does not own a dog	hound	dog	neutral
+13	the man does not own a dog	the man does not own a husky	husky	dog	entailment
+14	the man does not own a husky	the man does not own a dog	husky	dog	neutral
+15	the man does not own a dog	the man does not own a dachshund	dachshund	dog	entailment
+16	the man does not own a dachshund	the man does not own a dog	dachshund	dog	neutral
+17	the man does not own a dog	the man does not own a Chihuahua	chihuahua	dog	entailment
+18	the man does not own a Chihuahua	the man does not own a dog	chihuahua	dog	neutral
+19	the man does not own a dog	the man does not own a spaniel	spaniel	dog	entailment
+20	the man does not own a spaniel	the man does not own a dog	spaniel	dog	neutral
+21	the man does not own a dog	the man does not own a pug	pug	dog	entailment
+22	the man does not own a pug	the man does not own a dog	pug	dog	neutral
+23	the man does not own a dog	the man does not own a beagle	beagle	dog	entailment
+24	the man does not own a beagle	the man does not own a dog	beagle	dog	neutral
+25	the man does not own a dog	the man does not own a malamute	malamute	dog	entailment
+26	the man does not own a malamute	the man does not own a dog	malamute	dog	neutral
+27	the man does not own a dog	the man does not own a Maltese	maltese	dog	entailment
+28	the man does not own a Maltese	the man does not own a dog	maltese	dog	neutral
+29	the man does not own a dog	the man does not own a Doberman	doberman	dog	entailment
+30	the man does not own a Doberman	the man does not own a dog	doberman	dog	neutral
+31	the man does not own a dog	the man does not own a bulldog	bulldog	dog	entailment
+32	the man does not own a bulldog	the man does not own a dog	bulldog	dog	neutral
+33	the man does not own a dog	the man does not own a collie	collie	dog	entailment
+34	the man does not own a collie	the man does not own a dog	collie	dog	neutral
+35	the man does not own a dog	the man does not own a poodle	poodle	dog	entailment
+36	the man does not own a poodle	the man does not own a dog	poodle	dog	neutral
+37	the man does not own a dog	the man does not own a Pomeranian	pomeranian	dog	entailment
+38	the man does not own a Pomeranian	the man does not own a dog	pomeranian	dog	neutral
+39	the man does not own a dog	the man does not own a retriever	retriever	dog	entailment
+40	the man does not own a retriever	the man does not own a dog	retriever	dog	neutral
+41	the man does not own a dog	the man does not own a schnauzer	schnauzer	dog	entailment
+42	the man does not own a schnauzer	the man does not own a dog	schnauzer	dog	neutral
+43	the man does not own a dog	the man does not own a terrier	terrier	dog	entailment
+44	the man does not own a terrier	the man does not own a dog	terrier	dog	neutral
+45	the man does not own a dog	the man does not own a corgi	corgi	dog	entailment
+46	the man does not own a corgi	the man does not own a dog	corgi	dog	neutral
+47	the man does not own a dog	the man does not own a Rottweiler	rottweiler	dog	entailment
+48	the man does not own a Rottweiler	the man does not own a dog	rottweiler	dog	neutral
+49	the man does not own a dog	the man does not own a Shetland	shetland	dog	entailment
+50	the man does not own a Shetland	the man does not own a dog	shetland	dog	neutral
+51	the man does not own a dog	the man does not own a dalmatian	dalmatian	dog	entailment
+52	the man does not own a dalmatian	the man does not own a dog	dalmatian	dog	neutral
+53	The girl will not get a stuffed dog as a gift.	The girl will not get a stuffed mammal as a gift.	dog	mammal	neutral
+54	The girl will not get a stuffed mammal as a gift.	The girl will not get a stuffed dog as a gift.	dog	mammal	entailment
+55	The girl will not get a stuffed dog as a gift.	The girl will not get a stuffed animal as a gift.	dog	animal	neutral
+56	The girl will not get a stuffed animal as a gift.	The girl will not get a stuffed dog as a gift.	dog	animal	entailment
+57	The girl will not get a stuffed dog as a gift.	The girl will not get a stuffed pug as a gift.	pug	dog	entailment
+58	The girl will not get a stuffed pug as a gift.	The girl will not get a stuffed dog as a gift.	pug	dog	neutral
+59	The girl will not get a stuffed dog as a gift.	The girl will not get a stuffed husky as a gift.	husky	dog	entailment
+60	The girl will not get a stuffed husky as a gift.	The girl will not get a stuffed dog as a gift.	husky	dog	neutral
+61	The girl will not get a stuffed dog as a gift.	The girl will not get a stuffed corgi as a gift.	corgi	dog	entailment
+62	The girl will not get a stuffed corgi as a gift.	The girl will not get a stuffed dog as a gift.	corgi	dog	neutral
+63	The girl will not get a stuffed dog as a gift.	The girl will not get a stuffed hound as a gift.	hound	dog	entailment
+64	The girl will not get a stuffed hound as a gift.	The girl will not get a stuffed dog as a gift.	hound	dog	neutral
+65	The girl will not get a stuffed dog as a gift.	The girl will not get a stuffed bulldog as a gift.	bulldog	dog	entailment
+66	The girl will not get a stuffed bulldog as a gift.	The girl will not get a stuffed dog as a gift.	bulldog	dog	neutral
+67	The girl will not get a stuffed dog as a gift.	The girl will not get a stuffed terrier as a gift.	terrier	dog	entailment
+68	The girl will not get a stuffed terrier as a gift.	The girl will not get a stuffed dog as a gift.	terrier	dog	neutral
+69	The girl will not get a stuffed dog as a gift.	The girl will not get a stuffed poodle as a gift.	poodle	dog	entailment
+70	The girl will not get a stuffed poodle as a gift.	The girl will not get a stuffed dog as a gift.	poodle	dog	neutral
+71	The girl will not get a stuffed dog as a gift.	The girl will not get a stuffed dalmatian as a gift.	dalmatian	dog	entailment
+72	The girl will not get a stuffed dalmatian as a gift.	The girl will not get a stuffed dog as a gift.	dalmatian	dog	neutral
+73	The girl will not get a stuffed dog as a gift.	The girl will not get a stuffed Shetland as a gift.	shetland	dog	entailment
+74	The girl will not get a stuffed Shetland as a gift.	The girl will not get a stuffed dog as a gift.	shetland	dog	neutral
+75	The girl will not get a stuffed dog as a gift.	The girl will not get a stuffed pinscher as a gift.	pinscher	dog	entailment
+76	The girl will not get a stuffed pinscher as a gift.	The girl will not get a stuffed dog as a gift.	pinscher	dog	neutral
+77	The girl will not get a stuffed dog as a gift.	The girl will not get a stuffed dachshund as a gift.	dachshund	dog	entailment
+78	The girl will not get a stuffed dachshund as a gift.	The girl will not get a stuffed dog as a gift.	dachshund	dog	neutral
+79	The girl will not get a stuffed dog as a gift.	The girl will not get a stuffed Doberman as a gift.	doberman	dog	entailment
+80	The girl will not get a stuffed Doberman as a gift.	The girl will not get a stuffed dog as a gift.	doberman	dog	neutral
+81	The girl will not get a stuffed dog as a gift.	The girl will not get a stuffed Pomeranian as a gift.	pomeranian	dog	entailment
+82	The girl will not get a stuffed Pomeranian as a gift.	The girl will not get a stuffed dog as a gift.	pomeranian	dog	neutral
+83	The girl will not get a stuffed dog as a gift.	The girl will not get a stuffed beagle as a gift.	beagle	dog	entailment
+84	The girl will not get a stuffed beagle as a gift.	The girl will not get a stuffed dog as a gift.	beagle	dog	neutral
+85	The girl will not get a stuffed dog as a gift.	The girl will not get a stuffed retriever as a gift.	retriever	dog	entailment
+86	The girl will not get a stuffed retriever as a gift.	The girl will not get a stuffed dog as a gift.	retriever	dog	neutral
+87	The girl will not get a stuffed dog as a gift.	The girl will not get a stuffed Rottweiler as a gift.	rottweiler	dog	entailment
+88	The girl will not get a stuffed Rottweiler as a gift.	The girl will not get a stuffed dog as a gift.	rottweiler	dog	neutral
+89	The girl will not get a stuffed dog as a gift.	The girl will not get a stuffed malamute as a gift.	malamute	dog	entailment
+90	The girl will not get a stuffed malamute as a gift.	The girl will not get a stuffed dog as a gift.	malamute	dog	neutral
+91	The girl will not get a stuffed dog as a gift.	The girl will not get a stuffed schnauzer as a gift.	schnauzer	dog	entailment
+92	The girl will not get a stuffed schnauzer as a gift.	The girl will not get a stuffed dog as a gift.	schnauzer	dog	neutral
+93	The girl will not get a stuffed dog as a gift.	The girl will not get a stuffed greyhound as a gift.	greyhound	dog	entailment
+94	The girl will not get a stuffed greyhound as a gift.	The girl will not get a stuffed dog as a gift.	greyhound	dog	neutral
+95	The girl will not get a stuffed dog as a gift.	The girl will not get a stuffed Chihuahua as a gift.	chihuahua	dog	entailment
+96	The girl will not get a stuffed Chihuahua as a gift.	The girl will not get a stuffed dog as a gift.	chihuahua	dog	neutral
+97	A person reading a paper is not currently sitting inside a building.	A person reading a paper is not currently sitting inside a house.	house	building	entailment
+98	A person reading a paper is not currently sitting inside a house.	A person reading a paper is not currently sitting inside a building.	house	building	neutral
+99	A person reading a paper is not currently sitting inside a building.	A person reading a paper is not currently sitting inside a casino.	casino	building	entailment
+100	A person reading a paper is not currently sitting inside a casino.	A person reading a paper is not currently sitting inside a building.	casino	building	neutral
+101	A person reading a paper is not currently sitting inside a building.	A person reading a paper is not currently sitting inside a chapel.	chapel	building	entailment
+102	A person reading a paper is not currently sitting inside a chapel.	A person reading a paper is not currently sitting inside a building.	chapel	building	neutral
+103	A person reading a paper is not currently sitting inside a building.	A person reading a paper is not currently sitting inside a restaurant.	restaurant	building	entailment
+104	A person reading a paper is not currently sitting inside a restaurant.	A person reading a paper is not currently sitting inside a building.	restaurant	building	neutral
+105	A person reading a paper is not currently sitting inside a building.	A person reading a paper is not currently sitting inside a cabin.	cabin	building	entailment
+106	A person reading a paper is not currently sitting inside a cabin.	A person reading a paper is not currently sitting inside a building.	cabin	building	neutral
+107	A person reading a paper is not currently sitting inside a building.	A person reading a paper is not currently sitting inside a school.	school	building	entailment
+108	A person reading a paper is not currently sitting inside a school.	A person reading a paper is not currently sitting inside a building.	school	building	neutral
+109	A person reading a paper is not currently sitting inside a building.	A person reading a paper is not currently sitting inside a court.	court	building	entailment
+110	A person reading a paper is not currently sitting inside a court.	A person reading a paper is not currently sitting inside a building.	court	building	neutral
+111	A person reading a paper is not currently sitting inside a building.	A person reading a paper is not currently sitting inside an opera.	opera	building	entailment
+112	A person reading a paper is not currently sitting inside an opera.	A person reading a paper is not currently sitting inside a building.	opera	building	neutral
+113	A person reading a paper is not currently sitting inside a building.	A person reading a paper is not currently sitting inside a monastery.	monastery	building	entailment
+114	A person reading a paper is not currently sitting inside a monastery.	A person reading a paper is not currently sitting inside a building.	monastery	building	neutral
+115	A person reading a paper is not currently sitting inside a building.	A person reading a paper is not currently sitting inside a pub.	pub	building	entailment
+116	A person reading a paper is not currently sitting inside a pub.	A person reading a paper is not currently sitting inside a building.	pub	building	neutral
+117	A person reading a paper is not currently sitting inside a building.	A person reading a paper is not currently sitting inside a steakhouse.	steakhouse	building	entailment
+118	A person reading a paper is not currently sitting inside a steakhouse.	A person reading a paper is not currently sitting inside a building.	steakhouse	building	neutral
+119	A person reading a paper is not currently sitting inside a building.	A person reading a paper is not currently sitting inside a courthouse.	courthouse	building	entailment
+120	A person reading a paper is not currently sitting inside a courthouse.	A person reading a paper is not currently sitting inside a building.	courthouse	building	neutral
+121	A person reading a paper is not currently sitting inside a building.	A person reading a paper is not currently sitting inside a cathedral.	cathedral	building	entailment
+122	A person reading a paper is not currently sitting inside a cathedral.	A person reading a paper is not currently sitting inside a building.	cathedral	building	neutral
+123	A person reading a paper is not currently sitting inside a building.	A person reading a paper is not currently sitting inside a club.	club	building	entailment
+124	A person reading a paper is not currently sitting inside a club.	A person reading a paper is not currently sitting inside a building.	club	building	neutral
+125	A person reading a paper is not currently sitting inside a building.	A person reading a paper is not currently sitting inside a villa.	villa	building	entailment
+126	A person reading a paper is not currently sitting inside a villa.	A person reading a paper is not currently sitting inside a building.	villa	building	neutral
+127	A person reading a paper is not currently sitting inside a building.	A person reading a paper is not currently sitting inside an embassy.	embassy	building	entailment
+128	A person reading a paper is not currently sitting inside an embassy.	A person reading a paper is not currently sitting inside a building.	embassy	building	neutral
+129	A person reading a paper is not currently sitting inside a building.	A person reading a paper is not currently sitting inside a temple.	temple	building	entailment
+130	A person reading a paper is not currently sitting inside a temple.	A person reading a paper is not currently sitting inside a building.	temple	building	neutral
+131	A person reading a paper is not currently sitting inside a building.	A person reading a paper is not currently sitting inside a hotel.	hotel	building	entailment
+132	A person reading a paper is not currently sitting inside a hotel.	A person reading a paper is not currently sitting inside a building.	hotel	building	neutral
+133	A person reading a paper is not currently sitting inside a building.	A person reading a paper is not currently sitting inside a bungalow.	bungalow	building	entailment
+134	A person reading a paper is not currently sitting inside a bungalow.	A person reading a paper is not currently sitting inside a building.	bungalow	building	neutral
+135	A person reading a paper is not currently sitting inside a building.	A person reading a paper is not currently sitting inside a cafeteria.	cafeteria	building	entailment
+136	A person reading a paper is not currently sitting inside a cafeteria.	A person reading a paper is not currently sitting inside a building.	cafeteria	building	neutral
+137	A person reading a paper is not currently sitting inside a building.	A person reading a paper is not currently sitting inside a dormitory.	dormitory	building	entailment
+138	A person reading a paper is not currently sitting inside a dormitory.	A person reading a paper is not currently sitting inside a building.	dormitory	building	neutral
+139	A person reading a paper is not currently sitting inside a building.	A person reading a paper is not currently sitting inside a planetarium.	planetarium	building	entailment
+140	A person reading a paper is not currently sitting inside a planetarium.	A person reading a paper is not currently sitting inside a building.	planetarium	building	neutral
+141	A person reading a paper is not currently sitting inside a building.	A person reading a paper is not currently sitting inside a diner.	diner	building	entailment
+142	A person reading a paper is not currently sitting inside a diner.	A person reading a paper is not currently sitting inside a building.	diner	building	neutral
+143	A person reading a paper is not currently sitting inside a building.	A person reading a paper is not currently sitting inside a cafe.	cafe	building	entailment
+144	A person reading a paper is not currently sitting inside a cafe.	A person reading a paper is not currently sitting inside a building.	cafe	building	neutral
+145	A person reading a paper is not currently sitting inside a building.	A person reading a paper is not currently sitting inside a clinic.	clinic	building	entailment
+146	A person reading a paper is not currently sitting inside a clinic.	A person reading a paper is not currently sitting inside a building.	clinic	building	neutral
+147	A person reading a paper is not currently sitting inside a building.	A person reading a paper is not currently sitting inside a skyscraper.	skyscraper	building	entailment
+148	A person reading a paper is not currently sitting inside a skyscraper.	A person reading a paper is not currently sitting inside a building.	skyscraper	building	neutral
+149	A person reading a paper is not currently sitting inside a building.	A person reading a paper is not currently sitting inside a hospital.	hospital	building	entailment
+150	A person reading a paper is not currently sitting inside a hospital.	A person reading a paper is not currently sitting inside a building.	hospital	building	neutral
+151	A person reading a paper is not currently sitting inside a building.	A person reading a paper is not currently sitting inside a manor.	manor	building	entailment
+152	A person reading a paper is not currently sitting inside a manor.	A person reading a paper is not currently sitting inside a building.	manor	building	neutral
+153	A person reading a paper is not currently sitting inside a building.	A person reading a paper is not currently sitting inside a cinema.	cinema	building	entailment
+154	A person reading a paper is not currently sitting inside a cinema.	A person reading a paper is not currently sitting inside a building.	cinema	building	neutral
+155	A person reading a paper is not currently sitting inside a building.	A person reading a paper is not currently sitting inside a motel.	motel	building	entailment
+156	A person reading a paper is not currently sitting inside a motel.	A person reading a paper is not currently sitting inside a building.	motel	building	neutral
+157	A person reading a paper is not currently sitting inside a building.	A person reading a paper is not currently sitting inside a library.	library	building	entailment
+158	A person reading a paper is not currently sitting inside a library.	A person reading a paper is not currently sitting inside a building.	library	building	neutral
+159	A person reading a paper is not currently sitting inside a building.	A person reading a paper is not currently sitting inside an inn.	inn	building	entailment
+160	A person reading a paper is not currently sitting inside an inn.	A person reading a paper is not currently sitting inside a building.	inn	building	neutral
+161	A dog did not catch any ball.	A dog did not catch any basketball.	basketball	ball	entailment
+162	A dog did not catch any basketball.	A dog did not catch any ball.	basketball	ball	neutral
+163	A dog did not catch any ball.	A dog did not catch any football.	football	ball	entailment
+164	A dog did not catch any football.	A dog did not catch any ball.	football	ball	neutral
+165	A dog did not catch any ball.	A dog did not catch any handball.	handball	ball	entailment
+166	A dog did not catch any handball.	A dog did not catch any ball.	handball	ball	neutral
+167	A dog did not catch any ball.	A dog did not catch any softball.	softball	ball	entailment
+168	A dog did not catch any softball.	A dog did not catch any ball.	softball	ball	neutral
+169	A dog did not catch any ball.	A dog did not catch any racquetball.	racquetball	ball	entailment
+170	A dog did not catch any racquetball.	A dog did not catch any ball.	racquetball	ball	neutral
+171	A dog did not catch any ball.	A dog did not catch any volleyball.	volleyball	ball	entailment
+172	A dog did not catch any volleyball.	A dog did not catch any ball.	volleyball	ball	neutral
+173	A dog did not catch any ball.	A dog did not catch any baseball.	baseball	ball	entailment
+174	A dog did not catch any baseball.	A dog did not catch any ball.	baseball	ball	neutral
+175	The players did not have a ball.	The players did not have a baseball.	baseball	ball	entailment
+176	The players did not have a baseball.	The players did not have a ball.	baseball	ball	neutral
+177	The players did not have a ball.	The players did not have a basketball.	basketball	ball	entailment
+178	The players did not have a basketball.	The players did not have a ball.	basketball	ball	neutral
+179	The players did not have a ball.	The players did not have a volleyball.	volleyball	ball	entailment
+180	The players did not have a volleyball.	The players did not have a ball.	volleyball	ball	neutral
+181	The players did not have a ball.	The players did not have a handball.	handball	ball	entailment
+182	The players did not have a handball.	The players did not have a ball.	handball	ball	neutral
+183	The players did not have a ball.	The players did not have a football.	football	ball	entailment
+184	The players did not have a football.	The players did not have a ball.	football	ball	neutral
+185	The players did not have a ball.	The players did not have a racquetball.	racquetball	ball	entailment
+186	The players did not have a racquetball.	The players did not have a ball.	racquetball	ball	neutral
+187	The players did not have a ball.	The players did not have a softball.	softball	ball	entailment
+188	The players did not have a softball.	The players did not have a ball.	softball	ball	neutral
+189	The man is not steering a car	The man is not steering a taxi	taxi	car	entailment
+190	The man is not steering a taxi	The man is not steering a car	taxi	car	neutral
+191	The man is not steering a car	The man is not steering a SUV	suv	car	entailment
+192	The man is not steering a SUV	The man is not steering a car	suv	car	neutral
+193	The man is not steering a car	The man is not steering a subcompact	subcompact	car	entailment
+194	The man is not steering a subcompact	The man is not steering a car	subcompact	car	neutral
+195	The man is not steering a car	The man is not steering a convertible	convertible	car	entailment
+196	The man is not steering a convertible	The man is not steering a car	convertible	car	neutral
+197	The man is not steering a car	The man is not steering a jeep	jeep	car	entailment
+198	The man is not steering a jeep	The man is not steering a car	jeep	car	neutral
+199	The man is not steering a car	The man is not steering a sedan	sedan	car	entailment
+200	The man is not steering a sedan	The man is not steering a car	sedan	car	neutral

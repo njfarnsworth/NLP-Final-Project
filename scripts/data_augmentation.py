@@ -59,7 +59,7 @@ def generate_monotonicity_prompt(sample_data:str, num_new_samples:int,request_id
     {sample_data}
     
 
-    generate {num_new_samples} diverse, disjoint samples. Vary the sentences in length and topic matter
+    generate {num_new_samples} diverse, disjoint samples. Vary the sentences in length and topic matter. Avoid Repetition, ensure the sentences are coherent.
     """
     create_batch_request(prompt,request_id) 
 
@@ -75,7 +75,7 @@ def create_batch_request(prompt, request_id):
         "url": "/v1/responses",
         "body": 
             {
-                "model": "gpt-5-mini",
+                "model": "gpt-5",
                 "input": [{"role":"user", "content": prompt}], 
             }
     }
@@ -112,19 +112,26 @@ def create_batch_request(prompt, request_id):
 
 # ------------------------dataset generation after prompt has been sent to API -----------------------------------------
 
-def generate_dataset(request_id:str,output_fpath:str,column_labels:str):
+def generate_monotonicity_dataset(request_id:str,output_fpath:str,column_labels:str):
     with open("request_log.json","r") as file:
         request_logs = dict(json.load(file))
     
     templates = fetch_batch_results(request_logs[request_id])
     if templates is not None:
-        generate_tsv_file(templates=templates,output_fpath=output_fpath,column_labels=column_labels)
+        generate_monotonicity_tsv_file(templates=templates,output_fpath=output_fpath,column_labels=column_labels)
 
 
 def fetch_batch_results(batch_id:str):
     """
     Use with caution, assumes output form of query is a line separated list of dictionaries (jsonlike)
     """
+    def safe_dict_load(item:str):
+        try:
+            return json.loads(item)
+        except:
+            return None
+
+
     batch = dict(client.batches.retrieve(batch_id))
     dicts = None
     if batch['status'] == 'completed':
@@ -132,7 +139,10 @@ def fetch_batch_results(batch_id:str):
             response = json.loads(client.files.content(batch['output_file_id']).text)
             string_response = response['response']['body']['output'][1]['content'][0]['text']
             response = string_response.split("\n")
-            dicts = [json.loads(item) for item in response]
+            #print(response)
+
+            dicts = [safe_dict_load(item) for item in response if safe_dict_load(item) is not None]
+            print("length: ",len(dicts))
         else:
             print("No output file generated")
     else:
@@ -141,24 +151,42 @@ def fetch_batch_results(batch_id:str):
     return dicts
         
 
-def generate_tsv_file(templates:list[dict],output_fpath:str,column_labels:str):
+def generate_monotonicity_tsv_file(templates:list[dict],output_fpath:str,column_labels:str):
     rows = []
+    idx = 1
     for template in templates:
         for weak in template['weak']:
             strong_sentence = template['sentence'].lower()
             weak_sentence = strong_sentence.replace(template['strong'],weak)
-            entailment = [strong_sentence,weak_sentence,'entailment']
-            non_entailment = [weak_sentence,strong_sentence,'non-entailment']
+            entailment = [idx,strong_sentence,weak_sentence,'entailment']
+            idx += 1
+            non_entailment = [idx,weak_sentence,strong_sentence,weak,template['strong'],'non-entailment']
+            idx += 1
             rows += [entailment,non_entailment]
     
     df = pd.DataFrame(rows,columns=column_labels)
     df.to_csv(output_fpath, sep="\t",index=False)
+
+
+
+def synthetic_verification(synth_fpath:str,train_fpath:str,test_fpath):
+    """
+    Programmatic verification of the validity of synthetic data:
+    (1) No identical data between synth, train, and test data
+    (2) random sampling of synthetic data, premise and hypothesis differ in only a single word
+    (3) strong/weak pairs from random sample are extracted and manually verified ~ 200
+    """
+
+
+
+
                 
 
 def main():
     negative_sample_data = """
     {'sentence': 'There is a man not wearing a hat staring at people on a subway.', 'strong': 'hat', 'weak': ['sombrero', 'sunhat', 'fedora']} 
-    {'sentence': 'The three children are not holding plants.', 'strong': 'plants', 'weak':['daisies', 'flowers', 'Lillies', 'ferns', 'houseplants]}
+    {'sentence': 'The three children are not holding plants.', 'strong': 'plants', 'weak':['daisies', 'flowers', 'Lillies', 'ferns', 'houseplants']}
+    {'sentence': 'Some dishes do not have food'., 'strong': 'food', 'weak': ['rice','vegetables','meat']}
     """
 
     positive_sample_data = """
@@ -166,17 +194,17 @@ def main():
     {'sentence': 'Two dogs play with a green ball on a wooden deck', 'strong': 'car', 'weak': ['taxi', 'convertible', 'SUV']} 
     """
     
-    generate_monotonicity_prompt(sample_data=positive_sample_data, num_new_samples=5, request_id="small-pos-test-5")
+    generate_monotonicity_prompt(sample_data=negative_sample_data, num_new_samples=1000, request_id="neg-1000-BIG")
+    #generate_monotonicity_prompt(sample_data=positive_sample_data, num_new_samples=1000, request_id="pos-1000")
 
 
-    monotonicity_col_labels = ['sentence1','sentence2','gold_label']
-    generate_dataset("small-pos-test-5","test_output.tsv",column_labels=monotonicity_col_labels)
+    monotonicity_col_labels = ['textid','text','pair','weak','strong','label']
+    
+    #the split of the distribution should occur at the template level
+    #generate_monotonicity_dataset(request_id="neg-900-BIG",output_fpath="negative_synthetic_2.tsv",column_labels=monotonicity_col_labels)
     
     
-        
-
     ### Next Step:
-        # load templates into NLI pairs
         # validate data programmatically w/ random sampling + parsing 
 
         
