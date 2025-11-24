@@ -82,7 +82,17 @@ def main():
 
     #synth_neg = pd.read_csv("../data/negative_synthetic.tsv",sep="\t")
     #split_data(synth_neg,"synth-neg",(.8,.2,0))
-    pass
+
+
+    #create mega data set for cross evaluation, train on everything
+    data_files = ['negative_train.tsv','negative_val.tsv','positive_train.tsv','positive_val.tsv','synth-neg_train.tsv','synth-neg_val.tsv','synth-pos_train.tsv','synth-pos_val.tsv']
+    dfs = []
+    for file in data_files:
+        dfs.append(pd.read_csv(f"../data/{file}",sep="\t"))
+    
+    df = pd.concat(dfs,ignore_index=True)
+    df.to_csv("../data/mono_data.tsv",index=False,sep="\t")
+
 
 
 
