@@ -61,7 +61,8 @@ def generate_monotonicity_prompt(sample_data:str, num_new_samples:int,request_id
 
     generate {num_new_samples} diverse, disjoint samples. Vary the sentences in length and topic matter. Avoid Repetition, ensure the sentences are coherent.
     """
-    create_batch_request(prompt,request_id) 
+    return prompt
+    #create_batch_request(prompt,request_id) 
 
     
 def create_batch_request(prompt, request_id): 
@@ -158,9 +159,9 @@ def generate_monotonicity_tsv_file(templates:list[dict],output_fpath:str,column_
         for weak in template['weak']:
             strong_sentence = template['sentence'].lower()
             weak_sentence = strong_sentence.replace(template['strong'],weak)
-            entailment = [idx,strong_sentence,weak_sentence,'entailment']
+            entailment = [idx,strong_sentence,weak_sentence,weak,template['strong'],'entailment']
             idx += 1
-            non_entailment = [idx,weak_sentence,strong_sentence,weak,template['strong'],'non-entailment']
+            non_entailment = [idx,weak_sentence,strong_sentence,weak,template['strong'],'neutral']
             idx += 1
             rows += [entailment,non_entailment]
     
@@ -169,24 +170,13 @@ def generate_monotonicity_tsv_file(templates:list[dict],output_fpath:str,column_
 
 
 
-def synthetic_verification(synth_fpath:str,train_fpath:str,test_fpath):
-    """
-    Programmatic verification of the validity of synthetic data:
-    (1) No identical data between synth, train, and test data
-    (2) random sampling of synthetic data, premise and hypothesis differ in only a single word
-    (3) strong/weak pairs from random sample are extracted and manually verified ~ 200
-    """
-
-
-
-
                 
 
 def main():
     negative_sample_data = """
-    {'sentence': 'There is a man not wearing a hat staring at people on a subway.', 'strong': 'hat', 'weak': ['sombrero', 'sunhat', 'fedora']} 
-    {'sentence': 'The three children are not holding plants.', 'strong': 'plants', 'weak':['daisies', 'flowers', 'Lillies', 'ferns', 'houseplants']}
-    {'sentence': 'Some dishes do not have food'., 'strong': 'food', 'weak': ['rice','vegetables','meat']}
+    {'sentence': 'There is a man not wearing a hat staring at people on a subway.','strong': 'hat', 'weak': ['sombrero', 'sunhat', 'fedora']}, {'sentence': 'The three children are not holding plants.', 'strong': 'plants', 'weak':['daisies', 'flowers', 'Lillies', 'ferns', 'houseplants']}, {'sentence': 'Some dishes do not have food.', 'strong': 'food', 'weak': ['rice','vegetables','meat']}
+
+    Make sure your generated templates create the negation using 'not' 
     """
 
     positive_sample_data = """
@@ -194,14 +184,22 @@ def main():
     {'sentence': 'Two dogs play with a green ball on a wooden deck', 'strong': 'car', 'weak': ['taxi', 'convertible', 'SUV']} 
     """
     
-    generate_monotonicity_prompt(sample_data=negative_sample_data, num_new_samples=1000, request_id="neg-1000-BIG")
+    #generate_monotonicity_prompt(sample_data=negative_sample_data, num_new_samples=500, request_id="neg-500-specific")
     #generate_monotonicity_prompt(sample_data=positive_sample_data, num_new_samples=1000, request_id="pos-1000")
 
+    response = client.responses.create(
+        model="gpt-5",
+        input= generate_monotonicity_prompt(negative_sample_data,500,"dummy_2")
+    )
+    with open("dummy.jsonl", "w") as file:
+        print(response.output_text)
+        file.write(response.output_text)
 
-    monotonicity_col_labels = ['textid','text','pair','weak','strong','label']
+    #monotonicity_col_labels = ['textid','text','pair','weak','strong','label']
     
     #the split of the distribution should occur at the template level
-    #generate_monotonicity_dataset(request_id="neg-900-BIG",output_fpath="negative_synthetic_2.tsv",column_labels=monotonicity_col_labels)
+    #generate_monotonicity_dataset(request_id="neg-750-specific",output_fpath="negative_synthetic_3.tsv",column_labels=monotonicity_col_labels)
+    #generate_monotonicity_dataset(request_id="pos-1000",output_fpath="positive_synthetic.tsv",column_labels=monotonicity_col_labels)
     
     
     ### Next Step:
@@ -209,3 +207,5 @@ def main():
 
         
 main()
+
+

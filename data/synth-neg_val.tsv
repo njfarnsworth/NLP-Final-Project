@@ -1,0 +1,833 @@
+textid	text	pair	weak	strong	label
+9	the hikers did not eat fruit during the short break.	the hikers did not eat apples during the short break.	apples	fruit	entailment
+10	the hikers did not eat apples during the short break.	the hikers did not eat fruit during the short break.	apples	fruit	neutral
+11	the hikers did not eat fruit during the short break.	the hikers did not eat bananas during the short break.	bananas	fruit	entailment
+12	the hikers did not eat bananas during the short break.	the hikers did not eat fruit during the short break.	bananas	fruit	neutral
+13	the hikers did not eat fruit during the short break.	the hikers did not eat oranges during the short break.	oranges	fruit	entailment
+14	the hikers did not eat oranges during the short break.	the hikers did not eat fruit during the short break.	oranges	fruit	neutral
+15	the hikers did not eat fruit during the short break.	the hikers did not eat grapes during the short break.	grapes	fruit	entailment
+16	the hikers did not eat grapes during the short break.	the hikers did not eat fruit during the short break.	grapes	fruit	neutral
+105	the librarian did not lend magazines this week.	the librarian did not lend fashion magazines this week.	fashion magazines	magazines	entailment
+106	the librarian did not lend fashion magazines this week.	the librarian did not lend magazines this week.	fashion magazines	magazines	neutral
+107	the librarian did not lend magazines this week.	the librarian did not lend science magazines this week.	science magazines	magazines	entailment
+108	the librarian did not lend science magazines this week.	the librarian did not lend magazines this week.	science magazines	magazines	neutral
+109	the librarian did not lend magazines this week.	the librarian did not lend news magazines this week.	news magazines	magazines	entailment
+110	the librarian did not lend news magazines this week.	the librarian did not lend magazines this week.	news magazines	magazines	neutral
+111	the librarian did not lend magazines this week.	the librarian did not lend literary magazines this week.	literary magazines	magazines	entailment
+112	the librarian did not lend literary magazines this week.	the librarian did not lend magazines this week.	literary magazines	magazines	neutral
+161	the child did not drink juice at lunch.	the child did not drink orange juice at lunch.	orange juice	juice	entailment
+162	the child did not drink orange juice at lunch.	the child did not drink juice at lunch.	orange juice	juice	neutral
+163	the child did not drink juice at lunch.	the child did not drink apple juice at lunch.	apple juice	juice	entailment
+164	the child did not drink apple juice at lunch.	the child did not drink juice at lunch.	apple juice	juice	neutral
+165	the child did not drink juice at lunch.	the child did not drink grape juice at lunch.	grape juice	juice	entailment
+166	the child did not drink grape juice at lunch.	the child did not drink juice at lunch.	grape juice	juice	neutral
+167	the child did not drink juice at lunch.	the child did not drink cranberry juice at lunch.	cranberry juice	juice	entailment
+168	the child did not drink cranberry juice at lunch.	the child did not drink juice at lunch.	cranberry juice	juice	neutral
+169	the teacher did not assign homework for the weekend.	the teacher did not assign essays for the weekend.	essays	homework	entailment
+170	the teacher did not assign essays for the weekend.	the teacher did not assign homework for the weekend.	essays	homework	neutral
+171	the teacher did not assign homework for the weekend.	the teacher did not assign problem sets for the weekend.	problem sets	homework	entailment
+172	the teacher did not assign problem sets for the weekend.	the teacher did not assign homework for the weekend.	problem sets	homework	neutral
+173	the teacher did not assign homework for the weekend.	the teacher did not assign reading assignments for the weekend.	reading assignments	homework	entailment
+174	the teacher did not assign reading assignments for the weekend.	the teacher did not assign homework for the weekend.	reading assignments	homework	neutral
+175	the teacher did not assign homework for the weekend.	the teacher did not assign projects for the weekend.	projects	homework	entailment
+176	the teacher did not assign projects for the weekend.	the teacher did not assign homework for the weekend.	projects	homework	neutral
+269	the composer did not use instruments in that piece.	the composer did not use violins in that piece.	violins	instruments	entailment
+270	the composer did not use violins in that piece.	the composer did not use instruments in that piece.	violins	instruments	neutral
+271	the composer did not use instruments in that piece.	the composer did not use flutes in that piece.	flutes	instruments	entailment
+272	the composer did not use flutes in that piece.	the composer did not use instruments in that piece.	flutes	instruments	neutral
+273	the composer did not use instruments in that piece.	the composer did not use pianos in that piece.	pianos	instruments	entailment
+274	the composer did not use pianos in that piece.	the composer did not use instruments in that piece.	pianos	instruments	neutral
+275	the composer did not use instruments in that piece.	the composer did not use drums in that piece.	drums	instruments	entailment
+276	the composer did not use drums in that piece.	the composer did not use instruments in that piece.	drums	instruments	neutral
+339	the hikers did not carry bags on the summit push.	the hikers did not carry backpacks on the summit push.	backpacks	bags	entailment
+340	the hikers did not carry backpacks on the summit push.	the hikers did not carry bags on the summit push.	backpacks	bags	neutral
+341	the hikers did not carry bags on the summit push.	the hikers did not carry duffel bags on the summit push.	duffel bags	bags	entailment
+342	the hikers did not carry duffel bags on the summit push.	the hikers did not carry bags on the summit push.	duffel bags	bags	neutral
+343	the hikers did not carry bags on the summit push.	the hikers did not carry tote bags on the summit push.	tote bags	bags	entailment
+344	the hikers did not carry tote bags on the summit push.	the hikers did not carry bags on the summit push.	tote bags	bags	neutral
+345	the hikers did not carry bags on the summit push.	the hikers did not carry messenger bags on the summit push.	messenger bags	bags	entailment
+346	the hikers did not carry messenger bags on the summit push.	the hikers did not carry bags on the summit push.	messenger bags	bags	neutral
+379	the presenter did not show slides with animations.	the presenter did not show title slide with animations.	title slide	slides	entailment
+380	the presenter did not show title slide with animations.	the presenter did not show slides with animations.	title slide	slides	neutral
+381	the presenter did not show slides with animations.	the presenter did not show outline slide with animations.	outline slide	slides	entailment
+382	the presenter did not show outline slide with animations.	the presenter did not show slides with animations.	outline slide	slides	neutral
+383	the presenter did not show slides with animations.	the presenter did not show chart slide with animations.	chart slide	slides	entailment
+384	the presenter did not show chart slide with animations.	the presenter did not show slides with animations.	chart slide	slides	neutral
+385	the presenter did not show slides with animations.	the presenter did not show photo slide with animations.	photo slide	slides	entailment
+386	the presenter did not show photo slide with animations.	the presenter did not show slides with animations.	photo slide	slides	neutral
+387	the lab did not perform tests on blood.	the lab did not perform CBC on blood.	CBC	tests	entailment
+388	the lab did not perform CBC on blood.	the lab did not perform tests on blood.	CBC	tests	neutral
+389	the lab did not perform tests on blood.	the lab did not perform chemistry panel on blood.	chemistry panel	tests	entailment
+390	the lab did not perform chemistry panel on blood.	the lab did not perform tests on blood.	chemistry panel	tests	neutral
+391	the lab did not perform tests on blood.	the lab did not perform blood typing on blood.	blood typing	tests	entailment
+392	the lab did not perform blood typing on blood.	the lab did not perform tests on blood.	blood typing	tests	neutral
+393	the lab did not perform tests on blood.	the lab did not perform antibody test on blood.	antibody test	tests	entailment
+394	the lab did not perform antibody test on blood.	the lab did not perform tests on blood.	antibody test	tests	neutral
+395	the librarian did not shelve books by genre today.	the librarian did not shelve books by mystery today.	mystery	genre	entailment
+396	the librarian did not shelve books by mystery today.	the librarian did not shelve books by genre today.	mystery	genre	neutral
+397	the librarian did not shelve books by genre today.	the librarian did not shelve books by fantasy today.	fantasy	genre	entailment
+398	the librarian did not shelve books by fantasy today.	the librarian did not shelve books by genre today.	fantasy	genre	neutral
+399	the librarian did not shelve books by genre today.	the librarian did not shelve books by nonfiction today.	nonfiction	genre	entailment
+400	the librarian did not shelve books by nonfiction today.	the librarian did not shelve books by genre today.	nonfiction	genre	neutral
+401	the librarian did not shelve books by genre today.	the librarian did not shelve books by romance today.	romance	genre	entailment
+402	the librarian did not shelve books by romance today.	the librarian did not shelve books by genre today.	romance	genre	neutral
+411	the driver did not take public transit this morning.	the driver did not take bus this morning.	bus	public transit	entailment
+412	the driver did not take bus this morning.	the driver did not take public transit this morning.	bus	public transit	neutral
+413	the driver did not take public transit this morning.	the driver did not take subway this morning.	subway	public transit	entailment
+414	the driver did not take subway this morning.	the driver did not take public transit this morning.	subway	public transit	neutral
+415	the driver did not take public transit this morning.	the driver did not take tram this morning.	tram	public transit	entailment
+416	the driver did not take tram this morning.	the driver did not take public transit this morning.	tram	public transit	neutral
+417	the driver did not take public transit this morning.	the driver did not take ferry this morning.	ferry	public transit	entailment
+418	the driver did not take ferry this morning.	the driver did not take public transit this morning.	ferry	public transit	neutral
+419	the analyst did not export data in a format requested.	the analyst did not export data in a CSV requested.	CSV	format	entailment
+420	the analyst did not export data in a CSV requested.	the analyst did not export data in a format requested.	CSV	format	neutral
+421	the analyst did not export data in a format requested.	the analyst did not export data in a JSON requested.	JSON	format	entailment
+422	the analyst did not export data in a JSON requested.	the analyst did not export data in a format requested.	JSON	format	neutral
+423	the analyst did not export data in a format requested.	the analyst did not export data in a XML requested.	XML	format	entailment
+424	the analyst did not export data in a XML requested.	the analyst did not export data in a format requested.	XML	format	neutral
+425	the analyst did not export data in a format requested.	the analyst did not export data in a Parquet requested.	Parquet	format	entailment
+426	the analyst did not export data in a Parquet requested.	the analyst did not export data in a format requested.	Parquet	format	neutral
+427	the tourists did not visit islands on this tour.	the tourists did not visit Sicily on this tour.	Sicily	islands	entailment
+428	the tourists did not visit Sicily on this tour.	the tourists did not visit islands on this tour.	Sicily	islands	neutral
+429	the tourists did not visit islands on this tour.	the tourists did not visit Corsica on this tour.	Corsica	islands	entailment
+430	the tourists did not visit Corsica on this tour.	the tourists did not visit islands on this tour.	Corsica	islands	neutral
+431	the tourists did not visit islands on this tour.	the tourists did not visit Bali on this tour.	Bali	islands	entailment
+432	the tourists did not visit Bali on this tour.	the tourists did not visit islands on this tour.	Bali	islands	neutral
+433	the tourists did not visit islands on this tour.	the tourists did not visit Maui on this tour.	Maui	islands	entailment
+434	the tourists did not visit Maui on this tour.	the tourists did not visit islands on this tour.	Maui	islands	neutral
+459	the runner is not tracking workouts with an app.	the runner is not tracking workouts with an Strava.	Strava	app	entailment
+460	the runner is not tracking workouts with an Strava.	the runner is not tracking workouts with an app.	Strava	app	neutral
+461	the runner is not tracking workouts with an app.	the runner is not tracking workouts with an Runkeeper.	Runkeeper	app	entailment
+462	the runner is not tracking workouts with an Runkeeper.	the runner is not tracking workouts with an app.	Runkeeper	app	neutral
+463	the runner is not tracking workouts with an app.	the runner is not tracking workouts with an Nike Run Club.	Nike Run Club	app	entailment
+464	the runner is not tracking workouts with an Nike Run Club.	the runner is not tracking workouts with an app.	Nike Run Club	app	neutral
+465	the runner is not tracking workouts with an app.	the runner is not tracking workouts with an MapMyRun.	MapMyRun	app	entailment
+466	the runner is not tracking workouts with an MapMyRun.	the runner is not tracking workouts with an app.	MapMyRun	app	neutral
+569	the astronomer did not observe planets last night.	the astronomer did not observe Mars last night.	Mars	planets	entailment
+570	the astronomer did not observe Mars last night.	the astronomer did not observe planets last night.	Mars	planets	neutral
+571	the astronomer did not observe planets last night.	the astronomer did not observe Venus last night.	Venus	planets	entailment
+572	the astronomer did not observe Venus last night.	the astronomer did not observe planets last night.	Venus	planets	neutral
+573	the astronomer did not observe planets last night.	the astronomer did not observe Jupiter last night.	Jupiter	planets	entailment
+574	the astronomer did not observe Jupiter last night.	the astronomer did not observe planets last night.	Jupiter	planets	neutral
+575	the astronomer did not observe planets last night.	the astronomer did not observe Saturn last night.	Saturn	planets	entailment
+576	the astronomer did not observe Saturn last night.	the astronomer did not observe planets last night.	Saturn	planets	neutral
+641	the nurse did not order imaging for the patient.	the nurse did not order X-rays for the patient.	X-rays	imaging	entailment
+642	the nurse did not order X-rays for the patient.	the nurse did not order imaging for the patient.	X-rays	imaging	neutral
+643	the nurse did not order imaging for the patient.	the nurse did not order MRIs for the patient.	MRIs	imaging	entailment
+644	the nurse did not order MRIs for the patient.	the nurse did not order imaging for the patient.	MRIs	imaging	neutral
+645	the nurse did not order imaging for the patient.	the nurse did not order CT scans for the patient.	CT scans	imaging	entailment
+646	the nurse did not order CT scans for the patient.	the nurse did not order imaging for the patient.	CT scans	imaging	neutral
+647	the nurse did not order imaging for the patient.	the nurse did not order ultrasounds for the patient.	ultrasounds	imaging	entailment
+648	the nurse did not order ultrasounds for the patient.	the nurse did not order imaging for the patient.	ultrasounds	imaging	neutral
+697	the team did not use communication tools for the sprint.	the team did not use email for the sprint.	email	communication tools	entailment
+698	the team did not use email for the sprint.	the team did not use communication tools for the sprint.	email	communication tools	neutral
+699	the team did not use communication tools for the sprint.	the team did not use chat for the sprint.	chat	communication tools	entailment
+700	the team did not use chat for the sprint.	the team did not use communication tools for the sprint.	chat	communication tools	neutral
+701	the team did not use communication tools for the sprint.	the team did not use video calls for the sprint.	video calls	communication tools	entailment
+702	the team did not use video calls for the sprint.	the team did not use communication tools for the sprint.	video calls	communication tools	neutral
+703	the team did not use communication tools for the sprint.	the team did not use message boards for the sprint.	message boards	communication tools	entailment
+704	the team did not use message boards for the sprint.	the team did not use communication tools for the sprint.	message boards	communication tools	neutral
+705	the shopper did not buy dairy products today.	the shopper did not buy yogurt today.	yogurt	dairy products	entailment
+706	the shopper did not buy yogurt today.	the shopper did not buy dairy products today.	yogurt	dairy products	neutral
+707	the shopper did not buy dairy products today.	the shopper did not buy cheese today.	cheese	dairy products	entailment
+708	the shopper did not buy cheese today.	the shopper did not buy dairy products today.	cheese	dairy products	neutral
+709	the shopper did not buy dairy products today.	the shopper did not buy milk today.	milk	dairy products	entailment
+710	the shopper did not buy milk today.	the shopper did not buy dairy products today.	milk	dairy products	neutral
+711	the shopper did not buy dairy products today.	the shopper did not buy butter today.	butter	dairy products	entailment
+712	the shopper did not buy butter today.	the shopper did not buy dairy products today.	butter	dairy products	neutral
+729	the botanist did not label species in the notebook.	the botanist did not label oak in the notebook.	oak	species	entailment
+730	the botanist did not label oak in the notebook.	the botanist did not label species in the notebook.	oak	species	neutral
+731	the botanist did not label species in the notebook.	the botanist did not label spruce in the notebook.	spruce	species	entailment
+732	the botanist did not label spruce in the notebook.	the botanist did not label species in the notebook.	spruce	species	neutral
+733	the botanist did not label species in the notebook.	the botanist did not label willow in the notebook.	willow	species	entailment
+734	the botanist did not label willow in the notebook.	the botanist did not label species in the notebook.	willow	species	neutral
+735	the botanist did not label species in the notebook.	the botanist did not label cedar in the notebook.	cedar	species	entailment
+736	the botanist did not label cedar in the notebook.	the botanist did not label species in the notebook.	cedar	species	neutral
+801	the meteorologist did not predict precipitation for saturday.	the meteorologist did not predict rain for saturday.	rain	precipitation	entailment
+802	the meteorologist did not predict rain for saturday.	the meteorologist did not predict precipitation for saturday.	rain	precipitation	neutral
+803	the meteorologist did not predict precipitation for saturday.	the meteorologist did not predict snow for saturday.	snow	precipitation	entailment
+804	the meteorologist did not predict snow for saturday.	the meteorologist did not predict precipitation for saturday.	snow	precipitation	neutral
+805	the meteorologist did not predict precipitation for saturday.	the meteorologist did not predict sleet for saturday.	sleet	precipitation	entailment
+806	the meteorologist did not predict sleet for saturday.	the meteorologist did not predict precipitation for saturday.	sleet	precipitation	neutral
+807	the meteorologist did not predict precipitation for saturday.	the meteorologist did not predict hail for saturday.	hail	precipitation	entailment
+808	the meteorologist did not predict hail for saturday.	the meteorologist did not predict precipitation for saturday.	hail	precipitation	neutral
+825	the chef did not use herbs in the omelet.	the chef did not use parsley in the omelet.	parsley	herbs	entailment
+826	the chef did not use parsley in the omelet.	the chef did not use herbs in the omelet.	parsley	herbs	neutral
+827	the chef did not use herbs in the omelet.	the chef did not use basil in the omelet.	basil	herbs	entailment
+828	the chef did not use basil in the omelet.	the chef did not use herbs in the omelet.	basil	herbs	neutral
+829	the chef did not use herbs in the omelet.	the chef did not use chives in the omelet.	chives	herbs	entailment
+830	the chef did not use chives in the omelet.	the chef did not use herbs in the omelet.	chives	herbs	neutral
+831	the chef did not use herbs in the omelet.	the chef did not use cilantro in the omelet.	cilantro	herbs	entailment
+832	the chef did not use cilantro in the omelet.	the chef did not use herbs in the omelet.	cilantro	herbs	neutral
+849	the student did not borrow equipment from the lab.	the student did not borrow microscopes from the lab.	microscopes	equipment	entailment
+850	the student did not borrow microscopes from the lab.	the student did not borrow equipment from the lab.	microscopes	equipment	neutral
+851	the student did not borrow equipment from the lab.	the student did not borrow oscilloscopes from the lab.	oscilloscopes	equipment	entailment
+852	the student did not borrow oscilloscopes from the lab.	the student did not borrow equipment from the lab.	oscilloscopes	equipment	neutral
+853	the student did not borrow equipment from the lab.	the student did not borrow pipettes from the lab.	pipettes	equipment	entailment
+854	the student did not borrow pipettes from the lab.	the student did not borrow equipment from the lab.	pipettes	equipment	neutral
+855	the student did not borrow equipment from the lab.	the student did not borrow balances from the lab.	balances	equipment	entailment
+856	the student did not borrow balances from the lab.	the student did not borrow equipment from the lab.	balances	equipment	neutral
+857	the shopper did not use coupons at checkout.	the shopper did not use paper coupons at checkout.	paper coupons	coupons	entailment
+858	the shopper did not use paper coupons at checkout.	the shopper did not use coupons at checkout.	paper coupons	coupons	neutral
+859	the shopper did not use coupons at checkout.	the shopper did not use digital coupons at checkout.	digital coupons	coupons	entailment
+860	the shopper did not use digital coupons at checkout.	the shopper did not use coupons at checkout.	digital coupons	coupons	neutral
+861	the shopper did not use coupons at checkout.	the shopper did not use manufacturer coupons at checkout.	manufacturer coupons	coupons	entailment
+862	the shopper did not use manufacturer coupons at checkout.	the shopper did not use coupons at checkout.	manufacturer coupons	coupons	neutral
+863	the shopper did not use coupons at checkout.	the shopper did not use store coupons at checkout.	store coupons	coupons	entailment
+864	the shopper did not use store coupons at checkout.	the shopper did not use coupons at checkout.	store coupons	coupons	neutral
+975	the company did not hire staff this season.	the company did not hire engineers this season.	engineers	staff	entailment
+976	the company did not hire engineers this season.	the company did not hire staff this season.	engineers	staff	neutral
+977	the company did not hire staff this season.	the company did not hire designers this season.	designers	staff	entailment
+978	the company did not hire designers this season.	the company did not hire staff this season.	designers	staff	neutral
+979	the company did not hire staff this season.	the company did not hire analysts this season.	analysts	staff	entailment
+980	the company did not hire analysts this season.	the company did not hire staff this season.	analysts	staff	neutral
+981	the company did not hire staff this season.	the company did not hire managers this season.	managers	staff	entailment
+982	the company did not hire managers this season.	the company did not hire staff this season.	managers	staff	neutral
+1071	the conference did not invite speakers from industry.	the conference did not invite keynote speakers from industry.	keynote speakers	speakers	entailment
+1072	the conference did not invite keynote speakers from industry.	the conference did not invite speakers from industry.	keynote speakers	speakers	neutral
+1073	the conference did not invite speakers from industry.	the conference did not invite panelists from industry.	panelists	speakers	entailment
+1074	the conference did not invite panelists from industry.	the conference did not invite speakers from industry.	panelists	speakers	neutral
+1075	the conference did not invite speakers from industry.	the conference did not invite workshop speakers from industry.	workshop speakers	speakers	entailment
+1076	the conference did not invite workshop speakers from industry.	the conference did not invite speakers from industry.	workshop speakers	speakers	neutral
+1077	the conference did not invite speakers from industry.	the conference did not invite guest speakers from industry.	guest speakers	speakers	entailment
+1078	the conference did not invite guest speakers from industry.	the conference did not invite speakers from industry.	guest speakers	speakers	neutral
+1103	the carpenter did not use wood for the frame.	the carpenter did not use oak for the frame.	oak	wood	entailment
+1104	the carpenter did not use oak for the frame.	the carpenter did not use wood for the frame.	oak	wood	neutral
+1105	the carpenter did not use wood for the frame.	the carpenter did not use pine for the frame.	pine	wood	entailment
+1106	the carpenter did not use pine for the frame.	the carpenter did not use wood for the frame.	pine	wood	neutral
+1107	the carpenter did not use wood for the frame.	the carpenter did not use maple for the frame.	maple	wood	entailment
+1108	the carpenter did not use maple for the frame.	the carpenter did not use wood for the frame.	maple	wood	neutral
+1109	the carpenter did not use wood for the frame.	the carpenter did not use birch for the frame.	birch	wood	entailment
+1110	the carpenter did not use birch for the frame.	the carpenter did not use wood for the frame.	birch	wood	neutral
+1127	the chef did not add dairy products to the sauce.	the chef did not add cream to the sauce.	cream	dairy products	entailment
+1128	the chef did not add cream to the sauce.	the chef did not add dairy products to the sauce.	cream	dairy products	neutral
+1129	the chef did not add dairy products to the sauce.	the chef did not add butter to the sauce.	butter	dairy products	entailment
+1130	the chef did not add butter to the sauce.	the chef did not add dairy products to the sauce.	butter	dairy products	neutral
+1131	the chef did not add dairy products to the sauce.	the chef did not add milk to the sauce.	milk	dairy products	entailment
+1132	the chef did not add milk to the sauce.	the chef did not add dairy products to the sauce.	milk	dairy products	neutral
+1133	the chef did not add dairy products to the sauce.	the chef did not add cheese to the sauce.	cheese	dairy products	entailment
+1134	the chef did not add cheese to the sauce.	the chef did not add dairy products to the sauce.	cheese	dairy products	neutral
+1239	the curator did not acquire paintings this season.	the curator did not acquire portraits this season.	portraits	paintings	entailment
+1240	the curator did not acquire portraits this season.	the curator did not acquire paintings this season.	portraits	paintings	neutral
+1241	the curator did not acquire paintings this season.	the curator did not acquire landscapes this season.	landscapes	paintings	entailment
+1242	the curator did not acquire landscapes this season.	the curator did not acquire paintings this season.	landscapes	paintings	neutral
+1243	the curator did not acquire paintings this season.	the curator did not acquire abstracts this season.	abstracts	paintings	entailment
+1244	the curator did not acquire abstracts this season.	the curator did not acquire paintings this season.	abstracts	paintings	neutral
+1245	the curator did not acquire paintings this season.	the curator did not acquire still lifes this season.	still lifes	paintings	entailment
+1246	the curator did not acquire still lifes this season.	the curator did not acquire paintings this season.	still lifes	paintings	neutral
+1263	the team did not use methods described in the paper.	the team did not use regression described in the paper.	regression	methods	entailment
+1264	the team did not use regression described in the paper.	the team did not use methods described in the paper.	regression	methods	neutral
+1265	the team did not use methods described in the paper.	the team did not use clustering described in the paper.	clustering	methods	entailment
+1266	the team did not use clustering described in the paper.	the team did not use methods described in the paper.	clustering	methods	neutral
+1267	the team did not use methods described in the paper.	the team did not use simulation described in the paper.	simulation	methods	entailment
+1268	the team did not use simulation described in the paper.	the team did not use methods described in the paper.	simulation	methods	neutral
+1269	the team did not use methods described in the paper.	the team did not use optimization described in the paper.	optimization	methods	entailment
+1270	the team did not use optimization described in the paper.	the team did not use methods described in the paper.	optimization	methods	neutral
+1367	the bakery did not use chocolate in the cookies.	the bakery did not use dark chocolate in the cookies.	dark chocolate	chocolate	entailment
+1368	the bakery did not use dark chocolate in the cookies.	the bakery did not use chocolate in the cookies.	dark chocolate	chocolate	neutral
+1369	the bakery did not use chocolate in the cookies.	the bakery did not use milk chocolate in the cookies.	milk chocolate	chocolate	entailment
+1370	the bakery did not use milk chocolate in the cookies.	the bakery did not use chocolate in the cookies.	milk chocolate	chocolate	neutral
+1371	the bakery did not use chocolate in the cookies.	the bakery did not use white chocolate in the cookies.	white chocolate	chocolate	entailment
+1372	the bakery did not use white chocolate in the cookies.	the bakery did not use chocolate in the cookies.	white chocolate	chocolate	neutral
+1373	the bakery did not use chocolate in the cookies.	the bakery did not use cocoa nibs in the cookies.	cocoa nibs	chocolate	entailment
+1374	the bakery did not use cocoa nibs in the cookies.	the bakery did not use chocolate in the cookies.	cocoa nibs	chocolate	neutral
+1375	the tech did not install drivers for the device.	the tech did not install audio drivers for the device.	audio drivers	drivers	entailment
+1376	the tech did not install audio drivers for the device.	the tech did not install drivers for the device.	audio drivers	drivers	neutral
+1377	the tech did not install drivers for the device.	the tech did not install graphics drivers for the device.	graphics drivers	drivers	entailment
+1378	the tech did not install graphics drivers for the device.	the tech did not install drivers for the device.	graphics drivers	drivers	neutral
+1379	the tech did not install drivers for the device.	the tech did not install network drivers for the device.	network drivers	drivers	entailment
+1380	the tech did not install network drivers for the device.	the tech did not install drivers for the device.	network drivers	drivers	neutral
+1381	the tech did not install drivers for the device.	the tech did not install printer drivers for the device.	printer drivers	drivers	entailment
+1382	the tech did not install printer drivers for the device.	the tech did not install drivers for the device.	printer drivers	drivers	neutral
+1415	the speaker did not use slides during the talk.	the speaker did not use title slides during the talk.	title slides	slides	entailment
+1416	the speaker did not use title slides during the talk.	the speaker did not use slides during the talk.	title slides	slides	neutral
+1417	the speaker did not use slides during the talk.	the speaker did not use bullet slides during the talk.	bullet slides	slides	entailment
+1418	the speaker did not use bullet slides during the talk.	the speaker did not use slides during the talk.	bullet slides	slides	neutral
+1419	the speaker did not use slides during the talk.	the speaker did not use chart slides during the talk.	chart slides	slides	entailment
+1420	the speaker did not use chart slides during the talk.	the speaker did not use slides during the talk.	chart slides	slides	neutral
+1421	the speaker did not use slides during the talk.	the speaker did not use image slides during the talk.	image slides	slides	entailment
+1422	the speaker did not use image slides during the talk.	the speaker did not use slides during the talk.	image slides	slides	neutral
+1423	the office did not order supplies in july.	the office did not order paper in july.	paper	supplies	entailment
+1424	the office did not order paper in july.	the office did not order supplies in july.	paper	supplies	neutral
+1425	the office did not order supplies in july.	the office did not order pens in july.	pens	supplies	entailment
+1426	the office did not order pens in july.	the office did not order supplies in july.	pens	supplies	neutral
+1427	the office did not order supplies in july.	the office did not order staples in july.	staples	supplies	entailment
+1428	the office did not order staples in july.	the office did not order supplies in july.	staples	supplies	neutral
+1429	the office did not order supplies in july.	the office did not order folders in july.	folders	supplies	entailment
+1430	the office did not order folders in july.	the office did not order supplies in july.	folders	supplies	neutral
+1439	the coder did not write tests for the module.	the coder did not write unit tests for the module.	unit tests	tests	entailment
+1440	the coder did not write unit tests for the module.	the coder did not write tests for the module.	unit tests	tests	neutral
+1441	the coder did not write tests for the module.	the coder did not write integration tests for the module.	integration tests	tests	entailment
+1442	the coder did not write integration tests for the module.	the coder did not write tests for the module.	integration tests	tests	neutral
+1443	the coder did not write tests for the module.	the coder did not write end-to-end tests for the module.	end-to-end tests	tests	entailment
+1444	the coder did not write end-to-end tests for the module.	the coder did not write tests for the module.	end-to-end tests	tests	neutral
+1445	the coder did not write tests for the module.	the coder did not write regression tests for the module.	regression tests	tests	entailment
+1446	the coder did not write regression tests for the module.	the coder did not write tests for the module.	regression tests	tests	neutral
+1463	the parent did not pack clothes for cold weather.	the parent did not pack sweaters for cold weather.	sweaters	clothes	entailment
+1464	the parent did not pack sweaters for cold weather.	the parent did not pack clothes for cold weather.	sweaters	clothes	neutral
+1465	the parent did not pack clothes for cold weather.	the parent did not pack jackets for cold weather.	jackets	clothes	entailment
+1466	the parent did not pack jackets for cold weather.	the parent did not pack clothes for cold weather.	jackets	clothes	neutral
+1467	the parent did not pack clothes for cold weather.	the parent did not pack scarves for cold weather.	scarves	clothes	entailment
+1468	the parent did not pack scarves for cold weather.	the parent did not pack clothes for cold weather.	scarves	clothes	neutral
+1469	the parent did not pack clothes for cold weather.	the parent did not pack gloves for cold weather.	gloves	clothes	entailment
+1470	the parent did not pack gloves for cold weather.	the parent did not pack clothes for cold weather.	gloves	clothes	neutral
+1511	the orchestra did not include instruments from brass.	the orchestra did not include trumpets from brass.	trumpets	instruments	entailment
+1512	the orchestra did not include trumpets from brass.	the orchestra did not include instruments from brass.	trumpets	instruments	neutral
+1513	the orchestra did not include instruments from brass.	the orchestra did not include trombones from brass.	trombones	instruments	entailment
+1514	the orchestra did not include trombones from brass.	the orchestra did not include instruments from brass.	trombones	instruments	neutral
+1515	the orchestra did not include instruments from brass.	the orchestra did not include tubas from brass.	tubas	instruments	entailment
+1516	the orchestra did not include tubas from brass.	the orchestra did not include instruments from brass.	tubas	instruments	neutral
+1517	the orchestra did not include instruments from brass.	the orchestra did not include French horns from brass.	French horns	instruments	entailment
+1518	the orchestra did not include French horns from brass.	the orchestra did not include instruments from brass.	French horns	instruments	neutral
+1525	the seller did not accept currencies from abroad.	the seller did not accept euros from abroad.	euros	currencies	entailment
+1526	the seller did not accept euros from abroad.	the seller did not accept currencies from abroad.	euros	currencies	neutral
+1527	the seller did not accept currencies from abroad.	the seller did not accept yen from abroad.	yen	currencies	entailment
+1528	the seller did not accept yen from abroad.	the seller did not accept currencies from abroad.	yen	currencies	neutral
+1529	the seller did not accept currencies from abroad.	the seller did not accept pounds from abroad.	pounds	currencies	entailment
+1530	the seller did not accept pounds from abroad.	the seller did not accept currencies from abroad.	pounds	currencies	neutral
+1531	the seller did not accept currencies from abroad.	the seller did not accept rupees from abroad.	rupees	currencies	entailment
+1532	the seller did not accept rupees from abroad.	the seller did not accept currencies from abroad.	rupees	currencies	neutral
+1557	the musician did not tune instruments before the set.	the musician did not tune guitars before the set.	guitars	instruments	entailment
+1558	the musician did not tune guitars before the set.	the musician did not tune instruments before the set.	guitars	instruments	neutral
+1559	the musician did not tune instruments before the set.	the musician did not tune violins before the set.	violins	instruments	entailment
+1560	the musician did not tune violins before the set.	the musician did not tune instruments before the set.	violins	instruments	neutral
+1561	the musician did not tune instruments before the set.	the musician did not tune pianos before the set.	pianos	instruments	entailment
+1562	the musician did not tune pianos before the set.	the musician did not tune instruments before the set.	pianos	instruments	neutral
+1563	the musician did not tune instruments before the set.	the musician did not tune clarinets before the set.	clarinets	instruments	entailment
+1564	the musician did not tune clarinets before the set.	the musician did not tune instruments before the set.	clarinets	instruments	neutral
+1653	the researcher did not conduct interviews for the study.	the researcher did not conduct phone interviews for the study.	phone interviews	interviews	entailment
+1654	the researcher did not conduct phone interviews for the study.	the researcher did not conduct interviews for the study.	phone interviews	interviews	neutral
+1655	the researcher did not conduct interviews for the study.	the researcher did not conduct video interviews for the study.	video interviews	interviews	entailment
+1656	the researcher did not conduct video interviews for the study.	the researcher did not conduct interviews for the study.	video interviews	interviews	neutral
+1657	the researcher did not conduct interviews for the study.	the researcher did not conduct in-person interviews for the study.	in-person interviews	interviews	entailment
+1658	the researcher did not conduct in-person interviews for the study.	the researcher did not conduct interviews for the study.	in-person interviews	interviews	neutral
+1659	the researcher did not conduct interviews for the study.	the researcher did not conduct email interviews for the study.	email interviews	interviews	entailment
+1660	the researcher did not conduct email interviews for the study.	the researcher did not conduct interviews for the study.	email interviews	interviews	neutral
+1661	the player did not practice sports after school.	the player did not practice soccer after school.	soccer	sports	entailment
+1662	the player did not practice soccer after school.	the player did not practice sports after school.	soccer	sports	neutral
+1663	the player did not practice sports after school.	the player did not practice basketball after school.	basketball	sports	entailment
+1664	the player did not practice basketball after school.	the player did not practice sports after school.	basketball	sports	neutral
+1665	the player did not practice sports after school.	the player did not practice tennis after school.	tennis	sports	entailment
+1666	the player did not practice tennis after school.	the player did not practice sports after school.	tennis	sports	neutral
+1667	the player did not practice sports after school.	the player did not practice baseball after school.	baseball	sports	entailment
+1668	the player did not practice baseball after school.	the player did not practice sports after school.	baseball	sports	neutral
+1669	the admin did not create users in the directory.	the admin did not create admins in the directory.	admins	users	entailment
+1670	the admin did not create admins in the directory.	the admin did not create users in the directory.	admins	users	neutral
+1671	the admin did not create users in the directory.	the admin did not create guests in the directory.	guests	users	entailment
+1672	the admin did not create guests in the directory.	the admin did not create users in the directory.	guests	users	neutral
+1673	the admin did not create users in the directory.	the admin did not create developers in the directory.	developers	users	entailment
+1674	the admin did not create developers in the directory.	the admin did not create users in the directory.	developers	users	neutral
+1675	the admin did not create users in the directory.	the admin did not create analysts in the directory.	analysts	users	entailment
+1676	the admin did not create analysts in the directory.	the admin did not create users in the directory.	analysts	users	neutral
+1677	the chef did not serve soups at lunchtime.	the chef did not serve tomato soup at lunchtime.	tomato soup	soups	entailment
+1678	the chef did not serve tomato soup at lunchtime.	the chef did not serve soups at lunchtime.	tomato soup	soups	neutral
+1679	the chef did not serve soups at lunchtime.	the chef did not serve chicken noodle soup at lunchtime.	chicken noodle soup	soups	entailment
+1680	the chef did not serve chicken noodle soup at lunchtime.	the chef did not serve soups at lunchtime.	chicken noodle soup	soups	neutral
+1681	the chef did not serve soups at lunchtime.	the chef did not serve minestrone at lunchtime.	minestrone	soups	entailment
+1682	the chef did not serve minestrone at lunchtime.	the chef did not serve soups at lunchtime.	minestrone	soups	neutral
+1683	the chef did not serve soups at lunchtime.	the chef did not serve miso soup at lunchtime.	miso soup	soups	entailment
+1684	the chef did not serve miso soup at lunchtime.	the chef did not serve soups at lunchtime.	miso soup	soups	neutral
+1685	the visitor did not view exhibits in the gallery.	the visitor did not view paintings in the gallery.	paintings	exhibits	entailment
+1686	the visitor did not view paintings in the gallery.	the visitor did not view exhibits in the gallery.	paintings	exhibits	neutral
+1687	the visitor did not view exhibits in the gallery.	the visitor did not view sculptures in the gallery.	sculptures	exhibits	entailment
+1688	the visitor did not view sculptures in the gallery.	the visitor did not view exhibits in the gallery.	sculptures	exhibits	neutral
+1689	the visitor did not view exhibits in the gallery.	the visitor did not view photography in the gallery.	photography	exhibits	entailment
+1690	the visitor did not view photography in the gallery.	the visitor did not view exhibits in the gallery.	photography	exhibits	neutral
+1691	the visitor did not view exhibits in the gallery.	the visitor did not view installations in the gallery.	installations	exhibits	entailment
+1692	the visitor did not view installations in the gallery.	the visitor did not view exhibits in the gallery.	installations	exhibits	neutral
+1773	the cafe did not bake cookies this morning.	the cafe did not bake chocolate chip cookies this morning.	chocolate chip cookies	cookies	entailment
+1774	the cafe did not bake chocolate chip cookies this morning.	the cafe did not bake cookies this morning.	chocolate chip cookies	cookies	neutral
+1775	the cafe did not bake cookies this morning.	the cafe did not bake oatmeal cookies this morning.	oatmeal cookies	cookies	entailment
+1776	the cafe did not bake oatmeal cookies this morning.	the cafe did not bake cookies this morning.	oatmeal cookies	cookies	neutral
+1777	the cafe did not bake cookies this morning.	the cafe did not bake sugar cookies this morning.	sugar cookies	cookies	entailment
+1778	the cafe did not bake sugar cookies this morning.	the cafe did not bake cookies this morning.	sugar cookies	cookies	neutral
+1779	the cafe did not bake cookies this morning.	the cafe did not bake gingersnaps this morning.	gingersnaps	cookies	entailment
+1780	the cafe did not bake gingersnaps this morning.	the cafe did not bake cookies this morning.	gingersnaps	cookies	neutral
+1805	the doctor did not order tests for infection.	the doctor did not order PCR for infection.	PCR	tests	entailment
+1806	the doctor did not order PCR for infection.	the doctor did not order tests for infection.	PCR	tests	neutral
+1807	the doctor did not order tests for infection.	the doctor did not order culture for infection.	culture	tests	entailment
+1808	the doctor did not order culture for infection.	the doctor did not order tests for infection.	culture	tests	neutral
+1809	the doctor did not order tests for infection.	the doctor did not order antigen test for infection.	antigen test	tests	entailment
+1810	the doctor did not order antigen test for infection.	the doctor did not order tests for infection.	antigen test	tests	neutral
+1811	the doctor did not order tests for infection.	the doctor did not order serology for infection.	serology	tests	entailment
+1812	the doctor did not order serology for infection.	the doctor did not order tests for infection.	serology	tests	neutral
+1813	the student did not submit assignments on monday.	the student did not submit essays on monday.	essays	assignments	entailment
+1814	the student did not submit essays on monday.	the student did not submit assignments on monday.	essays	assignments	neutral
+1815	the student did not submit assignments on monday.	the student did not submit lab reports on monday.	lab reports	assignments	entailment
+1816	the student did not submit lab reports on monday.	the student did not submit assignments on monday.	lab reports	assignments	neutral
+1817	the student did not submit assignments on monday.	the student did not submit presentations on monday.	presentations	assignments	entailment
+1818	the student did not submit presentations on monday.	the student did not submit assignments on monday.	presentations	assignments	neutral
+1819	the student did not submit assignments on monday.	the student did not submit problem sets on monday.	problem sets	assignments	entailment
+1820	the student did not submit problem sets on monday.	the student did not submit assignments on monday.	problem sets	assignments	neutral
+1869	the coder did not read messages from the queue.	the coder did not read job messages from the queue.	job messages	messages	entailment
+1870	the coder did not read job messages from the queue.	the coder did not read messages from the queue.	job messages	messages	neutral
+1871	the coder did not read messages from the queue.	the coder did not read event messages from the queue.	event messages	messages	entailment
+1872	the coder did not read event messages from the queue.	the coder did not read messages from the queue.	event messages	messages	neutral
+1873	the coder did not read messages from the queue.	the coder did not read status messages from the queue.	status messages	messages	entailment
+1874	the coder did not read status messages from the queue.	the coder did not read messages from the queue.	status messages	messages	neutral
+1875	the coder did not read messages from the queue.	the coder did not read error messages from the queue.	error messages	messages	entailment
+1876	the coder did not read error messages from the queue.	the coder did not read messages from the queue.	error messages	messages	neutral
+1893	the teacher did not cover subjects from history.	the teacher did not cover revolutions from history.	revolutions	subjects	entailment
+1894	the teacher did not cover revolutions from history.	the teacher did not cover subjects from history.	revolutions	subjects	neutral
+1895	the teacher did not cover subjects from history.	the teacher did not cover empires from history.	empires	subjects	entailment
+1896	the teacher did not cover empires from history.	the teacher did not cover subjects from history.	empires	subjects	neutral
+1897	the teacher did not cover subjects from history.	the teacher did not cover inventions from history.	inventions	subjects	entailment
+1898	the teacher did not cover inventions from history.	the teacher did not cover subjects from history.	inventions	subjects	neutral
+1899	the teacher did not cover subjects from history.	the teacher did not cover wars from history.	wars	subjects	entailment
+1900	the teacher did not cover wars from history.	the teacher did not cover subjects from history.	wars	subjects	neutral
+1917	the chef did not marinate meats overnight.	the chef did not marinate chicken overnight.	chicken	meats	entailment
+1918	the chef did not marinate chicken overnight.	the chef did not marinate meats overnight.	chicken	meats	neutral
+1919	the chef did not marinate meats overnight.	the chef did not marinate beef overnight.	beef	meats	entailment
+1920	the chef did not marinate beef overnight.	the chef did not marinate meats overnight.	beef	meats	neutral
+1921	the chef did not marinate meats overnight.	the chef did not marinate pork overnight.	pork	meats	entailment
+1922	the chef did not marinate pork overnight.	the chef did not marinate meats overnight.	pork	meats	neutral
+1923	the chef did not marinate meats overnight.	the chef did not marinate lamb overnight.	lamb	meats	entailment
+1924	the chef did not marinate lamb overnight.	the chef did not marinate meats overnight.	lamb	meats	neutral
+2101	the student did not memorize formulas for the exam.	the student did not memorize quadratic formula for the exam.	quadratic formula	formulas	entailment
+2102	the student did not memorize quadratic formula for the exam.	the student did not memorize formulas for the exam.	quadratic formula	formulas	neutral
+2103	the student did not memorize formulas for the exam.	the student did not memorize area formulas for the exam.	area formulas	formulas	entailment
+2104	the student did not memorize area formulas for the exam.	the student did not memorize formulas for the exam.	area formulas	formulas	neutral
+2105	the student did not memorize formulas for the exam.	the student did not memorize log rules for the exam.	log rules	formulas	entailment
+2106	the student did not memorize log rules for the exam.	the student did not memorize formulas for the exam.	log rules	formulas	neutral
+2107	the student did not memorize formulas for the exam.	the student did not memorize trig identities for the exam.	trig identities	formulas	entailment
+2108	the student did not memorize trig identities for the exam.	the student did not memorize formulas for the exam.	trig identities	formulas	neutral
+2125	the gardener did not plant herbs in the window box.	the gardener did not plant thyme in the window box.	thyme	herbs	entailment
+2126	the gardener did not plant thyme in the window box.	the gardener did not plant herbs in the window box.	thyme	herbs	neutral
+2127	the gardener did not plant herbs in the window box.	the gardener did not plant basil in the window box.	basil	herbs	entailment
+2128	the gardener did not plant basil in the window box.	the gardener did not plant herbs in the window box.	basil	herbs	neutral
+2129	the gardener did not plant herbs in the window box.	the gardener did not plant mint in the window box.	mint	herbs	entailment
+2130	the gardener did not plant mint in the window box.	the gardener did not plant herbs in the window box.	mint	herbs	neutral
+2131	the gardener did not plant herbs in the window box.	the gardener did not plant rosemary in the window box.	rosemary	herbs	entailment
+2132	the gardener did not plant rosemary in the window box.	the gardener did not plant herbs in the window box.	rosemary	herbs	neutral
+2197	the lab did not culture cells this week.	the lab did not culture stem cells this week.	stem cells	cells	entailment
+2198	the lab did not culture stem cells this week.	the lab did not culture cells this week.	stem cells	cells	neutral
+2199	the lab did not culture cells this week.	the lab did not culture HeLa cells this week.	HeLa cells	cells	entailment
+2200	the lab did not culture HeLa cells this week.	the lab did not culture cells this week.	HeLa cells	cells	neutral
+2201	the lab did not culture cells this week.	the lab did not culture T cells this week.	T cells	cells	entailment
+2202	the lab did not culture T cells this week.	the lab did not culture cells this week.	T cells	cells	neutral
+2203	the lab did not culture cells this week.	the lab did not culture neurons this week.	neurons	cells	entailment
+2204	the lab did not culture neurons this week.	the lab did not culture cells this week.	neurons	cells	neutral
+2237	the shopper did not choose sizes for the shirt.	the shopper did not choose small for the shirt.	small	sizes	entailment
+2238	the shopper did not choose small for the shirt.	the shopper did not choose sizes for the shirt.	small	sizes	neutral
+2239	the shopper did not choose sizes for the shirt.	the shopper did not choose medium for the shirt.	medium	sizes	entailment
+2240	the shopper did not choose medium for the shirt.	the shopper did not choose sizes for the shirt.	medium	sizes	neutral
+2241	the shopper did not choose sizes for the shirt.	the shopper did not choose large for the shirt.	large	sizes	entailment
+2242	the shopper did not choose large for the shirt.	the shopper did not choose sizes for the shirt.	large	sizes	neutral
+2243	the shopper did not choose sizes for the shirt.	the shopper did not choose extra large for the shirt.	extra large	sizes	entailment
+2244	the shopper did not choose extra large for the shirt.	the shopper did not choose sizes for the shirt.	extra large	sizes	neutral
+2269	the athlete did not use equipment for the workout.	the athlete did not use dumbbells for the workout.	dumbbells	equipment	entailment
+2270	the athlete did not use dumbbells for the workout.	the athlete did not use equipment for the workout.	dumbbells	equipment	neutral
+2271	the athlete did not use equipment for the workout.	the athlete did not use kettlebells for the workout.	kettlebells	equipment	entailment
+2272	the athlete did not use kettlebells for the workout.	the athlete did not use equipment for the workout.	kettlebells	equipment	neutral
+2273	the athlete did not use equipment for the workout.	the athlete did not use resistance bands for the workout.	resistance bands	equipment	entailment
+2274	the athlete did not use resistance bands for the workout.	the athlete did not use equipment for the workout.	resistance bands	equipment	neutral
+2275	the athlete did not use equipment for the workout.	the athlete did not use medicine balls for the workout.	medicine balls	equipment	entailment
+2276	the athlete did not use medicine balls for the workout.	the athlete did not use equipment for the workout.	medicine balls	equipment	neutral
+2317	the office did not send emails about the outage.	the office did not send alerts about the outage.	alerts	emails	entailment
+2318	the office did not send alerts about the outage.	the office did not send emails about the outage.	alerts	emails	neutral
+2319	the office did not send emails about the outage.	the office did not send updates about the outage.	updates	emails	entailment
+2320	the office did not send updates about the outage.	the office did not send emails about the outage.	updates	emails	neutral
+2321	the office did not send emails about the outage.	the office did not send summaries about the outage.	summaries	emails	entailment
+2322	the office did not send summaries about the outage.	the office did not send emails about the outage.	summaries	emails	neutral
+2323	the office did not send emails about the outage.	the office did not send follow-ups about the outage.	follow-ups	emails	entailment
+2324	the office did not send follow-ups about the outage.	the office did not send emails about the outage.	follow-ups	emails	neutral
+2333	the shopper did not use bags at checkout.	the shopper did not use paper bags at checkout.	paper bags	bags	entailment
+2334	the shopper did not use paper bags at checkout.	the shopper did not use bags at checkout.	paper bags	bags	neutral
+2335	the shopper did not use bags at checkout.	the shopper did not use plastic bags at checkout.	plastic bags	bags	entailment
+2336	the shopper did not use plastic bags at checkout.	the shopper did not use bags at checkout.	plastic bags	bags	neutral
+2337	the shopper did not use bags at checkout.	the shopper did not use reusable bags at checkout.	reusable bags	bags	entailment
+2338	the shopper did not use reusable bags at checkout.	the shopper did not use bags at checkout.	reusable bags	bags	neutral
+2339	the shopper did not use bags at checkout.	the shopper did not use tote bags at checkout.	tote bags	bags	entailment
+2340	the shopper did not use tote bags at checkout.	the shopper did not use bags at checkout.	tote bags	bags	neutral
+2341	the scientist did not test hypotheses from the proposal.	the scientist did not test null hypotheses from the proposal.	null hypotheses	hypotheses	entailment
+2342	the scientist did not test null hypotheses from the proposal.	the scientist did not test hypotheses from the proposal.	null hypotheses	hypotheses	neutral
+2343	the scientist did not test hypotheses from the proposal.	the scientist did not test alternative hypotheses from the proposal.	alternative hypotheses	hypotheses	entailment
+2344	the scientist did not test alternative hypotheses from the proposal.	the scientist did not test hypotheses from the proposal.	alternative hypotheses	hypotheses	neutral
+2345	the scientist did not test hypotheses from the proposal.	the scientist did not test working hypotheses from the proposal.	working hypotheses	hypotheses	entailment
+2346	the scientist did not test working hypotheses from the proposal.	the scientist did not test hypotheses from the proposal.	working hypotheses	hypotheses	neutral
+2347	the scientist did not test hypotheses from the proposal.	the scientist did not test directional hypotheses from the proposal.	directional hypotheses	hypotheses	entailment
+2348	the scientist did not test directional hypotheses from the proposal.	the scientist did not test hypotheses from the proposal.	directional hypotheses	hypotheses	neutral
+2405	the writer did not add sections to the report.	the writer did not add introduction to the report.	introduction	sections	entailment
+2406	the writer did not add introduction to the report.	the writer did not add sections to the report.	introduction	sections	neutral
+2407	the writer did not add sections to the report.	the writer did not add methodology to the report.	methodology	sections	entailment
+2408	the writer did not add methodology to the report.	the writer did not add sections to the report.	methodology	sections	neutral
+2409	the writer did not add sections to the report.	the writer did not add results to the report.	results	sections	entailment
+2410	the writer did not add results to the report.	the writer did not add sections to the report.	results	sections	neutral
+2411	the writer did not add sections to the report.	the writer did not add conclusion to the report.	conclusion	sections	entailment
+2412	the writer did not add conclusion to the report.	the writer did not add sections to the report.	conclusion	sections	neutral
+2421	the engineer did not install modules in the system.	the engineer did not install auth module in the system.	auth module	modules	entailment
+2422	the engineer did not install auth module in the system.	the engineer did not install modules in the system.	auth module	modules	neutral
+2423	the engineer did not install modules in the system.	the engineer did not install payment module in the system.	payment module	modules	entailment
+2424	the engineer did not install payment module in the system.	the engineer did not install modules in the system.	payment module	modules	neutral
+2425	the engineer did not install modules in the system.	the engineer did not install search module in the system.	search module	modules	entailment
+2426	the engineer did not install search module in the system.	the engineer did not install modules in the system.	search module	modules	neutral
+2427	the engineer did not install modules in the system.	the engineer did not install reporting module in the system.	reporting module	modules	entailment
+2428	the engineer did not install reporting module in the system.	the engineer did not install modules in the system.	reporting module	modules	neutral
+2453	the technician did not calibrate instruments today.	the technician did not calibrate scales today.	scales	instruments	entailment
+2454	the technician did not calibrate scales today.	the technician did not calibrate instruments today.	scales	instruments	neutral
+2455	the technician did not calibrate instruments today.	the technician did not calibrate thermometers today.	thermometers	instruments	entailment
+2456	the technician did not calibrate thermometers today.	the technician did not calibrate instruments today.	thermometers	instruments	neutral
+2457	the technician did not calibrate instruments today.	the technician did not calibrate pH meters today.	pH meters	instruments	entailment
+2458	the technician did not calibrate pH meters today.	the technician did not calibrate instruments today.	pH meters	instruments	neutral
+2459	the technician did not calibrate instruments today.	the technician did not calibrate timers today.	timers	instruments	entailment
+2460	the technician did not calibrate timers today.	the technician did not calibrate instruments today.	timers	instruments	neutral
+2533	the traveler did not exchange currencies at the kiosk.	the traveler did not exchange dollars at the kiosk.	dollars	currencies	entailment
+2534	the traveler did not exchange dollars at the kiosk.	the traveler did not exchange currencies at the kiosk.	dollars	currencies	neutral
+2535	the traveler did not exchange currencies at the kiosk.	the traveler did not exchange euros at the kiosk.	euros	currencies	entailment
+2536	the traveler did not exchange euros at the kiosk.	the traveler did not exchange currencies at the kiosk.	euros	currencies	neutral
+2537	the traveler did not exchange currencies at the kiosk.	the traveler did not exchange yen at the kiosk.	yen	currencies	entailment
+2538	the traveler did not exchange yen at the kiosk.	the traveler did not exchange currencies at the kiosk.	yen	currencies	neutral
+2539	the traveler did not exchange currencies at the kiosk.	the traveler did not exchange pounds at the kiosk.	pounds	currencies	entailment
+2540	the traveler did not exchange pounds at the kiosk.	the traveler did not exchange currencies at the kiosk.	pounds	currencies	neutral
+2557	the musician did not use microphones on stage.	the musician did not use dynamic microphones on stage.	dynamic microphones	microphones	entailment
+2558	the musician did not use dynamic microphones on stage.	the musician did not use microphones on stage.	dynamic microphones	microphones	neutral
+2559	the musician did not use microphones on stage.	the musician did not use condenser microphones on stage.	condenser microphones	microphones	entailment
+2560	the musician did not use condenser microphones on stage.	the musician did not use microphones on stage.	condenser microphones	microphones	neutral
+2561	the musician did not use microphones on stage.	the musician did not use ribbon microphones on stage.	ribbon microphones	microphones	entailment
+2562	the musician did not use ribbon microphones on stage.	the musician did not use microphones on stage.	ribbon microphones	microphones	neutral
+2563	the musician did not use microphones on stage.	the musician did not use wireless microphones on stage.	wireless microphones	microphones	entailment
+2564	the musician did not use wireless microphones on stage.	the musician did not use microphones on stage.	wireless microphones	microphones	neutral
+2565	the analyst did not create dashboards for the team.	the analyst did not create KPI dashboards for the team.	KPI dashboards	dashboards	entailment
+2566	the analyst did not create KPI dashboards for the team.	the analyst did not create dashboards for the team.	KPI dashboards	dashboards	neutral
+2567	the analyst did not create dashboards for the team.	the analyst did not create sales dashboards for the team.	sales dashboards	dashboards	entailment
+2568	the analyst did not create sales dashboards for the team.	the analyst did not create dashboards for the team.	sales dashboards	dashboards	neutral
+2569	the analyst did not create dashboards for the team.	the analyst did not create ops dashboards for the team.	ops dashboards	dashboards	entailment
+2570	the analyst did not create ops dashboards for the team.	the analyst did not create dashboards for the team.	ops dashboards	dashboards	neutral
+2571	the analyst did not create dashboards for the team.	the analyst did not create marketing dashboards for the team.	marketing dashboards	dashboards	entailment
+2572	the analyst did not create marketing dashboards for the team.	the analyst did not create dashboards for the team.	marketing dashboards	dashboards	neutral
+2613	the teacher did not assign novels this term.	the teacher did not assign historical novels this term.	historical novels	novels	entailment
+2614	the teacher did not assign historical novels this term.	the teacher did not assign novels this term.	historical novels	novels	neutral
+2615	the teacher did not assign novels this term.	the teacher did not assign science fiction novels this term.	science fiction novels	novels	entailment
+2616	the teacher did not assign science fiction novels this term.	the teacher did not assign novels this term.	science fiction novels	novels	neutral
+2617	the teacher did not assign novels this term.	the teacher did not assign mystery novels this term.	mystery novels	novels	entailment
+2618	the teacher did not assign mystery novels this term.	the teacher did not assign novels this term.	mystery novels	novels	neutral
+2619	the teacher did not assign novels this term.	the teacher did not assign romance novels this term.	romance novels	novels	entailment
+2620	the teacher did not assign romance novels this term.	the teacher did not assign novels this term.	romance novels	novels	neutral
+2621	the editor did not include captions under the images.	the editor did not include figure captions under the images.	figure captions	captions	entailment
+2622	the editor did not include figure captions under the images.	the editor did not include captions under the images.	figure captions	captions	neutral
+2623	the editor did not include captions under the images.	the editor did not include photo captions under the images.	photo captions	captions	entailment
+2624	the editor did not include photo captions under the images.	the editor did not include captions under the images.	photo captions	captions	neutral
+2625	the editor did not include captions under the images.	the editor did not include table captions under the images.	table captions	captions	entailment
+2626	the editor did not include table captions under the images.	the editor did not include captions under the images.	table captions	captions	neutral
+2627	the editor did not include captions under the images.	the editor did not include diagram captions under the images.	diagram captions	captions	entailment
+2628	the editor did not include diagram captions under the images.	the editor did not include captions under the images.	diagram captions	captions	neutral
+2629	the chef did not add herbs to the sauce.	the chef did not add oregano to the sauce.	oregano	herbs	entailment
+2630	the chef did not add oregano to the sauce.	the chef did not add herbs to the sauce.	oregano	herbs	neutral
+2631	the chef did not add herbs to the sauce.	the chef did not add basil to the sauce.	basil	herbs	entailment
+2632	the chef did not add basil to the sauce.	the chef did not add herbs to the sauce.	basil	herbs	neutral
+2633	the chef did not add herbs to the sauce.	the chef did not add thyme to the sauce.	thyme	herbs	entailment
+2634	the chef did not add thyme to the sauce.	the chef did not add herbs to the sauce.	thyme	herbs	neutral
+2635	the chef did not add herbs to the sauce.	the chef did not add dill to the sauce.	dill	herbs	entailment
+2636	the chef did not add dill to the sauce.	the chef did not add herbs to the sauce.	dill	herbs	neutral
+2653	the driver did not check mirrors before changing lanes.	the driver did not check rearview mirror before changing lanes.	rearview mirror	mirrors	entailment
+2654	the driver did not check rearview mirror before changing lanes.	the driver did not check mirrors before changing lanes.	rearview mirror	mirrors	neutral
+2655	the driver did not check mirrors before changing lanes.	the driver did not check left mirror before changing lanes.	left mirror	mirrors	entailment
+2656	the driver did not check left mirror before changing lanes.	the driver did not check mirrors before changing lanes.	left mirror	mirrors	neutral
+2657	the driver did not check mirrors before changing lanes.	the driver did not check right mirror before changing lanes.	right mirror	mirrors	entailment
+2658	the driver did not check right mirror before changing lanes.	the driver did not check mirrors before changing lanes.	right mirror	mirrors	neutral
+2659	the driver did not check mirrors before changing lanes.	the driver did not check blind-spot mirror before changing lanes.	blind-spot mirror	mirrors	entailment
+2660	the driver did not check blind-spot mirror before changing lanes.	the driver did not check mirrors before changing lanes.	blind-spot mirror	mirrors	neutral
+2701	the teacher did not print handouts for the class.	the teacher did not print reading handouts for the class.	reading handouts	handouts	entailment
+2702	the teacher did not print reading handouts for the class.	the teacher did not print handouts for the class.	reading handouts	handouts	neutral
+2703	the teacher did not print handouts for the class.	the teacher did not print lab handouts for the class.	lab handouts	handouts	entailment
+2704	the teacher did not print lab handouts for the class.	the teacher did not print handouts for the class.	lab handouts	handouts	neutral
+2705	the teacher did not print handouts for the class.	the teacher did not print vocab handouts for the class.	vocab handouts	handouts	entailment
+2706	the teacher did not print vocab handouts for the class.	the teacher did not print handouts for the class.	vocab handouts	handouts	neutral
+2707	the teacher did not print handouts for the class.	the teacher did not print review handouts for the class.	review handouts	handouts	entailment
+2708	the teacher did not print review handouts for the class.	the teacher did not print handouts for the class.	review handouts	handouts	neutral
+2709	the developer did not run tests in the pipeline.	the developer did not run unit tests in the pipeline.	unit tests	tests	entailment
+2710	the developer did not run unit tests in the pipeline.	the developer did not run tests in the pipeline.	unit tests	tests	neutral
+2711	the developer did not run tests in the pipeline.	the developer did not run integration tests in the pipeline.	integration tests	tests	entailment
+2712	the developer did not run integration tests in the pipeline.	the developer did not run tests in the pipeline.	integration tests	tests	neutral
+2713	the developer did not run tests in the pipeline.	the developer did not run smoke tests in the pipeline.	smoke tests	tests	entailment
+2714	the developer did not run smoke tests in the pipeline.	the developer did not run tests in the pipeline.	smoke tests	tests	neutral
+2715	the developer did not run tests in the pipeline.	the developer did not run performance tests in the pipeline.	performance tests	tests	entailment
+2716	the developer did not run performance tests in the pipeline.	the developer did not run tests in the pipeline.	performance tests	tests	neutral
+2757	the chef did not season meats before grilling.	the chef did not season steaks before grilling.	steaks	meats	entailment
+2758	the chef did not season steaks before grilling.	the chef did not season meats before grilling.	steaks	meats	neutral
+2759	the chef did not season meats before grilling.	the chef did not season chops before grilling.	chops	meats	entailment
+2760	the chef did not season chops before grilling.	the chef did not season meats before grilling.	chops	meats	neutral
+2761	the chef did not season meats before grilling.	the chef did not season fillets before grilling.	fillets	meats	entailment
+2762	the chef did not season fillets before grilling.	the chef did not season meats before grilling.	fillets	meats	neutral
+2763	the chef did not season meats before grilling.	the chef did not season cutlets before grilling.	cutlets	meats	entailment
+2764	the chef did not season cutlets before grilling.	the chef did not season meats before grilling.	cutlets	meats	neutral
+2893	the hikers did not consult guides before the trek.	the hikers did not consult trail guides before the trek.	trail guides	guides	entailment
+2894	the hikers did not consult trail guides before the trek.	the hikers did not consult guides before the trek.	trail guides	guides	neutral
+2895	the hikers did not consult guides before the trek.	the hikers did not consult climbing guides before the trek.	climbing guides	guides	entailment
+2896	the hikers did not consult climbing guides before the trek.	the hikers did not consult guides before the trek.	climbing guides	guides	neutral
+2897	the hikers did not consult guides before the trek.	the hikers did not consult tourist guides before the trek.	tourist guides	guides	entailment
+2898	the hikers did not consult tourist guides before the trek.	the hikers did not consult guides before the trek.	tourist guides	guides	neutral
+2899	the hikers did not consult guides before the trek.	the hikers did not consult safety guides before the trek.	safety guides	guides	entailment
+2900	the hikers did not consult safety guides before the trek.	the hikers did not consult guides before the trek.	safety guides	guides	neutral
+2917	the tourist did not learn phrases in the local language.	the tourist did not learn greetings in the local language.	greetings	phrases	entailment
+2918	the tourist did not learn greetings in the local language.	the tourist did not learn phrases in the local language.	greetings	phrases	neutral
+2919	the tourist did not learn phrases in the local language.	the tourist did not learn directions in the local language.	directions	phrases	entailment
+2920	the tourist did not learn directions in the local language.	the tourist did not learn phrases in the local language.	directions	phrases	neutral
+2921	the tourist did not learn phrases in the local language.	the tourist did not learn numbers in the local language.	numbers	phrases	entailment
+2922	the tourist did not learn numbers in the local language.	the tourist did not learn phrases in the local language.	numbers	phrases	neutral
+2923	the tourist did not learn phrases in the local language.	the tourist did not learn questions in the local language.	questions	phrases	entailment
+2924	the tourist did not learn questions in the local language.	the tourist did not learn phrases in the local language.	questions	phrases	neutral
+2997	the librarian did not organize shelves by genre.	the librarian did not organize shelves by mystery.	mystery	genre	entailment
+2998	the librarian did not organize shelves by mystery.	the librarian did not organize shelves by genre.	mystery	genre	neutral
+2999	the librarian did not organize shelves by genre.	the librarian did not organize shelves by fantasy.	fantasy	genre	entailment
+3000	the librarian did not organize shelves by fantasy.	the librarian did not organize shelves by genre.	fantasy	genre	neutral
+3001	the librarian did not organize shelves by genre.	the librarian did not organize shelves by biography.	biography	genre	entailment
+3002	the librarian did not organize shelves by biography.	the librarian did not organize shelves by genre.	biography	genre	neutral
+3003	the librarian did not organize shelves by genre.	the librarian did not organize shelves by science fiction.	science fiction	genre	entailment
+3004	the librarian did not organize shelves by science fiction.	the librarian did not organize shelves by genre.	science fiction	genre	neutral
+3037	the cafe did not serve soups on sunday.	the cafe did not serve tomato soup on sunday.	tomato soup	soups	entailment
+3038	the cafe did not serve tomato soup on sunday.	the cafe did not serve soups on sunday.	tomato soup	soups	neutral
+3039	the cafe did not serve soups on sunday.	the cafe did not serve chowder on sunday.	chowder	soups	entailment
+3040	the cafe did not serve chowder on sunday.	the cafe did not serve soups on sunday.	chowder	soups	neutral
+3041	the cafe did not serve soups on sunday.	the cafe did not serve ramen on sunday.	ramen	soups	entailment
+3042	the cafe did not serve ramen on sunday.	the cafe did not serve soups on sunday.	ramen	soups	neutral
+3043	the cafe did not serve soups on sunday.	the cafe did not serve lentil soup on sunday.	lentil soup	soups	entailment
+3044	the cafe did not serve lentil soup on sunday.	the cafe did not serve soups on sunday.	lentil soup	soups	neutral
+3109	the musician did not bring instruments to the session.	the musician did not bring guitars to the session.	guitars	instruments	entailment
+3110	the musician did not bring guitars to the session.	the musician did not bring instruments to the session.	guitars	instruments	neutral
+3111	the musician did not bring instruments to the session.	the musician did not bring keyboards to the session.	keyboards	instruments	entailment
+3112	the musician did not bring keyboards to the session.	the musician did not bring instruments to the session.	keyboards	instruments	neutral
+3113	the musician did not bring instruments to the session.	the musician did not bring drums to the session.	drums	instruments	entailment
+3114	the musician did not bring drums to the session.	the musician did not bring instruments to the session.	drums	instruments	neutral
+3115	the musician did not bring instruments to the session.	the musician did not bring violins to the session.	violins	instruments	entailment
+3116	the musician did not bring violins to the session.	the musician did not bring instruments to the session.	violins	instruments	neutral
+3125	the scientist did not study ecosystems in winter.	the scientist did not study forests in winter.	forests	ecosystems	entailment
+3126	the scientist did not study forests in winter.	the scientist did not study ecosystems in winter.	forests	ecosystems	neutral
+3127	the scientist did not study ecosystems in winter.	the scientist did not study deserts in winter.	deserts	ecosystems	entailment
+3128	the scientist did not study deserts in winter.	the scientist did not study ecosystems in winter.	deserts	ecosystems	neutral
+3129	the scientist did not study ecosystems in winter.	the scientist did not study wetlands in winter.	wetlands	ecosystems	entailment
+3130	the scientist did not study wetlands in winter.	the scientist did not study ecosystems in winter.	wetlands	ecosystems	neutral
+3131	the scientist did not study ecosystems in winter.	the scientist did not study grasslands in winter.	grasslands	ecosystems	entailment
+3132	the scientist did not study grasslands in winter.	the scientist did not study ecosystems in winter.	grasslands	ecosystems	neutral
+3141	the chef did not use peppers in the salsa.	the chef did not use jalapeños in the salsa.	jalapeños	peppers	entailment
+3142	the chef did not use jalapeños in the salsa.	the chef did not use peppers in the salsa.	jalapeños	peppers	neutral
+3143	the chef did not use peppers in the salsa.	the chef did not use serranos in the salsa.	serranos	peppers	entailment
+3144	the chef did not use serranos in the salsa.	the chef did not use peppers in the salsa.	serranos	peppers	neutral
+3145	the chef did not use peppers in the salsa.	the chef did not use habaneros in the salsa.	habaneros	peppers	entailment
+3146	the chef did not use habaneros in the salsa.	the chef did not use peppers in the salsa.	habaneros	peppers	neutral
+3147	the chef did not use peppers in the salsa.	the chef did not use bell peppers in the salsa.	bell peppers	peppers	entailment
+3148	the chef did not use bell peppers in the salsa.	the chef did not use peppers in the salsa.	bell peppers	peppers	neutral
+3157	the office did not purchase licenses this year.	the office did not purchase software licenses this year.	software licenses	licenses	entailment
+3158	the office did not purchase software licenses this year.	the office did not purchase licenses this year.	software licenses	licenses	neutral
+3159	the office did not purchase licenses this year.	the office did not purchase seat licenses this year.	seat licenses	licenses	entailment
+3160	the office did not purchase seat licenses this year.	the office did not purchase licenses this year.	seat licenses	licenses	neutral
+3161	the office did not purchase licenses this year.	the office did not purchase site licenses this year.	site licenses	licenses	entailment
+3162	the office did not purchase site licenses this year.	the office did not purchase licenses this year.	site licenses	licenses	neutral
+3163	the office did not purchase licenses this year.	the office did not purchase user licenses this year.	user licenses	licenses	entailment
+3164	the office did not purchase user licenses this year.	the office did not purchase licenses this year.	user licenses	licenses	neutral
+3205	the student did not bring supplies to class.	the student did not bring pencils to class.	pencils	supplies	entailment
+3206	the student did not bring pencils to class.	the student did not bring supplies to class.	pencils	supplies	neutral
+3207	the student did not bring supplies to class.	the student did not bring notebooks to class.	notebooks	supplies	entailment
+3208	the student did not bring notebooks to class.	the student did not bring supplies to class.	notebooks	supplies	neutral
+3209	the student did not bring supplies to class.	the student did not bring erasers to class.	erasers	supplies	entailment
+3210	the student did not bring erasers to class.	the student did not bring supplies to class.	erasers	supplies	neutral
+3211	the student did not bring supplies to class.	the student did not bring highlighters to class.	highlighters	supplies	entailment
+3212	the student did not bring highlighters to class.	the student did not bring supplies to class.	highlighters	supplies	neutral
+3213	the runner did not eat carbohydrates before the race.	the runner did not eat pasta before the race.	pasta	carbohydrates	entailment
+3214	the runner did not eat pasta before the race.	the runner did not eat carbohydrates before the race.	pasta	carbohydrates	neutral
+3215	the runner did not eat carbohydrates before the race.	the runner did not eat bread before the race.	bread	carbohydrates	entailment
+3216	the runner did not eat bread before the race.	the runner did not eat carbohydrates before the race.	bread	carbohydrates	neutral
+3217	the runner did not eat carbohydrates before the race.	the runner did not eat rice before the race.	rice	carbohydrates	entailment
+3218	the runner did not eat rice before the race.	the runner did not eat carbohydrates before the race.	rice	carbohydrates	neutral
+3219	the runner did not eat carbohydrates before the race.	the runner did not eat potatoes before the race.	potatoes	carbohydrates	entailment
+3220	the runner did not eat potatoes before the race.	the runner did not eat carbohydrates before the race.	potatoes	carbohydrates	neutral
+3237	the chef did not use citrus in the marinade.	the chef did not use lemon in the marinade.	lemon	citrus	entailment
+3238	the chef did not use lemon in the marinade.	the chef did not use citrus in the marinade.	lemon	citrus	neutral
+3239	the chef did not use citrus in the marinade.	the chef did not use lime in the marinade.	lime	citrus	entailment
+3240	the chef did not use lime in the marinade.	the chef did not use citrus in the marinade.	lime	citrus	neutral
+3241	the chef did not use citrus in the marinade.	the chef did not use orange in the marinade.	orange	citrus	entailment
+3242	the chef did not use orange in the marinade.	the chef did not use citrus in the marinade.	orange	citrus	neutral
+3243	the chef did not use citrus in the marinade.	the chef did not use grapefruit in the marinade.	grapefruit	citrus	entailment
+3244	the chef did not use grapefruit in the marinade.	the chef did not use citrus in the marinade.	grapefruit	citrus	neutral
+3285	the student did not attend workshops this month.	the student did not attend writing workshops this month.	writing workshops	workshops	entailment
+3286	the student did not attend writing workshops this month.	the student did not attend workshops this month.	writing workshops	workshops	neutral
+3287	the student did not attend workshops this month.	the student did not attend coding workshops this month.	coding workshops	workshops	entailment
+3288	the student did not attend coding workshops this month.	the student did not attend workshops this month.	coding workshops	workshops	neutral
+3289	the student did not attend workshops this month.	the student did not attend art workshops this month.	art workshops	workshops	entailment
+3290	the student did not attend art workshops this month.	the student did not attend workshops this month.	art workshops	workshops	neutral
+3291	the student did not attend workshops this month.	the student did not attend lab workshops this month.	lab workshops	workshops	entailment
+3292	the student did not attend lab workshops this month.	the student did not attend workshops this month.	lab workshops	workshops	neutral
+3293	the chef did not add dairy products to the soup.	the chef did not add cream to the soup.	cream	dairy products	entailment
+3294	the chef did not add cream to the soup.	the chef did not add dairy products to the soup.	cream	dairy products	neutral
+3295	the chef did not add dairy products to the soup.	the chef did not add milk to the soup.	milk	dairy products	entailment
+3296	the chef did not add milk to the soup.	the chef did not add dairy products to the soup.	milk	dairy products	neutral
+3297	the chef did not add dairy products to the soup.	the chef did not add yogurt to the soup.	yogurt	dairy products	entailment
+3298	the chef did not add yogurt to the soup.	the chef did not add dairy products to the soup.	yogurt	dairy products	neutral
+3299	the chef did not add dairy products to the soup.	the chef did not add butter to the soup.	butter	dairy products	entailment
+3300	the chef did not add butter to the soup.	the chef did not add dairy products to the soup.	butter	dairy products	neutral
+3453	the runner did not choose routes with hills.	the runner did not choose trail routes with hills.	trail routes	routes	entailment
+3454	the runner did not choose trail routes with hills.	the runner did not choose routes with hills.	trail routes	routes	neutral
+3455	the runner did not choose routes with hills.	the runner did not choose city routes with hills.	city routes	routes	entailment
+3456	the runner did not choose city routes with hills.	the runner did not choose routes with hills.	city routes	routes	neutral
+3457	the runner did not choose routes with hills.	the runner did not choose coastal routes with hills.	coastal routes	routes	entailment
+3458	the runner did not choose coastal routes with hills.	the runner did not choose routes with hills.	coastal routes	routes	neutral
+3459	the runner did not choose routes with hills.	the runner did not choose track routes with hills.	track routes	routes	entailment
+3460	the runner did not choose track routes with hills.	the runner did not choose routes with hills.	track routes	routes	neutral
+3461	the chef did not use meats in the soup.	the chef did not use chicken in the soup.	chicken	meats	entailment
+3462	the chef did not use chicken in the soup.	the chef did not use meats in the soup.	chicken	meats	neutral
+3463	the chef did not use meats in the soup.	the chef did not use beef in the soup.	beef	meats	entailment
+3464	the chef did not use beef in the soup.	the chef did not use meats in the soup.	beef	meats	neutral
+3465	the chef did not use meats in the soup.	the chef did not use pork in the soup.	pork	meats	entailment
+3466	the chef did not use pork in the soup.	the chef did not use meats in the soup.	pork	meats	neutral
+3467	the chef did not use meats in the soup.	the chef did not use sausage in the soup.	sausage	meats	entailment
+3468	the chef did not use sausage in the soup.	the chef did not use meats in the soup.	sausage	meats	neutral
+3485	the photographer did not use tripods for the shoot.	the photographer did not use carbon tripods for the shoot.	carbon tripods	tripods	entailment
+3486	the photographer did not use carbon tripods for the shoot.	the photographer did not use tripods for the shoot.	carbon tripods	tripods	neutral
+3487	the photographer did not use tripods for the shoot.	the photographer did not use aluminum tripods for the shoot.	aluminum tripods	tripods	entailment
+3488	the photographer did not use aluminum tripods for the shoot.	the photographer did not use tripods for the shoot.	aluminum tripods	tripods	neutral
+3489	the photographer did not use tripods for the shoot.	the photographer did not use mini tripods for the shoot.	mini tripods	tripods	entailment
+3490	the photographer did not use mini tripods for the shoot.	the photographer did not use tripods for the shoot.	mini tripods	tripods	neutral
+3491	the photographer did not use tripods for the shoot.	the photographer did not use video tripods for the shoot.	video tripods	tripods	entailment
+3492	the photographer did not use video tripods for the shoot.	the photographer did not use tripods for the shoot.	video tripods	tripods	neutral
+3501	the coder did not add tests for edge cases.	the coder did not add boundary tests for edge cases.	boundary tests	tests	entailment
+3502	the coder did not add boundary tests for edge cases.	the coder did not add tests for edge cases.	boundary tests	tests	neutral
+3503	the coder did not add tests for edge cases.	the coder did not add null tests for edge cases.	null tests	tests	entailment
+3504	the coder did not add null tests for edge cases.	the coder did not add tests for edge cases.	null tests	tests	neutral
+3505	the coder did not add tests for edge cases.	the coder did not add error tests for edge cases.	error tests	tests	entailment
+3506	the coder did not add error tests for edge cases.	the coder did not add tests for edge cases.	error tests	tests	neutral
+3507	the coder did not add tests for edge cases.	the coder did not add performance tests for edge cases.	performance tests	tests	entailment
+3508	the coder did not add performance tests for edge cases.	the coder did not add tests for edge cases.	performance tests	tests	neutral
+3581	the teacher did not use slides in the class.	the teacher did not use title slides in the class.	title slides	slides	entailment
+3582	the teacher did not use title slides in the class.	the teacher did not use slides in the class.	title slides	slides	neutral
+3583	the teacher did not use slides in the class.	the teacher did not use content slides in the class.	content slides	slides	entailment
+3584	the teacher did not use content slides in the class.	the teacher did not use slides in the class.	content slides	slides	neutral
+3585	the teacher did not use slides in the class.	the teacher did not use chart slides in the class.	chart slides	slides	entailment
+3586	the teacher did not use chart slides in the class.	the teacher did not use slides in the class.	chart slides	slides	neutral
+3587	the teacher did not use slides in the class.	the teacher did not use image slides in the class.	image slides	slides	entailment
+3588	the teacher did not use image slides in the class.	the teacher did not use slides in the class.	image slides	slides	neutral
+3605	the chef did not add herbs to the dressing.	the chef did not add parsley to the dressing.	parsley	herbs	entailment
+3606	the chef did not add parsley to the dressing.	the chef did not add herbs to the dressing.	parsley	herbs	neutral
+3607	the chef did not add herbs to the dressing.	the chef did not add chives to the dressing.	chives	herbs	entailment
+3608	the chef did not add chives to the dressing.	the chef did not add herbs to the dressing.	chives	herbs	neutral
+3609	the chef did not add herbs to the dressing.	the chef did not add tarragon to the dressing.	tarragon	herbs	entailment
+3610	the chef did not add tarragon to the dressing.	the chef did not add herbs to the dressing.	tarragon	herbs	neutral
+3611	the chef did not add herbs to the dressing.	the chef did not add dill to the dressing.	dill	herbs	entailment
+3612	the chef did not add dill to the dressing.	the chef did not add herbs to the dressing.	dill	herbs	neutral
+3637	the coder did not write functions for parsing.	the coder did not write helper functions for parsing.	helper functions	functions	entailment
+3638	the coder did not write helper functions for parsing.	the coder did not write functions for parsing.	helper functions	functions	neutral
+3639	the coder did not write functions for parsing.	the coder did not write utility functions for parsing.	utility functions	functions	entailment
+3640	the coder did not write utility functions for parsing.	the coder did not write functions for parsing.	utility functions	functions	neutral
+3641	the coder did not write functions for parsing.	the coder did not write callback functions for parsing.	callback functions	functions	entailment
+3642	the coder did not write callback functions for parsing.	the coder did not write functions for parsing.	callback functions	functions	neutral
+3643	the coder did not write functions for parsing.	the coder did not write pure functions for parsing.	pure functions	functions	entailment
+3644	the coder did not write pure functions for parsing.	the coder did not write functions for parsing.	pure functions	functions	neutral
+3645	the gardener did not spread compost in the beds.	the gardener did not spread leaf mold in the beds.	leaf mold	compost	entailment
+3646	the gardener did not spread leaf mold in the beds.	the gardener did not spread compost in the beds.	leaf mold	compost	neutral
+3647	the gardener did not spread compost in the beds.	the gardener did not spread manure compost in the beds.	manure compost	compost	entailment
+3648	the gardener did not spread manure compost in the beds.	the gardener did not spread compost in the beds.	manure compost	compost	neutral
+3649	the gardener did not spread compost in the beds.	the gardener did not spread green compost in the beds.	green compost	compost	entailment
+3650	the gardener did not spread green compost in the beds.	the gardener did not spread compost in the beds.	green compost	compost	neutral
+3651	the gardener did not spread compost in the beds.	the gardener did not spread mushroom compost in the beds.	mushroom compost	compost	entailment
+3652	the gardener did not spread mushroom compost in the beds.	the gardener did not spread compost in the beds.	mushroom compost	compost	neutral
+3677	the office did not upload files to the drive.	the office did not upload documents to the drive.	documents	files	entailment
+3678	the office did not upload documents to the drive.	the office did not upload files to the drive.	documents	files	neutral
+3679	the office did not upload files to the drive.	the office did not upload spreadsheets to the drive.	spreadsheets	files	entailment
+3680	the office did not upload spreadsheets to the drive.	the office did not upload files to the drive.	spreadsheets	files	neutral
+3681	the office did not upload files to the drive.	the office did not upload presentations to the drive.	presentations	files	entailment
+3682	the office did not upload presentations to the drive.	the office did not upload files to the drive.	presentations	files	neutral
+3683	the office did not upload files to the drive.	the office did not upload images to the drive.	images	files	entailment
+3684	the office did not upload images to the drive.	the office did not upload files to the drive.	images	files	neutral
+3685	the developer did not deploy containers to the cloud.	the developer did not deploy Docker containers to the cloud.	Docker containers	containers	entailment
+3686	the developer did not deploy Docker containers to the cloud.	the developer did not deploy containers to the cloud.	Docker containers	containers	neutral
+3687	the developer did not deploy containers to the cloud.	the developer did not deploy OCI containers to the cloud.	OCI containers	containers	entailment
+3688	the developer did not deploy OCI containers to the cloud.	the developer did not deploy containers to the cloud.	OCI containers	containers	neutral
+3689	the developer did not deploy containers to the cloud.	the developer did not deploy Linux containers to the cloud.	Linux containers	containers	entailment
+3690	the developer did not deploy Linux containers to the cloud.	the developer did not deploy containers to the cloud.	Linux containers	containers	neutral
+3691	the developer did not deploy containers to the cloud.	the developer did not deploy Windows containers to the cloud.	Windows containers	containers	entailment
+3692	the developer did not deploy Windows containers to the cloud.	the developer did not deploy containers to the cloud.	Windows containers	containers	neutral
+3733	the student did not include graphs in the report.	the student did not include bar graphs in the report.	bar graphs	graphs	entailment
+3734	the student did not include bar graphs in the report.	the student did not include graphs in the report.	bar graphs	graphs	neutral
+3735	the student did not include graphs in the report.	the student did not include line graphs in the report.	line graphs	graphs	entailment
+3736	the student did not include line graphs in the report.	the student did not include graphs in the report.	line graphs	graphs	neutral
+3737	the student did not include graphs in the report.	the student did not include pie charts in the report.	pie charts	graphs	entailment
+3738	the student did not include pie charts in the report.	the student did not include graphs in the report.	pie charts	graphs	neutral
+3739	the student did not include graphs in the report.	the student did not include scatter plots in the report.	scatter plots	graphs	entailment
+3740	the student did not include scatter plots in the report.	the student did not include graphs in the report.	scatter plots	graphs	neutral
+3805	the developer did not create tests for the api.	the developer did not create contract tests for the api.	contract tests	tests	entailment
+3806	the developer did not create contract tests for the api.	the developer did not create tests for the api.	contract tests	tests	neutral
+3807	the developer did not create tests for the api.	the developer did not create integration tests for the api.	integration tests	tests	entailment
+3808	the developer did not create integration tests for the api.	the developer did not create tests for the api.	integration tests	tests	neutral
+3809	the developer did not create tests for the api.	the developer did not create load tests for the api.	load tests	tests	entailment
+3810	the developer did not create load tests for the api.	the developer did not create tests for the api.	load tests	tests	neutral
+3811	the developer did not create tests for the api.	the developer did not create smoke tests for the api.	smoke tests	tests	entailment
+3812	the developer did not create smoke tests for the api.	the developer did not create tests for the api.	smoke tests	tests	neutral
+3829	the chef did not add herbs to the soup.	the chef did not add sage to the soup.	sage	herbs	entailment
+3830	the chef did not add sage to the soup.	the chef did not add herbs to the soup.	sage	herbs	neutral
+3831	the chef did not add herbs to the soup.	the chef did not add oregano to the soup.	oregano	herbs	entailment
+3832	the chef did not add oregano to the soup.	the chef did not add herbs to the soup.	oregano	herbs	neutral
+3833	the chef did not add herbs to the soup.	the chef did not add parsley to the soup.	parsley	herbs	entailment
+3834	the chef did not add parsley to the soup.	the chef did not add herbs to the soup.	parsley	herbs	neutral
+3835	the chef did not add herbs to the soup.	the chef did not add thyme to the soup.	thyme	herbs	entailment
+3836	the chef did not add thyme to the soup.	the chef did not add herbs to the soup.	thyme	herbs	neutral
+3909	the researcher did not test models on the dataset.	the researcher did not test linear models on the dataset.	linear models	models	entailment
+3910	the researcher did not test linear models on the dataset.	the researcher did not test models on the dataset.	linear models	models	neutral
+3911	the researcher did not test models on the dataset.	the researcher did not test tree models on the dataset.	tree models	models	entailment
+3912	the researcher did not test tree models on the dataset.	the researcher did not test models on the dataset.	tree models	models	neutral
+3913	the researcher did not test models on the dataset.	the researcher did not test neural models on the dataset.	neural models	models	entailment
+3914	the researcher did not test neural models on the dataset.	the researcher did not test models on the dataset.	neural models	models	neutral
+3915	the researcher did not test models on the dataset.	the researcher did not test bayesian models on the dataset.	bayesian models	models	entailment
+3916	the researcher did not test bayesian models on the dataset.	the researcher did not test models on the dataset.	bayesian models	models	neutral
+3917	the chef did not add peppers to the stew.	the chef did not add poblanos to the stew.	poblanos	peppers	entailment
+3918	the chef did not add poblanos to the stew.	the chef did not add peppers to the stew.	poblanos	peppers	neutral
+3919	the chef did not add peppers to the stew.	the chef did not add jalapeños to the stew.	jalapeños	peppers	entailment
+3920	the chef did not add jalapeños to the stew.	the chef did not add peppers to the stew.	jalapeños	peppers	neutral
+3921	the chef did not add peppers to the stew.	the chef did not add bell peppers to the stew.	bell peppers	peppers	entailment
+3922	the chef did not add bell peppers to the stew.	the chef did not add peppers to the stew.	bell peppers	peppers	neutral
+3923	the chef did not add peppers to the stew.	the chef did not add serranos to the stew.	serranos	peppers	entailment
+3924	the chef did not add serranos to the stew.	the chef did not add peppers to the stew.	serranos	peppers	neutral
+3981	the gardener did not use pesticides on the plants.	the gardener did not use insecticides on the plants.	insecticides	pesticides	entailment
+3982	the gardener did not use insecticides on the plants.	the gardener did not use pesticides on the plants.	insecticides	pesticides	neutral
+3983	the gardener did not use pesticides on the plants.	the gardener did not use fungicides on the plants.	fungicides	pesticides	entailment
+3984	the gardener did not use fungicides on the plants.	the gardener did not use pesticides on the plants.	fungicides	pesticides	neutral
+3985	the gardener did not use pesticides on the plants.	the gardener did not use herbicides on the plants.	herbicides	pesticides	entailment
+3986	the gardener did not use herbicides on the plants.	the gardener did not use pesticides on the plants.	herbicides	pesticides	neutral
+3987	the gardener did not use pesticides on the plants.	the gardener did not use miticides on the plants.	miticides	pesticides	entailment
+3988	the gardener did not use miticides on the plants.	the gardener did not use pesticides on the plants.	miticides	pesticides	neutral
+3997	the coder did not import modules in the notebook.	the coder did not import numpy in the notebook.	numpy	modules	entailment
+3998	the coder did not import numpy in the notebook.	the coder did not import modules in the notebook.	numpy	modules	neutral
+3999	the coder did not import modules in the notebook.	the coder did not import pandas in the notebook.	pandas	modules	entailment
+4000	the coder did not import pandas in the notebook.	the coder did not import modules in the notebook.	pandas	modules	neutral
+4001	the coder did not import modules in the notebook.	the coder did not import matplotlib in the notebook.	matplotlib	modules	entailment
+4002	the coder did not import matplotlib in the notebook.	the coder did not import modules in the notebook.	matplotlib	modules	neutral
+4003	the coder did not import modules in the notebook.	the coder did not import seaborn in the notebook.	seaborn	modules	entailment
+4004	the coder did not import seaborn in the notebook.	the coder did not import modules in the notebook.	seaborn	modules	neutral
+4053	the chef did not add dressings to the salads.	the chef did not add ranch to the salads.	ranch	dressings	entailment
+4054	the chef did not add ranch to the salads.	the chef did not add dressings to the salads.	ranch	dressings	neutral
+4055	the chef did not add dressings to the salads.	the chef did not add vinaigrette to the salads.	vinaigrette	dressings	entailment
+4056	the chef did not add vinaigrette to the salads.	the chef did not add dressings to the salads.	vinaigrette	dressings	neutral
+4057	the chef did not add dressings to the salads.	the chef did not add Caesar to the salads.	Caesar	dressings	entailment
+4058	the chef did not add Caesar to the salads.	the chef did not add dressings to the salads.	Caesar	dressings	neutral
+4059	the chef did not add dressings to the salads.	the chef did not add blue cheese to the salads.	blue cheese	dressings	entailment
+4060	the chef did not add blue cheese to the salads.	the chef did not add dressings to the salads.	blue cheese	dressings	neutral
+4069	the traveler did not pack clothes for the beach.	the traveler did not pack swimwear for the beach.	swimwear	clothes	entailment
+4070	the traveler did not pack swimwear for the beach.	the traveler did not pack clothes for the beach.	swimwear	clothes	neutral
+4071	the traveler did not pack clothes for the beach.	the traveler did not pack shorts for the beach.	shorts	clothes	entailment
+4072	the traveler did not pack shorts for the beach.	the traveler did not pack clothes for the beach.	shorts	clothes	neutral
+4073	the traveler did not pack clothes for the beach.	the traveler did not pack flip-flops for the beach.	flip-flops	clothes	entailment
+4074	the traveler did not pack flip-flops for the beach.	the traveler did not pack clothes for the beach.	flip-flops	clothes	neutral
+4075	the traveler did not pack clothes for the beach.	the traveler did not pack sun hats for the beach.	sun hats	clothes	entailment
+4076	the traveler did not pack sun hats for the beach.	the traveler did not pack clothes for the beach.	sun hats	clothes	neutral
+4149	the teacher did not show videos in class.	the teacher did not show documentaries in class.	documentaries	videos	entailment
+4150	the teacher did not show documentaries in class.	the teacher did not show videos in class.	documentaries	videos	neutral
+4151	the teacher did not show videos in class.	the teacher did not show tutorials in class.	tutorials	videos	entailment
+4152	the teacher did not show tutorials in class.	the teacher did not show videos in class.	tutorials	videos	neutral
+4153	the teacher did not show videos in class.	the teacher did not show lectures in class.	lectures	videos	entailment
+4154	the teacher did not show lectures in class.	the teacher did not show videos in class.	lectures	videos	neutral
+4155	the teacher did not show videos in class.	the teacher did not show animations in class.	animations	videos	entailment
+4156	the teacher did not show animations in class.	the teacher did not show videos in class.	animations	videos	neutral
+4157	the coder did not write tests for parsing.	the coder did not write unit tests for parsing.	unit tests	tests	entailment
+4158	the coder did not write unit tests for parsing.	the coder did not write tests for parsing.	unit tests	tests	neutral
+4159	the coder did not write tests for parsing.	the coder did not write property tests for parsing.	property tests	tests	entailment
+4160	the coder did not write property tests for parsing.	the coder did not write tests for parsing.	property tests	tests	neutral
+4161	the coder did not write tests for parsing.	the coder did not write fuzz tests for parsing.	fuzz tests	tests	entailment
+4162	the coder did not write fuzz tests for parsing.	the coder did not write tests for parsing.	fuzz tests	tests	neutral
+4163	the coder did not write tests for parsing.	the coder did not write integration tests for parsing.	integration tests	tests	entailment
+4164	the coder did not write integration tests for parsing.	the coder did not write tests for parsing.	integration tests	tests	neutral
+4189	the student did not attempt questions on page five.	the student did not attempt multiple-choice questions on page five.	multiple-choice questions	questions	entailment
+4190	the student did not attempt multiple-choice questions on page five.	the student did not attempt questions on page five.	multiple-choice questions	questions	neutral
+4191	the student did not attempt questions on page five.	the student did not attempt short-answer questions on page five.	short-answer questions	questions	entailment
+4192	the student did not attempt short-answer questions on page five.	the student did not attempt questions on page five.	short-answer questions	questions	neutral
+4193	the student did not attempt questions on page five.	the student did not attempt true-or-false questions on page five.	true-or-false questions	questions	entailment
+4194	the student did not attempt true-or-false questions on page five.	the student did not attempt questions on page five.	true-or-false questions	questions	neutral
+4195	the student did not attempt questions on page five.	the student did not attempt essay questions on page five.	essay questions	questions	entailment
+4196	the student did not attempt essay questions on page five.	the student did not attempt questions on page five.	essay questions	questions	neutral

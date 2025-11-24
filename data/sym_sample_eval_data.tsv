@@ -1,3 +1,0 @@
-textid	text	pair	condition	target
-1	seth curry is a sibling of Stephen Currie.	Stephen Currie is a sibling of seth curry.	symmetric	entailment
-2	McClurg Branch is located in Politics of Missouri.	Politics of Missouri is located in McClurg Branch.	asymmetric	neutral

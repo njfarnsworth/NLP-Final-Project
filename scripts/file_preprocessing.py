@@ -64,18 +64,25 @@ def split_data(df:pd.DataFrame, out:str,split:tuple):
 
 
 def main():
-    negative_train = convert_jsonl("../data/nmonli_train.jsonl")
+    #negative_train = convert_jsonl("../data/nmonli_train.jsonl")
     #split negative train into train and valid
-    split_data(negative_train,"negative",(.9,.1,.0))
+    #split_data(negative_train,"negative",(.9,.1,.0))
     
-    negative_test = convert_jsonl("../data/nmonli_test.jsonl")
-    split_data(negative_test,"negative",(0,0,1))
+    #negative_test = convert_jsonl("../data/nmonli_test.jsonl")
+    #split_data(negative_test,"negative",(0,0,1))
     
-    pmonli = convert_jsonl("../data/pmonli.jsonl")
-    split_data(pmonli,"positive",(.7,.15,.15))
+    #pmonli = convert_jsonl("../data/pmonli.jsonl")
+    #plit_data(pmonli,"positive",(.7,.15,.15))
 
     #synth_pos = pd.read_csv("../data/positive_synthetic.tsv",sep="\t")
-    #split_data(synth_pos,"synth-pos",(.7,.15,.15))
+    #synth_pos_cleaned = synth_pos[~synth_pos['text'].str.contains("not")]
+    #synth_pos_cleaned['label'] = synth_pos_cleaned['label'].replace({"entailment":"neutral","neutral":"entailment"})
+    #split_data(synth_pos_cleaned,"synth-pos-2",(.8,.2,0))
+
+
+    #synth_neg = pd.read_csv("../data/negative_synthetic.tsv",sep="\t")
+    #split_data(synth_neg,"synth-neg",(.8,.2,0))
+    pass
 
 
 
