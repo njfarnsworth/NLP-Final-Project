@@ -1,0 +1,41 @@
+exp: TextClassification
+
+mode: 
+    - evaluate
+    - analyze
+
+models:
+    hf_text_classification_model:
+      - JeremiahZ/bert-base-uncased-mnli
+      - ../final/models/neg_nli
+      - ../final/models/pos_nli
+      - ../final/models/neg_base
+      - ../final/models/pos_base
+      - ../final/models/synth_neg_nli
+      - ../final/models/synth_pos_nli
+      - ../final/models/synth_neg_base
+      - ../final/models/synth_pos_base
+    
+
+
+
+datafpath: ../final/data/negative_test.tsv
+
+predfpath: ../final/predictions/negative.tsv
+
+resultsfpath: ../final/results/negative.tsv
+
+textlabel: text
+
+pairlabel: pair
+
+
+device: cuda
+
+
+save: by_cond
+
+id2label:
+    2: neutral
+    1: neutral
+    0: entailment

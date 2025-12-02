@@ -1,0 +1,26 @@
+exp: TextClassification
+
+mode: 
+    - train
+
+models:
+    hf_text_classification_model:
+      - JeremiahZ/bert-base-uncased-mnli
+
+
+trainfpath: ../final/data/negative_train.tsv
+
+validfpath: ../final/data/negative_val.tsv
+
+modelfpath: ../final/models/neg_nli
+
+textlabel: text
+
+pairlabel: pair
+
+device: cuda
+
+id2label:
+    2: neutral
+    1: neutral
+    0: entailment

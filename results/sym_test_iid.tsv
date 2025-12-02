@@ -1,0 +1,5 @@
+	model	symmetry	micro-precision	micro-recall	micro-f1	macro-precision	macro-recall	macro-f1	accuracy
+0	../final/models/mono_base	asymmetric	1.0	0.992	0.9959839357429718	1.0	0.992	0.9959839357429718	0.992
+1	../final/models/mono_base	symmetric	1.0	0.002	0.003992015968063872	1.0	0.002	0.003992015968063872	0.002
+2	../final/models/mono_nli	asymmetric	1.0	0.96	0.9795918367346939	1.0	0.96	0.9795918367346939	0.96
+3	../final/models/mono_nli	symmetric	1.0	0.01	0.019801980198019802	1.0	0.01	0.019801980198019802	0.01

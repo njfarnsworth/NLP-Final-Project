@@ -1,0 +1,26 @@
+exp: TextClassification
+
+mode: 
+    - train
+
+models:
+    hf_text_classification_model:
+      - JeremiahZ/bert-base-uncased-mnli
+
+
+trainfpath: ../final/data/synth-neg_train.tsv
+
+validfpath: ../final/data/synth-neg_val.tsv
+
+modelfpath: ../final/models/synth_neg_nli
+
+textlabel: text
+
+pairlabel: pair
+
+device: cuda
+
+id2label:
+    2: neutral
+    1: neutral
+    0: entailment

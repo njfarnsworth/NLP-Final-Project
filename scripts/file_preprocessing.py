@@ -91,7 +91,8 @@ def main():
         dfs.append(pd.read_csv(f"../data/{file}",sep="\t"))
     
     df = pd.concat(dfs,ignore_index=True)
-    df.to_csv("../data/mono_data.tsv",index=False,sep="\t")
+    df = split_data(df,"mono-data",(.8,.2,0))
+    #df.to_csv("../data/mono_data.tsv",index=False,sep="\t")
 
 
 

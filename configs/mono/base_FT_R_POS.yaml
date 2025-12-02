@@ -1,0 +1,26 @@
+exp: TextClassification
+
+mode: 
+    - train
+
+models:
+    hf_text_classification_model:
+      - google-bert/bert-base-uncased
+
+
+trainfpath: ../final/data/positive_train.tsv
+
+validfpath: ../final/data/positive_val.tsv
+
+modelfpath: ../final/models/pos_base
+
+textlabel: text
+
+pairlabel: pair
+
+device: cuda
+
+id2label:
+    2: neutral
+    1: neutral
+    0: entailment

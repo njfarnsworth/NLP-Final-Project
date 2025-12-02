@@ -1,0 +1,30 @@
+exp: TextClassification
+
+mode: 
+    - evaluate
+    - analyze 
+
+models:
+    hf_text_classification_model:
+      - ../final/models/mono_base
+      - ../final/models/mono_nli
+    
+
+
+datafpath: ../final/data/sym_test_iid.tsv
+
+predfpath: ../final/predictions/sym_test_iid.tsv
+
+resultsfpath: ../final/results/sym_test_iid.tsv
+
+textlabel: text
+
+pairlabel: pair
+
+
+device: cuda
+
+conditions: symmetry
+
+save: by_cond
+
