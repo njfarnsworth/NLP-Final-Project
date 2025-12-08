@@ -1,0 +1,31 @@
+	model	relation	symmetry	micro-precision	micro-recall	micro-f1	macro-precision	macro-recall	macro-f1	accuracy
+0	/home/nfarnsworth/NLP-Final-Project/models/sym_base	Intersects	symmetric	1.0	0.68	0.8095238095238095	1.0	0.68	0.8095238095238095	0.68
+1	/home/nfarnsworth/NLP-Final-Project/models/sym_base	collaborated with	symmetric	1.0	0.84	0.9130434782608695	1.0	0.84	0.9130434782608695	0.84
+2	/home/nfarnsworth/NLP-Final-Project/models/sym_base	is a subset of	asymmetric	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+3	/home/nfarnsworth/NLP-Final-Project/models/sym_base	is adjacent to	symmetric	1.0	0.0033333333333333335	0.006644518272425249	1.0	0.0033333333333333335	0.006644518272425249	0.0033333333333333335
+4	/home/nfarnsworth/NLP-Final-Project/models/sym_base	is equivalent to	symmetric	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+5	/home/nfarnsworth/NLP-Final-Project/models/sym_base	is greater than	asymmetric	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+6	/home/nfarnsworth/NLP-Final-Project/models/sym_base	is north of	asymmetric	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+7	/home/nfarnsworth/NLP-Final-Project/models/sym_base	is older than	asymmetric	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+8	/home/nfarnsworth/NLP-Final-Project/models/sym_base	is the spouse of	symmetric	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+9	/home/nfarnsworth/NLP-Final-Project/models/sym_base	is the teacher of	asymmetric	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+10	/home/nfarnsworth/NLP-Final-Project/models/sym_nli	Intersects	symmetric	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+11	/home/nfarnsworth/NLP-Final-Project/models/sym_nli	collaborated with	symmetric	1.0	0.04	0.07692307692307693	1.0	0.04	0.07692307692307693	0.04
+12	/home/nfarnsworth/NLP-Final-Project/models/sym_nli	is a subset of	asymmetric	1.0	0.02	0.0392156862745098	1.0	0.02	0.0392156862745098	0.02
+13	/home/nfarnsworth/NLP-Final-Project/models/sym_nli	is adjacent to	symmetric	1.0	0.20666666666666667	0.3425414364640884	1.0	0.20666666666666667	0.3425414364640884	0.20666666666666667
+14	/home/nfarnsworth/NLP-Final-Project/models/sym_nli	is equivalent to	symmetric	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+15	/home/nfarnsworth/NLP-Final-Project/models/sym_nli	is greater than	asymmetric	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+16	/home/nfarnsworth/NLP-Final-Project/models/sym_nli	is north of	asymmetric	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+17	/home/nfarnsworth/NLP-Final-Project/models/sym_nli	is older than	asymmetric	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+18	/home/nfarnsworth/NLP-Final-Project/models/sym_nli	is the spouse of	symmetric	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+19	/home/nfarnsworth/NLP-Final-Project/models/sym_nli	is the teacher of	asymmetric	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+20	JeremiahZ/bert-base-uncased-mnli	Intersects	symmetric	1.0	0.98	0.98989898989899	1.0	0.98	0.98989898989899	0.98
+21	JeremiahZ/bert-base-uncased-mnli	collaborated with	symmetric	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+22	JeremiahZ/bert-base-uncased-mnli	is a subset of	asymmetric	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+23	JeremiahZ/bert-base-uncased-mnli	is adjacent to	symmetric	1.0	0.9966666666666667	0.998330550918197	1.0	0.9966666666666667	0.998330550918197	0.9966666666666667
+24	JeremiahZ/bert-base-uncased-mnli	is equivalent to	symmetric	1.0	0.994	0.9969909729187563	1.0	0.994	0.9969909729187563	0.994
+25	JeremiahZ/bert-base-uncased-mnli	is greater than	asymmetric	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+26	JeremiahZ/bert-base-uncased-mnli	is north of	asymmetric	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+27	JeremiahZ/bert-base-uncased-mnli	is older than	asymmetric	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+28	JeremiahZ/bert-base-uncased-mnli	is the spouse of	symmetric	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+29	JeremiahZ/bert-base-uncased-mnli	is the teacher of	asymmetric	0.0	0.0	0.0	0.0	0.0	0.0	0.0

@@ -1,0 +1,4 @@
+	model	micro-precision	micro-recall	micro-f1	macro-precision	macro-recall	macro-f1	accuracy
+0	../models/sym_base	0.53	0.53	0.53	0.5452079566003616	0.53	0.48684354187138335	0.53
+1	../models/sym_nli	0.18	0.18	0.18	0.1604414261460102	0.18	0.1680194805194805	0.18
+2	JeremiahZ/bert-base-uncased-mnli	0.12	0.12	0.12	0.11862705740666399	0.12	0.11920728655790211	0.12

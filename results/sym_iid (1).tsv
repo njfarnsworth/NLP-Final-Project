@@ -1,0 +1,40 @@
+	model	relation	symmetry	micro-precision	micro-recall	micro-f1	macro-precision	macro-recall	macro-f1	accuracy
+0	/home/nfarnsworth/NLP-Final-Project/models/sym_base	caused by	asymmetric	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+1	/home/nfarnsworth/NLP-Final-Project/models/sym_base	has part(s) that are instances of	asymmetric	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+2	/home/nfarnsworth/NLP-Final-Project/models/sym_base	is a child of	asymmetric	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+3	/home/nfarnsworth/NLP-Final-Project/models/sym_base	is a sibling of	symmetric	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+4	/home/nfarnsworth/NLP-Final-Project/models/sym_base	is a type of	asymmetric	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+5	/home/nfarnsworth/NLP-Final-Project/models/sym_base	is an equivalent name of	symmetric	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+6	/home/nfarnsworth/NLP-Final-Project/models/sym_base	is different from	symmetric	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+7	/home/nfarnsworth/NLP-Final-Project/models/sym_base	is located in	asymmetric	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+8	/home/nfarnsworth/NLP-Final-Project/models/sym_base	is part of	asymmetric	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+9	/home/nfarnsworth/NLP-Final-Project/models/sym_base	is the father of	asymmetric	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+10	/home/nfarnsworth/NLP-Final-Project/models/sym_base	is the mother of	asymmetric	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+11	/home/nfarnsworth/NLP-Final-Project/models/sym_base	partially overlaps with	symmetric	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+12	/home/nfarnsworth/NLP-Final-Project/models/sym_base	possibly the same as	symmetric	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+13	/home/nfarnsworth/NLP-Final-Project/models/sym_nli	caused by	asymmetric	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+14	/home/nfarnsworth/NLP-Final-Project/models/sym_nli	has part(s) that are instances of	asymmetric	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+15	/home/nfarnsworth/NLP-Final-Project/models/sym_nli	is a child of	asymmetric	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+16	/home/nfarnsworth/NLP-Final-Project/models/sym_nli	is a sibling of	symmetric	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+17	/home/nfarnsworth/NLP-Final-Project/models/sym_nli	is a type of	asymmetric	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+18	/home/nfarnsworth/NLP-Final-Project/models/sym_nli	is an equivalent name of	symmetric	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+19	/home/nfarnsworth/NLP-Final-Project/models/sym_nli	is different from	symmetric	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+20	/home/nfarnsworth/NLP-Final-Project/models/sym_nli	is located in	asymmetric	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+21	/home/nfarnsworth/NLP-Final-Project/models/sym_nli	is part of	asymmetric	1.0	0.9904761904761905	0.9952153110047847	1.0	0.9904761904761905	0.9952153110047847	0.9904761904761905
+22	/home/nfarnsworth/NLP-Final-Project/models/sym_nli	is the father of	asymmetric	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+23	/home/nfarnsworth/NLP-Final-Project/models/sym_nli	is the mother of	asymmetric	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+24	/home/nfarnsworth/NLP-Final-Project/models/sym_nli	partially overlaps with	symmetric	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+25	/home/nfarnsworth/NLP-Final-Project/models/sym_nli	possibly the same as	symmetric	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+26	JeremiahZ/bert-base-uncased-mnli	caused by	asymmetric	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+27	JeremiahZ/bert-base-uncased-mnli	has part(s) that are instances of	asymmetric	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+28	JeremiahZ/bert-base-uncased-mnli	is a child of	asymmetric	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+29	JeremiahZ/bert-base-uncased-mnli	is a sibling of	symmetric	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+30	JeremiahZ/bert-base-uncased-mnli	is a type of	asymmetric	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+31	JeremiahZ/bert-base-uncased-mnli	is an equivalent name of	symmetric	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+32	JeremiahZ/bert-base-uncased-mnli	is different from	symmetric	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+33	JeremiahZ/bert-base-uncased-mnli	is located in	asymmetric	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+34	JeremiahZ/bert-base-uncased-mnli	is part of	asymmetric	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+35	JeremiahZ/bert-base-uncased-mnli	is the father of	asymmetric	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+36	JeremiahZ/bert-base-uncased-mnli	is the mother of	asymmetric	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+37	JeremiahZ/bert-base-uncased-mnli	partially overlaps with	symmetric	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+38	JeremiahZ/bert-base-uncased-mnli	possibly the same as	symmetric	1.0	1.0	1.0	1.0	1.0	1.0	1.0

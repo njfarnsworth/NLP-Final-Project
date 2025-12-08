@@ -1,0 +1,7 @@
+	model	symmetry	micro-precision	micro-recall	micro-f1	macro-precision	macro-recall	macro-f1	accuracy
+0	/home/nfarnsworth/NLP-Final-Project/models/sym_base	asymmetric	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+1	/home/nfarnsworth/NLP-Final-Project/models/sym_base	symmetric	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+2	/home/nfarnsworth/NLP-Final-Project/models/sym_nli	asymmetric	1.0	0.999	0.9994997498749375	1.0	0.999	0.9994997498749375	0.999
+3	/home/nfarnsworth/NLP-Final-Project/models/sym_nli	symmetric	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+4	JeremiahZ/bert-base-uncased-mnli	asymmetric	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+5	JeremiahZ/bert-base-uncased-mnli	symmetric	1.0	1.0	1.0	1.0	1.0	1.0	1.0
